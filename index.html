@@ -23,11 +23,23 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-md-8" id="clean_data">
+            <div class="col-md-9" id="clean-data">
                 Insert Cleaned Data Here
             </div>
-            <div class="col-md-4" id="filter_data">
-                Insert Filter Options Here
+            <div class="col-md-3" id="filter-data">
+                <!-- Insert Filter Options Here -->
+                <select name="filter1">
+                    <option id="filter-date" value="date">Choose a State...</option>
+                    <option id="filter-state" value="state">State</option>
+                    <option id="filter-gender" value="shape">Gender</option>
+                </select>
+                 <!-- Gender Filter -->
+                <select name="filter2">
+                    <option id="filter-gender" value="choose-a-gender">Choose a Gender...</option>
+                    <option id="filter-date" value="male">Male</option>
+                    <option id="filter-state" value="female">Female</option>
+                </select>
+
             </div>
         </div>
     </div>
