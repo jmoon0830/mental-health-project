@@ -8,6 +8,8 @@ d3.csv(file, function (data) {
     var countNo = 0;
     var countIdk = 0;
     var statesList = ["Choose a State ..."];
+    var allStates = [];
+    var countStates =  0
     // loop through each object
     for (var i = 0; i<data.length; i++) {
         // filter by United States
@@ -25,7 +27,16 @@ d3.csv(file, function (data) {
         if (statesList.includes(data[i].state) === false) {
             statesList.push(data[i].state);
         }
+        allStates.push(data[i].state)
     }
+
+    // counts each state
+    var counts = {};
+    allStates.forEach(function(x) {
+        counts[x] = (counts[x] || 0) +1;
+    });
+    console.log(counts);
+
     // count how many United States objects
     console.log("United States Only:");
     console.log(counter);
@@ -45,7 +56,7 @@ d3.csv(file, function (data) {
         })
     };
     htmlBuild();
-
+    // adds initial data
     function init () {
         var tbody = d3.select("tbody");
         tbody.html("");
@@ -53,20 +64,18 @@ d3.csv(file, function (data) {
             addData(data[i]);
         }
     };
-
     init();
-
     // change data based on filter
     function handleChange () {
         var tbody = d3.select("tbody");
         tbody.html("");
-        var dropdown1 = d3.select("#filter-state")
-        var dropdownValue = dropdown1.property("value");
-        var filteredData = data.filter(survey => survey.state === dropdownValue);
-        console.log(filteredData);
-        filteredData.forEach(addData);
+        var dropdown1 = d3.select("#filter-state");
+        var dropdownValue1 = dropdown1.property("value");
+        var filteredStateData = data.filter(survey => survey.state === dropdownValue1);
+        //console.log(filteredStateData);
+        filteredStateData.forEach(addData);
     };
-    // adds data to the table
+    // adds filtered data to the table
     function addData (survey) {
         var tbody = d3.select("tbody");
         var row = tbody.append("tr");
@@ -77,7 +86,5 @@ d3.csv(file, function (data) {
     };
     var button = d3.select("#filter-btn");
     button.on("click", handleChange);
-
-
 });
 
