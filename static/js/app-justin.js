@@ -1,5 +1,6 @@
 // link to csv
 var file = "static/data/MentalHealth2014.csv";
+var file2 = "static/data/MenatlHealth2016.csv";
 
 // open csv
 d3.csv(file, function (data) {
