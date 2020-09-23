@@ -19,13 +19,13 @@ function init () {
 
 init();
 
-
+//adds only 10 rows of data
 function initTable () {
 // 2014
     d3.csv(file, function (data) {
         var tbody = d3.select("#table1").select("tbody");
         tbody.html("");
-        for (var i = 0; i<20; i++) { 
+        for (var i = 0; i<10; i++) { 
             addData(data[i]);
         }
     });
@@ -33,7 +33,7 @@ function initTable () {
     d3.csv(file2, function (data) {
         var tbody = d3.select("#table2").select("tbody");
         tbody.html("");
-        for (var i = 0; i<20; i++) { 
+        for (var i = 0; i<10; i++) { 
             addData2(data[i]);
         }
     });
@@ -91,4 +91,21 @@ function handleChange () {
 var button = d3.select("#filter-btn");
 button.on("click", handleChange);
 
+function addChart () {
+    var coworkersCount = 0
+    var supervisorCount = 0
+    var anonymityCount = 0
+    d3.csv(file,function (data) {
+        for (var i=0; i<data.length;i++) {
+            if (data[i].coworkers === "Yes") {coworkersCount++}
+            if (data[i].supervisor === "Yes") {supervisorCount++}
+            if (data[i].anonymity === "Yes") {anonymityCount++}
+        }
+        console.log(data.length)
+        console.log(coworkersCount);
+        console.log(supervisorCount);
+        console.log(anonymityCount);
+    });
+};
 
+addChart();
