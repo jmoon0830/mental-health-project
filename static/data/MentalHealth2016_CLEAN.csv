@@ -1,0 +1,710 @@
+Age,Gender,state,family_history,treatment,remote_work,Company Size,benefits,care_options,wellness_program,seek_help,anonymity,leave,coworkers,supervisor,mental_health_consequence,mental_health_interview,phys_health_consequence,phys_health_interview,mental_vs_physical,obs_consequence
+43,M,AL,Yes,Yes,No,Large,Yes,Yes,No,No,Yes,Yes,Yes,Yes,No,Yes,Don't know,Yes,Yes,No
+24,M,AL,No,Yes,No,Medium,Yes,Yes,No,No,Don't know,Don't know,Yes,Don't know,No,No,,No,,
+45,M,AL,No,No,Yes,Medium,Don't know,No,No,Don't know,Don't know,Don't know,No,No,Don't know,No,Yes,No,Don't know,Yes
+41,M,AL,Yes,Yes,No,Large,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Don't know,No,No,No,Yes,Yes
+40,M,AK,Yes,No,Yes,Medium,Yes,No,No,Don't know,Don't know,Don't know,Yes,Yes,Don't know,No,No,No,Yes,No
+38,M,AK,No,No,Yes,Medium,Yes,No,Don't know,Yes,Yes,Yes,Yes,Yes,No,No,Don't know,No,No,Yes
+30,M,AZ,Yes,No,No,Medium,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,No,Yes,No,Yes,Yes,No
+53,M,AZ,No,No,Yes,Medium,Yes,No,No,Yes,Don't know,Don't know,Yes,Yes,No,Yes,No,Yes,Yes,No
+24,M,AZ,No,No,No,Large,No,No,No,No,Don't know,Don't know,Yes,Don't know,Don't know,No,,No,,
+36,M,AZ,No,No,No,Large,No,Don't know,No,Don't know,Don't know,Don't know,No,No,Don't know,No,Don't know,No,Don't know,No
+51,M,CA,No,Yes,No,Small,Yes,Don't know,No,Don't know,No,No,Don't know,Yes,No,No,No,Don't know,Yes,Yes
+43,F,CA,Yes,No,No,Small,No,Don't know,No,No,Don't know,Don't know,No,Yes,No,No,Yes,No,No,Yes
+22,M,CA,Yes,No,No,Small,No,No,No,No,No,No,No,No,Yes,No,,No,,
+37,F,CA,No,Yes,Yes,Small,Yes,Yes,No,No,Yes,Yes,Yes,Don't know,No,No,No,No,Yes,Yes
+27,M,CA,Yes,No,No,Small,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Don't know,Yes,Don't know,Yes,Yes,Yes
+27,M,CA,Yes,Yes,No,Small,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,No,No,No,Yes,Don't know,No
+20,F,CA,Yes,Yes,No,Small,Yes,Yes,No,No,Don't know,Don't know,No,No,Yes,No,No,No,Yes,Yes
+32,M,CA,No,Yes,No,Small,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Don't know,No,Don't know,No,Yes,Yes
+24,F,CA,Yes,Yes,No,Small,No,No,No,No,Don't know,Don't know,No,No,Yes,No,No,Yes,No,Yes
+44,M,CA,Yes,Yes,Yes,Small,No,Don't know,Yes,No,Don't know,Don't know,No,Don't know,Don't know,No,No,No,No,Yes
+28,M,CA,Yes,Yes,No,Small,Don't know,Don't know,No,Don't know,Don't know,Don't know,Don't know,No,Don't know,No,,Don't know,,
+33,F,CA,Yes,Yes,No,Small,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,Don't know,Yes,Yes
+26,M,CA,Yes,Yes,No,Large,Yes,Don't know,No,Don't know,Don't know,Don't know,Don't know,Don't know,No,No,No,Yes,Yes,No
+28,F,CA,Yes,Yes,No,Large,Yes,Yes,No,No,Don't know,Don't know,No,Yes,Don't know,No,No,No,Don't know,No
+35,M,CA,Yes,Yes,No,Large,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Don't know,Don't know,Yes,Yes,Yes
+37,M,CA,No,No,No,Large,Yes,No,No,Don't know,Don't know,Don't know,Yes,Yes,Don't know,Don't know,,Yes,,
+41,F,CA,No,No,No,Large,Yes,Yes,No,Yes,Don't know,Don't know,Yes,No,Don't know,No,,Yes,,
+34,F,CA,Yes,Yes,No,Large,Yes,Yes,Don't know,Yes,Yes,Yes,No,Yes,No,No,No,Don't know,Yes,Yes
+35,M,CA,No,No,No,Large,Don't know,No,No,Don't know,Don't know,Don't know,Yes,Yes,No,Don't know,Don't know,Don't know,Don't know,No
+29,F,CA,Yes,Yes,No,Large,Yes,Yes,No,Yes,Don't know,Don't know,No,No,Don't know,No,,No,,
+28,M,CA,No,Yes,No,Large,Yes,Yes,No,No,Don't know,Don't know,Don't know,Don't know,No,No,Don't know,No,Don't know,No
+29,M,CA,Yes,No,No,Large,Don't know,No,No,Don't know,Don't know,Don't know,No,No,Yes,No,Don't know,No,Yes,Yes
+38,M,CA,Yes,Yes,No,Large,Yes,Yes,No,No,Don't know,Don't know,No,No,Yes,No,No,Don't know,No,No
+39,F,CA,Yes,Yes,No,Large,Yes,No,Yes,Yes,Don't know,Don't know,Don't know,Don't know,Don't know,Yes,Yes,Yes,Yes,Yes
+28,F,CA,Yes,Yes,No,Large,Yes,Don't know,Yes,Yes,Yes,Yes,Yes,Yes,No,No,Don't know,No,Yes,Yes
+47,F,CA,No,No,No,Large,Yes,Yes,Don't know,Yes,Yes,Yes,Don't know,No,Yes,No,Yes,No,Don't know,Yes
+32,M,CA,Yes,No,No,Large,Don't know,No,No,Yes,Don't know,Don't know,Don't know,Don't know,Don't know,No,No,No,No,No
+34,M,CA,No,No,No,Large,Yes,Don't know,No,Don't know,Yes,Yes,Yes,Don't know,Don't know,Don't know,Don't know,Yes,Yes,Yes
+26,M,CA,No,No,No,Large,Don't know,No,No,Don't know,Don't know,Don't know,No,Don't know,Don't know,No,Don't know,Don't know,Don't know,No
+23,F,CA,No,No,No,Large,Yes,Don't know,No,No,Don't know,Don't know,No,Don't know,No,No,No,No,No,No
+30,M,CA,Yes,Yes,No,Large,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,No,Yes,Yes,No
+46,M,CA,No,Yes,No,Large,Don't know,Don't know,No,Don't know,Don't know,Don't know,No,No,Don't know,No,Don't know,No,Yes,Yes
+27,M,CA,No,No,No,Large,Yes,No,Don't know,No,Don't know,Don't know,Don't know,Don't know,Don't know,No,No,No,No,Yes
+31,M,CA,No,No,No,Large,Don't know,Don't know,No,Don't know,Don't know,Don't know,Yes,Don't know,Don't know,No,No,No,Yes,No
+43,F,CA,No,No,No,Large,Yes,No,No,Yes,Don't know,Don't know,No,Don't know,Yes,No,No,Don't know,Yes,Yes
+35,M,CA,No,Yes,No,Large,Don't know,No,No,Don't know,Don't know,Don't know,Yes,Don't know,Don't know,No,Don't know,No,No,No
+29,M,CA,Yes,Yes,No,Large,Yes,No,No,Yes,No,No,Don't know,No,Yes,No,Don't know,No,Yes,Yes
+25,M,CA,Yes,Yes,No,Large,No,Yes,No,Don't know,Don't know,Don't know,Don't know,Don't know,No,Yes,No,Yes,Don't know,No
+36,M,CA,No,Yes,No,Large,Yes,Don't know,Yes,Don't know,Don't know,Don't know,Don't know,Don't know,Don't know,Don't know,No,Don't know,Yes,No
+29,M,CA,Yes,Yes,No,Large,Don't know,No,No,Don't know,Don't know,Don't know,Don't know,Yes,No,No,Don't know,Don't know,Yes,Yes
+39,F,CA,Yes,Yes,No,Large,Don't know,Don't know,No,Don't know,Don't know,Don't know,Yes,Don't know,Don't know,No,Don't know,Don't know,Yes,Yes
+31,M,CA,Yes,Yes,No,Large,Yes,Yes,No,Don't know,Don't know,Don't know,Don't know,No,Yes,No,No,No,No,No
+30,M,CA,Yes,No,Yes,Large,Yes,Yes,No,Yes,No,No,Yes,No,Don't know,Yes,Yes,Yes,No,Yes
+38,M,CA,Yes,Yes,Yes,Large,Yes,Don't know,No,No,Don't know,Don't know,Don't know,Don't know,Don't know,No,No,Yes,Don't know,Yes
+36,F,CA,No,Yes,No,Large,Yes,Yes,No,Don't know,Yes,Yes,Yes,No,Don't know,No,Don't know,No,Yes,Yes
+74, F,CA,No,Yes,No,Large,No,No,Yes,No,Yes,Yes,No,Yes,Yes,Don't know,Don't know,Don't know,Don't know,Yes
+31,M,CA,Yes,Yes,No,Large,Yes,Yes,No,No,Don't know,Don't know,Yes,Yes,No,Don't know,No,Don't know,Don't know,No
+36,M,CA,No,No,No,Large,Don't know,Don't know,No,No,Don't know,Don't know,Yes,No,Don't know,No,Don't know,Don't know,Yes,Yes
+35,M,CA,Yes,No,No,Large,Yes,No,No,Don't know,Don't know,Don't know,Don't know,No,Yes,No,Yes,No,Yes,Yes
+28,M,CA,Yes,Yes,No,Large,Yes,Yes,No,No,Yes,Yes,Yes,Yes,No,No,Don't know,No,Don't know,No
+44,F,CA,Yes,Yes,No,Medium,Don't know,No,No,No,Don't know,Don't know,No,Don't know,Yes,Don't know,Yes,Don't know,No,No
+30,M,CA,Yes,Yes,Yes,Medium,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,Yes,Don't know,No
+31,M,CA,No,Yes,No,Medium,No,Don't know,No,Don't know,Yes,Yes,No,Don't know,Yes,No,Don't know,No,No,Yes
+25,F,CA,No,Yes,No,Medium,Don't know,No,No,Yes,No,No,No,No,Don't know,No,,No,,
+27,F,CA,Yes,No,No,Medium,Yes,No,Yes,Don't know,Yes,Yes,No,No,Don't know,Don't know,No,Don't know,Don't know,No
+28,F,CA,Yes,Yes,No,Medium,Yes,Yes,No,Yes,Yes,Yes,Don't know,Don't know,Yes,No,Don't know,Don't know,Yes,Yes
+32,M,CA,No,Yes,No,Medium,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Don't know,No,No,Don't know,No,No,Yes
+26,F,CA,Yes,Yes,No,Medium,Yes,Yes,No,Yes,Don't know,Don't know,Don't know,No,Don't know,No,Don't know,Don't know,Yes,No
+32,M,CA,Yes,Yes,No,Medium,Yes,No,Yes,Yes,Don't know,Don't know,Don't know,Yes,No,No,No,No,No,No
+39,F,CA,Yes,Yes,No,Medium,Yes,Yes,No,No,Don't know,Don't know,Yes,Yes,No,Don't know,Don't know,Don't know,No,Yes
+25,M,CA,Yes,Yes,No,Medium,Yes,Don't know,No,No,Don't know,Don't know,No,No,Yes,No,Yes,Don't know,No,Yes
+24,M,CA,Yes,Yes,No,Medium,Yes,Yes,No,Don't know,Yes,Yes,Yes,Yes,Don't know,Don't know,,Don't know,,
+46,M,CA,Yes,Yes,No,Medium,No,Yes,No,No,Don't know,Don't know,Yes,Don't know,Don't know,No,No,No,Yes,Yes
+26,F,CA,Yes,Yes,No,Medium,Yes,Don't know,No,No,Don't know,Don't know,No,No,Yes,No,Don't know,No,No,Yes
+26,M,CA,No,No,No,Medium,Don't know,No,No,Don't know,Don't know,Don't know,Yes,Yes,No,Yes,No,Yes,No,No
+70,M,CA,No,Yes,Yes,Medium,Yes,Yes,No,No,Yes,Yes,Don't know,Yes,No,No,Don't know,Don't know,No,No
+34,M,CA,No,No,No,Medium,No,Don't know,No,No,Don't know,Don't know,No,No,Yes,No,Yes,No,No,Yes
+30,F,CA,Yes,Yes,No,Medium,Yes,Yes,No,No,Don't know,Don't know,Don't know,No,No,No,No,Don't know,Don't know,No
+25,M,CA,Yes,Yes,No,Medium,Don't know,No,No,Don't know,Don't know,Don't know,Yes,Yes,No,No,No,Yes,Yes,No
+26,M,CA,No,Yes,No,Medium,Yes,Yes,No,Don't know,Don't know,Don't know,Yes,Yes,Don't know,Yes,No,Yes,No,No
+24,F,CA,Yes,Yes,No,Medium,Yes,Yes,No,No,Don't know,Don't know,No,Don't know,Don't know,No,No,Yes,No,Yes
+29,M,CA,No,Yes,No,Medium,Yes,No,No,Don't know,Yes,Yes,No,No,Don't know,Don't know,No,Yes,Yes,Yes
+35,M,CA,No,No,No,Medium,Yes,No,No,No,Don't know,Don't know,No,No,Yes,No,Don't know,Don't know,No,Yes
+39,M,CA,No,Yes,No,Large,Yes,No,No,Don't know,Don't know,Don't know,Yes,Don't know,Don't know,No,No,Yes,Yes,No
+32,M,CA,Yes,Yes,No,Large,Yes,Yes,Yes,Yes,Yes,Yes,Don't know,Don't know,Don't know,No,No,Yes,No,No
+29,F,CA,Yes,Yes,No,Large,Yes,Yes,No,Yes,Don't know,Don't know,Yes,Yes,No,Yes,Don't know,No,Yes,Yes
+25,M,CA,No,No,No,Large,Don't know,No,Don't know,Don't know,Don't know,Don't know,Don't know,Don't know,Don't know,No,,Don't know,,
+29,F,CA,Yes,Yes,Yes,Large,Yes,Don't know,No,Don't know,Don't know,Don't know,Yes,Don't know,Don't know,No,Don't know,No,Yes,No
+30,M,CA,Yes,Yes,No,Large,Yes,Yes,No,Yes,Don't know,Don't know,Don't know,Don't know,Don't know,Don't know,No,Yes,Yes,Yes
+37,F,CA,Yes,Yes,No,Large,Yes,Yes,No,Don't know,Don't know,Don't know,Don't know,No,Don't know,No,Don't know,Yes,Don't know,Yes
+31,M.,CA,No,No,No,Large,Don't know,Don't know,No,Yes,Don't know,Don't know,Don't know,Yes,No,Yes,No,Yes,Don't know,No
+35,F,CA,No,No,No,Large,Yes,Yes,Don't know,Don't know,Yes,Yes,Yes,Yes,Don't know,No,No,No,Yes,Yes
+35,M,CA,Yes,Yes,Yes,Large,Don't know,Don't know,No,Don't know,Don't know,Don't know,Yes,No,Don't know,No,Don't know,Don't know,No,Yes
+30,M,CA,Yes,Yes,No,Large,Don't know,Don't know,Yes,Yes,Don't know,Don't know,Yes,Don't know,No,No,Don't know,Don't know,Yes,No
+32,F,CA,Yes,Yes,No,Large,Yes,Yes,No,No,Yes,Yes,Yes,No,Yes,No,No,Don't know,Yes,No
+28,F,CA,Yes,Yes,No,Large,Yes,Yes,Yes,Yes,Don't know,Don't know,Yes,Yes,No,Don't know,Don't know,Yes,Yes,No
+36,M,CA,Yes,Yes,No,Large,Yes,Yes,No,Yes,Don't know,Don't know,No,Yes,Don't know,No,Don't know,Don't know,Yes,Yes
+55,F,CA,No,Yes,No,Large,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,No,,Don't know,,
+21,M,CA,No,No,No,Large,Yes,Yes,Yes,Yes,Yes,Yes,Don't know,Don't know,Don't know,Don't know,Don't know,Yes,No,No
+33,M,CA,Yes,Yes,No,Large,Yes,Yes,Yes,Yes,Don't know,Don't know,Yes,Yes,No,No,Don't know,Don't know,No,Yes
+37,M,CA,Yes,Yes,No,Large,Yes,Don't know,Yes,Don't know,Don't know,Don't know,Don't know,Yes,Don't know,No,Don't know,Don't know,Yes,No
+30,M,CA,No,No,No,Large,Yes,Yes,Yes,Yes,Yes,Yes,Don't know,No,Don't know,No,Don't know,Yes,Don't know,Yes
+37,F,CA,No,Yes,No,Large,Yes,No,No,Don't know,Don't know,Don't know,Yes,Don't know,Don't know,No,,Yes,,
+28,M,CA,Yes,Yes,No,Large,Yes,Yes,Yes,Yes,Don't know,Don't know,Don't know,Don't know,Don't know,No,Don't know,Yes,No,Yes
+22,M,CA,No,No,No,Large,Don't know,Don't know,Don't know,Don't know,Don't know,Don't know,Yes,Yes,No,Don't know,Don't know,Don't know,Yes,No
+32,M,CA,Yes,Yes,Yes,Large,Yes,Yes,Don't know,Don't know,Don't know,Don't know,Don't know,Yes,No,Yes,No,Yes,Yes,Yes
+29,M,CA,Yes,Yes,No,Large,Yes,Yes,No,Don't know,Don't know,Don't know,Yes,No,Don't know,No,,Don't know,,
+40,M,CA,Yes,No,Yes,Large,Yes,No,No,No,Yes,Yes,Yes,No,Don't know,No,Don't know,No,No,No
+30,M,CA,No,No,No,Large,Yes,No,Don't know,Yes,Don't know,Don't know,No,Yes,Don't know,No,No,No,Don't know,No
+39,M,CA,Yes,Yes,No,Large,Yes,Yes,No,No,No,No,No,No,Don't know,No,No,No,No,No
+42,M,CA,Yes,No,No,Large,No,Yes,No,No,Don't know,Don't know,Yes,No,Don't know,No,,No,,
+35,M,CA,No,Yes,Yes,Large,Yes,Don't know,Don't know,Yes,Don't know,Don't know,Yes,Don't know,Don't know,No,No,Don't know,Yes,No
+32,M,CA,No,Yes,No,Large,Yes,No,Yes,No,Yes,Yes,Yes,Yes,Don't know,No,,No,,
+43,M,CA,Yes,Yes,No,Large,Yes,Don't know,No,Don't know,No,No,No,No,Yes,No,Don't know,No,No,Yes
+36,M,CA,Yes,Yes,No,Large,Yes,Don't know,Don't know,Yes,Yes,Yes,Don't know,No,Yes,No,No,Yes,Yes,No
+26,M,CA,No,Yes,No,Large,Yes,Yes,No,Don't know,Don't know,Don't know,No,No,Yes,No,Yes,No,No,Yes
+49,M,CA,Yes,Yes,No,Large,Yes,Yes,No,Yes,Don't know,Don't know,No,No,Yes,No,No,Don't know,No,Yes
+33,M,CA,Yes,Yes,No,Large,Yes,Yes,No,No,Don't know,Don't know,No,Don't know,Don't know,No,Don't know,No,No,No
+24,F,CA,Yes,Yes,No,Large,Yes,Don't know,Yes,No,Yes,Yes,No,Yes,Yes,No,No,Yes,No,Yes
+23,M,CA,No,Yes,No,Large,No,Don't know,No,No,Don't know,Don't know,No,No,Yes,No,,Don't know,,
+24,M,CO,No,No,No,Small,Not eligible for coverage / N/A,Don't know,Yes,Yes,Yes,Yes,Don't know,Don't know,No,Don't know,,Yes,,
+61,F,CO,No,Yes,No,Small,Don't know,Don't know,No,Don't know,No,No,Don't know,Don't know,Don't know,Don't know,Don't know,Don't know,Don't know,No
+26,M,CO,Yes,Yes,No,Small,No,Don't know,No,No,Yes,Yes,No,Don't know,Don't know,No,No,No,Yes,No
+26,M,CO,No,No,No,Small,Don't know,Don't know,No,No,Yes,Yes,Don't know,No,Don't know,No,,No,,
+27,M,CO,Yes,Yes,No,Small,Yes,Don't know,No,No,Don't know,Don't know,Don't know,No,Don't know,No,No,Don't know,No,Yes
+32,M,CO,Yes,Yes,No,Large,No,No,No,Yes,Don't know,Don't know,Don't know,Yes,Don't know,Don't know,Don't know,Yes,Yes,No
+32,M,CO,Yes,Yes,No,Large,No,Yes,No,No,Don't know,Don't know,No,No,Yes,No,No,Don't know,Yes,No
+41,F,CO,No,No,No,Large,Yes,No,No,No,Don't know,Don't know,Yes,Don't know,Don't know,No,Don't know,Don't know,Don't know,Yes
+25,F ,CO,No,No,No,Large,Don't know,Don't know,Yes,Don't know,Don't know,Don't know,Yes,Don't know,No,No,,No,,
+37,M,CO,Yes,Yes,Yes,Large,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Don't know,No,No,Don't know,Yes,Yes
+27,M,CO,Yes,No,No,Large,Don't know,Don't know,No,Don't know,Don't know,Don't know,Yes,Don't know,Don't know,Don't know,Don't know,Don't know,Don't know,No
+38,M,CO,Yes,No,No,Large,Don't know,No,Don't know,Yes,Yes,Yes,Don't know,No,Yes,No,Don't know,No,Yes,Yes
+39,M,CO,No,No,No,Large,Don't know,Don't know,No,Don't know,Don't know,Don't know,Don't know,Yes,No,No,No,No,Yes,No
+30,M,CO,No,Yes,Yes,Medium,Don't know,No,No,No,Don't know,Don't know,No,No,Don't know,No,No,No,Yes,No
+26,M,CO,No,No,No,Medium,Don't know,Don't know,No,Don't know,Don't know,Don't know,Don't know,Yes,No,Don't know,No,Don't know,Don't know,No
+35,M,CO,No,Yes,No,Medium,Yes,Yes,Don't know,Don't know,Don't know,Don't know,Don't know,Don't know,No,No,No,Yes,Yes,No
+40,M,CO,Yes,Yes,Yes,Medium,Yes,Yes,Yes,Yes,Yes,Yes,No,Don't know,No,No,No,No,Yes,No
+34,M,CO,Yes,No,No,Large,Yes,No,No,Don't know,Don't know,Don't know,No,Don't know,Yes,No,Don't know,No,No,No
+27,M,CO,Yes,Yes,No,Large,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Don't know,No,Yes,Don't know,No
+29,M,CO,Yes,Yes,No,Large,Not eligible for coverage / N/A,No,No,Don't know,Don't know,Don't know,No,Don't know,Yes,Don't know,Don't know,Don't know,Yes,Yes
+57,F,CO,Yes,Yes,No,Large,Not eligible for coverage / N/A,Don't know,No,Don't know,Don't know,Don't know,No,No,Yes,No,Don't know,No,No,Yes
+37,M,CT,Yes,No,No,Large,Don't know,No,Yes,Don't know,Don't know,Don't know,Don't know,Yes,No,No,No,No,Yes,No
+49,F,CT,No,Yes,No,Large,Yes,Yes,No,No,Don't know,Don't know,No,Yes,Don't know,Don't know,Don't know,Don't know,Yes,Yes
+37,F,CT,No,Yes,No,Large,Don't know,Don't know,Don't know,Don't know,Don't know,Don't know,Don't know,Don't know,Don't know,Don't know,Don't know,Yes,Yes,No
+36,M,DE,Yes,Yes,Yes,Medium,Yes,Don't know,No,No,Don't know,Don't know,No,No,Don't know,No,No,Don't know,No,Yes
+39,F,DC,Yes,Yes,No,Large,Don't know,Don't know,No,Don't know,Don't know,Don't know,Don't know,Don't know,No,No,Don't know,Don't know,No,No
+26,F ,DC,Yes,Yes,No,Medium,Yes,Yes,No,No,Yes,Yes,Don't know,Yes,No,No,Don't know,No,Yes,No
+33,M,FL,Yes,Yes,No,Small,Yes,No,No,No,Don't know,Don't know,No,Don't know,No,No,Don't know,Don't know,Don't know,No
+30,M,FL,No,No,Yes,Small,Yes,No,No,Don't know,Don't know,Don't know,Don't know,Don't know,Don't know,No,No,Don't know,Don't know,No
+31,M,FL,No,No,No,Small,No,Don't know,No,No,Don't know,Don't know,Don't know,No,Don't know,Yes,No,Yes,Yes,No
+35,M,FL,No,No,Yes,Large,Don't know,Don't know,No,Don't know,Don't know,Don't know,Don't know,Yes,Don't know,Don't know,Don't know,Don't know,Don't know,No
+32,M,FL,No,Yes,Yes,Large,Yes,Yes,No,Don't know,Don't know,Don't know,Yes,Yes,No,No,Don't know,No,Don't know,No
+37,M,FL,No,Yes,Yes,Large,Don't know,No,No,Don't know,Don't know,Don't know,No,Don't know,Yes,No,Don't know,No,Yes,Yes
+35,M,FL,No,No,No,Large,No,No,No,No,Don't know,Don't know,Don't know,No,Don't know,Don't know,Don't know,Yes,No,No
+33,M,FL,No,No,Yes,Medium,Don't know,Don't know,No,Don't know,Don't know,Don't know,Yes,Yes,No,Don't know,No,Yes,Don't know,No
+30,M,FL,No,No,No,Medium,Yes,Yes,No,No,Don't know,Don't know,Don't know,Yes,Don't know,Don't know,No,Yes,No,No
+31,M,FL,Yes,Yes,Yes,Medium,Don't know,No,Yes,No,Don't know,Don't know,Yes,Don't know,Yes,No,Don't know,Don't know,No,Yes
+34,M,FL,No,Yes,No,Medium,Yes,Yes,No,No,Don't know,Don't know,Don't know,Don't know,No,No,Don't know,Yes,Yes,No
+26,M,FL,Yes,No,Yes,Medium,Don't know,No,No,Don't know,Don't know,Don't know,Don't know,Don't know,Don't know,No,Don't know,Don't know,No,Yes
+39,M,FL,Yes,Yes,No,Medium,Yes,Yes,No,Don't know,Don't know,Don't know,Yes,Don't know,Don't know,No,Don't know,No,Don't know,Yes
+34,M,FL,No,Yes,Yes,Large,Yes,Yes,No,No,Don't know,Don't know,Don't know,Don't know,Don't know,No,No,Don't know,Don't know,No
+27,M,FL,Yes,Yes,Yes,Large,Yes,Don't know,Don't know,Yes,Don't know,Don't know,Yes,Don't know,No,No,No,Don't know,Yes,No
+32,F,FL,Yes,Yes,No,Large,Yes,Yes,No,No,Yes,Yes,Yes,No,Yes,No,Don't know,No,No,Yes
+19,F,FL,No,No,No,Large,Yes,Don't know,No,No,Don't know,Don't know,Don't know,No,No,Don't know,Don't know,No,Don't know,No
+36,M,GA,Yes,Yes,No,Small,No,Don't know,No,No,No,No,No,No,Yes,No,Don't know,No,No,Yes
+30,M,GA,Yes,Yes,Yes,Small,No,No,No,No,No,No,No,No,Don't know,No,Don't know,No,No,Yes
+49,F,GA,No,No,No,Small,No,Don't know,No,No,Don't know,Don't know,Yes,Yes,No,Don't know,No,Yes,Yes,No
+35,M,GA,Yes,Yes,Yes,Large,Yes,Yes,No,Don't know,Yes,Yes,Yes,Yes,No,No,No,No,Don't know,No
+35,M,GA,No,No,Yes,Large,Don't know,Don't know,No,Don't know,Don't know,Don't know,Don't know,Yes,No,No,No,No,No,Yes
+39,M,GA,No,Yes,No,Large,Yes,Yes,No,No,Don't know,Don't know,Don't know,No,Don't know,Don't know,Don't know,Don't know,Don't know,No
+32,F,GA,No,No,No,Large,Yes,Yes,No,Yes,Yes,Yes,Don't know,Yes,Yes,Don't know,No,Don't know,Don't know,No
+52,M,GA,Yes,Yes,No,Large,Yes,Yes,Yes,Yes,Don't know,Don't know,No,Yes,Don't know,No,Don't know,Don't know,No,Yes
+33,F,GA,No,Yes,Yes,Medium,Yes,Yes,No,No,Don't know,Don't know,No,Don't know,Yes,Don't know,Yes,Don't know,Yes,No
+41,M,GA,No,No,No,Large,No,Don't know,No,No,No,No,No,No,Don't know,No,No,No,No,No
+45,M,GA,No,Yes,No,Large,Don't know,Don't know,No,Don't know,Don't know,Don't know,No,Don't know,Don't know,No,Don't know,No,Don't know,No
+54,M,ID,Yes,Yes,No,Small,No,No,No,No,No,No,No,No,Yes,No,Don't know,No,No,Yes
+36,M,ID,Yes,Yes,No,Large,Yes,Don't know,No,Yes,Yes,Yes,No,No,Yes,No,Don't know,No,Don't know,No
+30,M,ID,Yes,No,No,Medium,No,Yes,Yes,No,No,No,Don't know,Yes,Don't know,No,Don't know,Don't know,No,No
+55,M,IL ,Yes,Yes,No,Small,No,Yes,No,No,No,No,No,No,Yes,No,No,Don't know,No,Yes
+25,F,IL ,Yes,Yes,No,Small,Not eligible for coverage / N/A,Yes,No,No,No,No,Don't know,No,Yes,No,Yes,Don't know,Don't know,No
+29,M,IL ,Yes,Yes,No,Small,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,Don't know,Yes,No
+43,F,IL ,Yes,Yes,No,Small,Yes,Yes,No,No,No,No,Don't know,No,Yes,No,Don't know,Don't know,Yes,Yes
+35,M,IL ,Yes,Yes,Yes,Small,Not eligible for coverage / N/A,Don't know,No,No,Don't know,Don't know,Don't know,Don't know,Don't know,No,Yes,Don't know,No,No
+32,M,IL ,Yes,No,No,Small,Yes,Don't know,No,No,Yes,Yes,No,Don't know,Don't know,No,Don't know,No,No,No
+26,F,IL ,Yes,No,Yes,Small,Yes,Don't know,No,No,Don't know,Don't know,No,Don't know,Don't know,No,Don't know,Don't know,No,No
+27,M,IL ,Yes,Yes,No,Small,Yes,Don't know,No,No,Yes,Yes,Yes,Don't know,No,No,Don't know,Don't know,No,Yes
+26,M,IL ,No,Yes,No,Small,No,No,No,No,Don't know,Don't know,Don't know,Yes,No,Don't know,No,Don't know,Don't know,No
+47,M,IL ,Yes,Yes,No,Small,No,Yes,No,No,No,No,Don't know,No,Yes,No,Don't know,No,Yes,No
+26,F,IL ,Yes,Yes,No,Small,No,Don't know,No,No,Don't know,Don't know,No,Don't know,Don't know,No,No,Don't know,Yes,Yes
+36,M,IL ,Yes,Yes,Yes,Large,Yes,No,Don't know,Don't know,Don't know,Don't know,Don't know,Don't know,Don't know,Don't know,No,Don't know,Don't know,No
+31,F,IL ,Yes,No,Yes,Large,Yes,Yes,Don't know,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,No,Yes
+28,M,IL ,Yes,Yes,No,Large,Yes,Don't know,No,No,Don't know,Don't know,Yes,Yes,Don't know,No,No,Don't know,Don't know,No
+40,M,IL ,No,No,Yes,Large,Don't know,No,No,Yes,Yes,Yes,Don't know,No,Yes,No,Yes,Don't know,Don't know,Yes
+30,M,IL ,Yes,Yes,No,Large,Yes,Yes,No,Don't know,Don't know,Don't know,Yes,Yes,No,No,No,Yes,Don't know,No
+31,F,IL ,Yes,Yes,No,Large,Yes,Don't know,No,No,Yes,Yes,No,No,Don't know,No,Don't know,Don't know,No,Yes
+33,M,IL ,Yes,Yes,No,Large,Yes,Don't know,No,Don't know,Yes,Yes,Don't know,Don't know,Don't know,Don't know,No,Yes,Don't know,No
+25,F ,IL ,Yes,Yes,No,Large,Don't know,Don't know,No,Don't know,Don't know,Don't know,No,Don't know,Don't know,No,No,Don't know,Don't know,Yes
+35,M,IL ,No,No,No,Medium,Don't know,Don't know,No,Don't know,Yes,Yes,Yes,Yes,No,Don't know,,Yes,,
+24,F,IL ,Yes,Yes,No,Medium,Don't know,Don't know,Yes,Yes,Yes,Yes,Yes,Don't know,No,No,,No,,
+46,M,IL ,No,No,No,Medium,Don't know,Don't know,Yes,Don't know,Yes,Yes,Don't know,No,No,Don't know,Don't know,Don't know,No,No
+28,F,IL ,Yes,No,No,Medium,Don't know,Don't know,Don't know,Don't know,Don't know,Don't know,Yes,No,Don't know,No,Don't know,No,No,No
+24,F,IL ,No,No,No,Medium,Yes,Yes,Yes,Don't know,Don't know,Don't know,Yes,Yes,No,No,Don't know,Don't know,No,No
+44,F,IL ,No,No,No,Medium,Yes,No,No,No,No,No,Yes,Don't know,Don't know,No,No,Don't know,Yes,No
+26,F,IL ,No,No,No,Medium,Don't know,No,No,Don't know,Don't know,Don't know,Don't know,Don't know,Yes,No,No,No,Don't know,No
+23,M,IL ,No,No,No,Medium,Yes,Don't know,No,Don't know,Yes,Yes,Yes,No,Don't know,No,,Don't know,,
+46,F,IL ,Yes,Yes,Yes,Medium,Don't know,Don't know,No,No,Don't know,Don't know,Yes,Don't know,No,No,No,No,Yes,Yes
+38,F,IL ,No,Yes,No,Medium,Yes,Don't know,No,Yes,Don't know,Don't know,Yes,Yes,No,No,Yes,Yes,No,Yes
+27,F,IL ,Yes,No,No,Medium,Yes,Don't know,No,No,Don't know,Don't know,Yes,Yes,No,Don't know,No,Don't know,No,No
+33,M,IL ,Yes,Yes,No,Medium,Yes,Yes,No,No,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,No
+29,F,IL ,Yes,Yes,No,Medium,Don't know,Don't know,No,No,Don't know,Don't know,Don't know,No,Yes,No,Don't know,No,Yes,No
+34,F,IL ,No,No,No,Medium,Don't know,Don't know,Yes,Yes,Yes,Yes,Don't know,Don't know,Don't know,Don't know,No,Don't know,Don't know,No
+55,M,IL ,Yes,No,No,Medium,Yes,No,No,No,No,No,No,Yes,Yes,No,,Yes,,
+26,M,IL ,Yes,Yes,No,Medium,Don't know,No,No,Don't know,Don't know,Don't know,Don't know,No,Don't know,No,Don't know,Don't know,Yes,No
+33,M,IL ,Yes,Yes,No,Medium,Yes,No,No,No,Don't know,Don't know,No,No,Yes,No,No,Yes,Yes,No
+29,M,IL ,No,Yes,No,Large,Don't know,No,No,Yes,Yes,Yes,Don't know,Yes,No,Don't know,Don't know,Yes,Yes,Yes
+38,F,IL ,Yes,Yes,Yes,Large,Yes,No,No,No,Yes,Yes,Yes,Yes,No,No,No,No,No,Yes
+42,M,IL ,No,Yes,No,Large,Yes,Yes,Don't know,Yes,Yes,Yes,Yes,Yes,No,Yes,No,Yes,Yes,No
+31,M,IL ,No,Yes,No,Large,Yes,Yes,Don't know,Don't know,Don't know,Don't know,No,Don't know,Don't know,No,Don't know,No,Don't know,No
+35,F,IL ,No,Yes,No,Large,Don't know,No,No,Don't know,Don't know,Don't know,Don't know,Don't know,Yes,No,,Don't know,,
+49,F,IL ,Yes,Yes,No,Large,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Don't know,Don't know,,Don't know,,
+35,M,IL ,No,Yes,No,Large,Yes,Yes,No,Don't know,Don't know,Don't know,No,Don't know,Yes,Don't know,Yes,Don't know,No,Yes
+35,M,IL ,No,No,No,Large,Yes,No,Don't know,Don't know,Don't know,Don't know,Don't know,No,Don't know,No,Don't know,No,Don't know,No
+34,M,IL ,No,No,No,Large,Yes,Yes,No,Yes,Don't know,Don't know,Yes,Yes,Don't know,Don't know,,Don't know,,
+26,F,IL ,Yes,Yes,No,Large,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Don't know,No,Don't know,Don't know,Yes,No
+31,M,IL ,No,Yes,No,Large,Not eligible for coverage / N/A,Don't know,Don't know,Don't know,Don't know,Don't know,Don't know,No,Don't know,Yes,No,Yes,Don't know,No
+36,F,IN ,No,Yes,No,Small,Don't know,No,Yes,No,Don't know,Don't know,No,No,Yes,No,Don't know,Don't know,Don't know,Yes
+35,F,IN ,Yes,Yes,No,Small,No,Yes,No,No,Don't know,Don't know,No,Don't know,Don't know,No,No,Yes,Yes,Yes
+44,M,IN ,Yes,Yes,Yes,Small,No,No,No,No,Don't know,Don't know,No,No,Yes,Don't know,No,Yes,Yes,No
+31,M,IN ,Yes,Yes,No,Small,Don't know,Don't know,No,No,Yes,Yes,Yes,Yes,No,No,,No,,
+33,M,IN ,Yes,Yes,Yes,Small,Yes,Yes,No,Yes,Don't know,Don't know,No,Yes,No,No,No,No,Don't know,No
+31,M,IN ,No,No,No,Large,Don't know,No,No,Don't know,Don't know,Don't know,Yes,Yes,No,Yes,Yes,Yes,No,Yes
+35,F,IN ,Yes,Yes,No,Large,Yes,Yes,Yes,Don't know,Don't know,Don't know,Don't know,Yes,No,No,Don't know,No,No,No
+33,M,IN ,No,No,Yes,Large,Don't know,No,Don't know,Don't know,Don't know,Don't know,Yes,Yes,No,Don't know,Don't know,Don't know,Yes,No
+34,M,IN ,Yes,Yes,Yes,Large,Yes,Yes,No,Don't know,Don't know,Don't know,No,No,Yes,No,Don't know,Don't know,No,Yes
+51,M,IN ,No,No,No,Medium,Yes,Yes,No,Yes,Yes,Yes,Don't know,Don't know,Don't know,Don't know,Don't know,Don't know,Don't know,No
+35,M,IN ,No,Yes,No,Medium,Yes,No,No,No,Don't know,Don't know,No,Don't know,Yes,No,Don't know,Don't know,Yes,Yes
+36,M,IN ,No,No,No,Medium,Don't know,No,No,No,Don't know,Don't know,Yes,Yes,No,Don't know,No,Yes,Yes,No
+35,M,IN ,No,No,No,Medium,Don't know,No,No,Don't know,Don't know,Don't know,No,Yes,Yes,No,No,No,Yes,No
+34,M,IN ,No,Yes,No,Medium,Yes,Don't know,Yes,Yes,Don't know,Don't know,Don't know,Don't know,Don't know,Don't know,No,Yes,Yes,Yes
+27,M,IN ,No,Yes,No,Medium,Don't know,No,No,No,Don't know,Don't know,No,No,Don't know,No,,Don't know,,
+37,M,IN ,No,No,No,Medium,Yes,Don't know,No,Yes,Yes,Yes,Yes,Yes,No,Don't know,Don't know,Yes,Don't know,No
+36,F,IN ,No,Yes,No,Medium,Yes,Yes,Yes,Yes,Yes,Yes,Don't know,Yes,Don't know,No,Yes,Don't know,Yes,Yes
+25,M,IN ,No,No,No,Large,Yes,Yes,No,Don't know,Yes,Yes,Yes,No,Don't know,No,Don't know,No,Yes,No
+35,M,IN ,No,No,No,Large,Yes,No,Yes,Don't know,Don't know,Don't know,Yes,Yes,No,No,Don't know,No,Don't know,No
+40,M,IN ,Yes,No,No,Large,Yes,No,Don't know,Yes,Don't know,Don't know,No,No,Don't know,No,Don't know,No,No,Yes
+38,M,IN ,Yes,Yes,No,Large,Yes,Yes,Don't know,Don't know,No,No,Yes,Yes,No,No,Don't know,No,Yes,No
+22,M,IA,Yes,Yes,No,Small,Don't know,Don't know,No,No,Don't know,Don't know,Don't know,Don't know,Don't know,No,Don't know,Yes,Yes,No
+57,F,IA,Yes,Yes,No,Large,Yes,Don't know,No,No,Don't know,Don't know,Yes,Yes,No,No,No,No,Don't know,No
+25,F,IA,Yes,No,No,Large,Don't know,No,No,Don't know,Don't know,Don't know,Yes,Don't know,Don't know,Don't know,Don't know,Don't know,Yes,No
+40,M,IA,No,Yes,No,Large,Yes,No,No,Don't know,Don't know,Don't know,Yes,Yes,No,Don't know,Don't know,Don't know,No,No
+40,F,IA,No,Yes,No,Large,Yes,Yes,No,No,Don't know,Don't know,Yes,Don't know,No,Don't know,No,Don't know,Don't know,No
+28,F,KS,Yes,Yes,No,Small,Not eligible for coverage / N/A,Don't know,No,Yes,Yes,Yes,Yes,Yes,No,No,Don't know,No,Yes,Yes
+26,M,KS,Yes,Yes,No,Small,Yes,Yes,No,No,Yes,Yes,Yes,No,Don't know,No,Don't know,No,No,No
+22,M,KS,No,No,No,Small,Yes,Yes,No,No,Don't know,Don't know,Yes,Yes,No,Don't know,No,Yes,Yes,No
+21,M,KS,Yes,No,No,Small,Don't know,Don't know,No,Don't know,No,No,Yes,No,Yes,Yes,,Don't know,,
+44,M,KS,No,Yes,No,Large,Don't know,Don't know,No,Yes,Don't know,Don't know,No,Don't know,Yes,Don't know,No,Yes,No,No
+24,M,KS,No,No,No,Large,Yes,Yes,Yes,No,Yes,Yes,No,Don't know,Don't know,No,No,Yes,No,Yes
+32,M,KS,No,Yes,No,Medium,Don't know,Don't know,Yes,Don't know,Don't know,Don't know,Yes,Yes,No,No,No,No,No,No
+25,F,KS,No,No,No,Medium,Don't know,No,Yes,Don't know,Don't know,Don't know,Yes,Yes,No,No,Don't know,No,Yes,Yes
+48,F,KS,No,No,No,Medium,Don't know,No,No,Don't know,Don't know,Don't know,Yes,No,Don't know,No,Don't know,No,Yes,Yes
+34,M,KS,No,No,No,Large,Don't know,No,Yes,Yes,Yes,Yes,Don't know,Yes,No,No,Don't know,Don't know,Yes,No
+32,M,KS,Yes,No,No,Large,Yes,Don't know,No,Don't know,Don't know,Don't know,No,No,Yes,No,,No,,
+28,M,KS,Yes,Yes,No,Large,Not eligible for coverage / N/A,Don't know,No,No,Don't know,Don't know,No,Yes,No,No,No,No,Yes,No
+25,M,KS,No,No,No,Large,Yes,No,Yes,Yes,Yes,Yes,No,No,Yes,Don't know,Don't know,Don't know,Don't know,No
+30,F,KS,Yes,No,No,Large,Yes,Don't know,No,Don't know,Don't know,Don't know,Yes,No,No,Don't know,No,Don't know,Yes,No
+33,M,KY,Yes,Yes,No,Small,Yes,Yes,Don't know,Yes,Don't know,Don't know,Yes,Don't know,Don't know,No,Yes,No,No,Yes
+36,F,KY,No,Yes,No,Large,Yes,Yes,No,Yes,Don't know,Don't know,No,No,Yes,No,No,No,Yes,No
+37,F,LA,Yes,Yes,No,Small,No,Don't know,No,Don't know,No,No,No,No,Yes,No,Don't know,No,No,Yes
+24,M,LA,Yes,Yes,No,Small,Don't know,No,No,Don't know,Yes,Yes,Yes,Don't know,No,Don't know,Don't know,Yes,Don't know,Yes
+66,M,ME,Yes,Yes,No,Small,No,No,No,No,Don't know,Don't know,No,No,Don't know,No,Don't know,No,No,No
+31,M,ME,Yes,Yes,No,Small,Don't know,No,No,Don't know,Don't know,Don't know,Yes,Yes,No,No,Don't know,No,No,Yes
+33,F,ME,Yes,Yes,Yes,Large,Yes,Yes,No,No,Don't know,Don't know,Yes,Yes,No,No,Don't know,No,No,No
+36,M,ME,No,Yes,No,Large,Yes,Yes,No,No,Don't know,Don't know,No,No,Yes,No,No,No,Yes,No
+38,F,ME,Yes,No,Yes,Large,Yes,Yes,Don't know,Don't know,Yes,Yes,Yes,Yes,No,Don't know,Don't know,Yes,Yes,No
+42,M,MD,Yes,Yes,Yes,Small,Yes,Yes,Yes,No,No,No,Yes,Yes,No,Yes,Don't know,Yes,Don't know,No
+43,M,MD,No,Yes,Yes,Small,No,Don't know,No,No,Don't know,Don't know,No,Don't know,Don't know,Don't know,,Don't know,,
+42,M,MD,No,No,Yes,Large,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,No,Yes,Yes,No
+45,M,MD,Yes,Yes,No,Large,Don't know,Don't know,Don't know,Don't know,No,No,Don't know,Don't know,No,No,No,No,Yes,No
+33,M ,MD,No,No,No,Medium,Don't know,Don't know,No,Don't know,Don't know,Don't know,No,No,Don't know,No,No,Yes,No,No
+29,M,MD,Yes,Yes,No,Medium,No,Don't know,No,No,Don't know,Don't know,No,Don't know,Don't know,No,No,Yes,Yes,No
+39,M,MD,No,No,No,Medium,Yes,Don't know,Yes,Yes,Yes,Yes,Don't know,Yes,Don't know,No,No,No,Yes,No
+28,M,MD,Yes,Yes,No,Medium,Yes,Don't know,No,No,Don't know,Don't know,No,Don't know,Don't know,Don't know,,Yes,,
+36,F,MD,Yes,Yes,Yes,Large,Yes,No,No,Don't know,Don't know,Don't know,Don't know,Yes,Don't know,Don't know,Don't know,Don't know,Yes,No
+39,M,MD,No,No,No,Large,Yes,Don't know,Yes,Yes,Don't know,Don't know,No,Don't know,Don't know,No,No,Don't know,Don't know,No
+63,M,MD,Yes,Yes,No,Large,Yes,Don't know,No,Yes,Yes,Yes,Yes,Yes,No,Don't know,No,Yes,Yes,No
+43,F,MD,Yes,Yes,Yes,Large,Yes,Yes,Don't know,Yes,Yes,Yes,Don't know,Don't know,Don't know,No,Don't know,No,Don't know,Yes
+39,M,MD,Yes,No,No,Large,Yes,Yes,No,Yes,No,No,Yes,No,Yes,No,No,No,No,No
+35,F,MA ,No,Yes,Yes,Small,Don't know,Don't know,Don't know,No,Don't know,Don't know,Yes,Yes,Don't know,Don't know,No,Yes,Don't know,Yes
+38,F,MA ,Yes,Yes,No,Small,Don't know,No,No,No,Don't know,Don't know,Don't know,Yes,Don't know,No,No,No,Yes,Yes
+22,M,MA ,Yes,No,No,Small,Don't know,Don't know,Don't know,Don't know,Don't know,Don't know,Don't know,No,Yes,Don't know,Don't know,Don't know,Don't know,No
+28,F,MA ,No,No,Yes,Large,Yes,Don't know,Yes,No,Don't know,Don't know,Yes,Don't know,Don't know,No,No,Don't know,Don't know,Yes
+40,M,MA ,No,Yes,No,Large,Yes,No,No,Yes,Don't know,Don't know,No,No,Yes,No,No,Don't know,No,No
+39,M,MA ,No,No,Yes,Large,Yes,No,No,Don't know,Yes,Yes,Yes,Yes,No,Don't know,Don't know,Yes,Yes,No
+28,M,MA ,No,Yes,No,Large,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,No,Don't know,Don't know,Yes,No,Yes
+30,M,MA ,Yes,Yes,No,Medium,Yes,Don't know,No,Yes,Yes,Yes,Don't know,Yes,Don't know,Yes,Don't know,Yes,Yes,No
+31,M,MA ,No,No,No,Medium,Yes,No,No,Don't know,Don't know,Don't know,Yes,Yes,No,Don't know,No,Don't know,Don't know,No
+32,M,MA ,Yes,No,No,Medium,No,Yes,No,No,No,No,Yes,No,Don't know,Don't know,Don't know,Don't know,No,No
+42,M,MA ,No,Yes,Yes,Large,Yes,Don't know,No,No,Don't know,Don't know,Yes,Don't know,No,No,No,Don't know,No,No
+31,F,MA ,No,No,No,Large,Yes,No,Yes,Yes,Don't know,Don't know,No,Yes,Don't know,No,Don't know,No,Yes,Yes
+31,F,MA ,No,Yes,No,Large,Yes,Yes,No,Yes,Don't know,Don't know,Don't know,No,Yes,No,Don't know,No,Don't know,Yes
+45,M,MA ,Yes,Yes,Yes,Large,Yes,Don't know,No,Don't know,Don't know,Don't know,No,Don't know,Yes,No,Don't know,No,Don't know,Yes
+20,M,MA ,No,No,No,Large,Not eligible for coverage / N/A,No,Don't know,Don't know,Don't know,Don't know,Yes,Don't know,No,No,,No,,
+21,M,MA ,No,Yes,No,Large,Don't know,Don't know,No,Yes,Don't know,Don't know,Don't know,No,Don't know,Don't know,Don't know,Yes,Yes,No
+23,M,MA ,No,No,No,Large,Don't know,No,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,,Don't know,,
+24,F,MA ,No,No,No,Large,Don't know,Yes,No,Yes,Yes,Yes,Yes,Yes,No,Don't know,Don't know,Don't know,Yes,No
+37,M,MA ,Yes,No,No,Large,Yes,No,No,Yes,Don't know,Don't know,Don't know,Yes,Don't know,No,Don't know,Don't know,No,No
+44,M,MI,No,No,Yes,Small,Don't know,No,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,No,Yes,Don't know,No
+45,M,MI,No,No,No,Small,Yes,No,No,Don't know,Don't know,Don't know,Don't know,Don't know,Don't know,Yes,Don't know,Don't know,Don't know,No
+99,F,MI,Yes,Yes,No,Small,Yes,No,No,Don't know,Yes,Yes,Yes,Yes,No,Don't know,Yes,Yes,Yes,Yes
+28,F,MI,Yes,Yes,Yes,Small,Yes,Yes,No,No,Don't know,Don't know,No,Yes,No,Don't know,Don't know,Yes,Yes,No
+29,M,MI,Yes,Yes,Yes,Large,Yes,Don't know,No,No,Don't know,Don't know,Don't know,Don't know,Yes,No,Don't know,No,Yes,Yes
+34,M,MI,No,No,No,Large,Yes,Yes,No,No,Don't know,Don't know,Don't know,Yes,No,Don't know,No,Don't know,No,Yes
+38,F,MI,No,No,Yes,Large,Yes,Yes,Yes,Yes,Yes,Yes,Don't know,Don't know,Don't know,Don't know,,Don't know,,
+34,M,MI,No,Yes,Yes,Large,Yes,Yes,Don't know,Yes,Yes,Yes,Don't know,Yes,No,Don't know,No,Don't know,Yes,No
+41,M,MI,Yes,Yes,No,Large,Don't know,Yes,No,No,Don't know,Don't know,Don't know,No,Don't know,Don't know,No,Yes,No,No
+30,F,MI,Yes,Yes,No,Medium,Yes,Yes,Yes,Yes,Don't know,Don't know,Yes,Yes,No,No,Don't know,No,No,No
+30,M,MI,Yes,Yes,No,Medium,Yes,Yes,Yes,No,Yes,Yes,Don't know,Don't know,Don't know,No,Don't know,Don't know,Yes,Yes
+28,M,MI,Yes,Yes,No,Medium,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Don't know,No,Don't know,Don't know,Don't know,Yes,Yes
+36,M,MI,No,Yes,No,Medium,Yes,Don't know,Don't know,Don't know,Don't know,Don't know,Yes,Yes,No,No,Don't know,No,No,No
+29,M,MI,Yes,Yes,No,Medium,Yes,Don't know,No,Yes,Yes,Yes,Yes,Yes,No,No,No,No,Yes,No
+25,M,MI,Yes,Yes,No,Medium,Yes,Yes,Don't know,Yes,Yes,Yes,Yes,Yes,No,No,No,No,Yes,Yes
+34,F,MI,No,No,No,Medium,Yes,No,Yes,Yes,Yes,Yes,Don't know,Yes,No,No,Don't know,No,No,Yes
+31,F,MI,Yes,Yes,No,Medium,Yes,Don't know,Yes,Don't know,Don't know,Don't know,No,Don't know,Don't know,No,Don't know,Don't know,No,Yes
+28,F,MI,Yes,Yes,No,Medium,Yes,Yes,Don't know,Yes,Yes,Yes,Yes,Yes,No,Don't know,Don't know,Don't know,Yes,Yes
+28,F,MI,No,Yes,No,Medium,Yes,Yes,No,Yes,Yes,Yes,Yes,Don't know,Don't know,No,Don't know,Don't know,No,Yes
+40,M,MI,Yes,Yes,No,Medium,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Don't know,Yes,Yes,No
+36,M,MI,No,No,No,Medium,Yes,Don't know,Don't know,Yes,Don't know,Don't know,Yes,Don't know,No,No,No,No,Don't know,No
+25,F,MI,No,Yes,No,Medium,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Don't know,,Yes,,
+34,M,MI,No,No,No,Medium,No,Don't know,No,No,Don't know,Don't know,No,No,Yes,No,Don't know,No,No,Yes
+33,M,MI,Yes,Yes,No,Medium,Don't know,Don't know,No,No,Don't know,Don't know,Yes,Yes,Don't know,Don't know,No,Yes,Don't know,No
+26,M,MI,No,Yes,No,Medium,Don't know,No,No,Don't know,Don't know,Don't know,Don't know,Yes,Don't know,Don't know,No,Yes,Yes,No
+40,M,MI,Yes,Yes,No,Medium,Yes,Yes,No,No,Yes,Yes,Don't know,Yes,Don't know,No,No,No,No,No
+37,M,MI,No,No,No,Medium,Yes,No,No,No,Don't know,Don't know,Yes,Don't know,Don't know,No,Don't know,No,No,Yes
+29,M,MI,Yes,No,No,Medium,Don't know,No,No,No,Yes,Yes,Yes,Don't know,Don't know,No,,No,,
+47,F,MI,No,No,No,Medium,Yes,No,No,Yes,Yes,Yes,Yes,Yes,No,No,No,No,Yes,Yes
+29,M,MI,No,No,No,Medium,Don't know,No,No,No,Don't know,Don't know,Yes,Yes,No,Don't know,No,Yes,Yes,No
+36,M,MI,Yes,Yes,No,Medium,Yes,Don't know,No,No,Yes,Yes,Yes,Don't know,No,Don't know,Don't know,Yes,Yes,No
+39,M,MI,Yes,Yes,No,Medium,Yes,Yes,Yes,Yes,Yes,Yes,Don't know,Yes,No,No,No,Yes,No,No
+26,F,MI,Yes,Yes,No,Medium,Yes,Yes,No,Yes,Yes,Yes,No,Don't know,Yes,No,No,Yes,Yes,No
+30,M,MI,No,No,Yes,Medium,Yes,Yes,No,Don't know,Don't know,Don't know,Don't know,Don't know,Don't know,Don't know,Don't know,Yes,No,No
+24,M,MI,No,Yes,No,Large,Yes,Yes,No,No,Don't know,Don't know,No,Don't know,Don't know,No,,Yes,,
+38,M,MI,Yes,No,Yes,Large,Yes,No,No,Yes,Don't know,Don't know,No,Don't know,Don't know,Don't know,Don't know,Don't know,Don't know,No
+45,M,MI,No,No,No,Large,No,Don't know,No,No,Don't know,Don't know,No,No,Yes,No,Don't know,No,No,Yes
+35,M,MI,No,Yes,No,Large,Don't know,Don't know,No,No,No,No,Don't know,Don't know,Yes,No,No,No,Don't know,No
+29,M,MI,No,Yes,No,Large,Yes,No,Yes,Yes,Yes,Yes,Don't know,Don't know,No,No,,No,,
+46,F,MI,Yes,Yes,No,Large,Yes,Yes,Yes,Yes,Don't know,Don't know,Don't know,No,Yes,No,No,Don't know,Don't know,Yes
+30,M,MI,No,No,No,Large,Don't know,No,No,No,Don't know,Don't know,Don't know,Yes,Don't know,Yes,No,Yes,No,No
+36,F,MI,Yes,Yes,No,Large,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Don't know,Don't know,Yes,No,Yes
+30,F,MI,Yes,Yes,Yes,Large,Yes,Yes,No,Don't know,Don't know,Don't know,No,No,Don't know,No,No,Don't know,Yes,No
+33,M,MN,Yes,No,No,Small,No,Don't know,No,No,Don't know,Don't know,Don't know,No,Don't know,No,No,No,Don't know,No
+23,M,MN,Yes,Yes,No,Small,Yes,Don't know,No,No,Don't know,Don't know,Yes,Yes,No,No,Don't know,Don't know,Yes,Yes
+31,M,MN,Yes,Yes,No,Small,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,No,Yes,No,Yes
+32,M,MN,No,Yes,No,Small,No,Don't know,No,No,Don't know,Don't know,Don't know,Don't know,Don't know,No,Don't know,No,Yes,Yes
+34,M,MN,No,No,No,Small,Not eligible for coverage / N/A,Don't know,No,No,Don't know,Don't know,Don't know,Don't know,No,Yes,No,Yes,Yes,No
+37,M,MN,No,No,No,Small,Don't know,Don't know,No,No,Don't know,Don't know,Don't know,Don't know,No,No,Don't know,No,Yes,No
+52,M,MN,No,No,No,Small,Yes,No,No,No,Don't know,Don't know,No,Don't know,No,Don't know,No,Yes,Yes,No
+39,M,MN,No,No,No,Small,Don't know,Don't know,Don't know,Don't know,Don't know,Don't know,Yes,Yes,No,No,Don't know,Don't know,Don't know,No
+39,M,MN,No,Yes,No,Small,Yes,No,No,Don't know,Yes,Yes,No,Don't know,No,No,No,No,Yes,No
+50,M,MN,Yes,Yes,No,Small,Yes,Don't know,No,Don't know,Don't know,Don't know,Yes,Yes,Don't know,Don't know,No,Don't know,Don't know,No
+36,M,MN,No,No,No,Small,Don't know,No,Don't know,Don't know,Don't know,Don't know,Yes,Yes,No,Don't know,No,Yes,Don't know,No
+26,F,MN,Yes,Yes,No,Small,Don't know,No,Yes,No,Yes,Yes,No,No,Yes,No,Don't know,Don't know,No,Yes
+30,M,MN,No,No,No,Small,Don't know,Don't know,No,Don't know,Don't know,Don't know,Don't know,No,Don't know,No,Don't know,Don't know,Don't know,No
+32,M,MN,No,No,No,Small,Don't know,Don't know,No,No,Don't know,Don't know,No,Don't know,Don't know,No,Don't know,Don't know,No,Yes
+24,M,MN,Yes,No,No,Small,No,No,No,No,Don't know,Don't know,Yes,Yes,No,Yes,No,Yes,No,No
+40,M,MN,No,Yes,Yes,Large,Yes,Don't know,No,Don't know,Yes,Yes,Yes,Yes,No,Don't know,No,Don't know,Yes,Yes
+29,M,MN,No,Yes,Yes,Large,Don't know,Don't know,No,No,Don't know,Don't know,No,Yes,Don't know,No,No,Yes,Yes,No
+36,M,MN,Yes,Yes,No,Large,Yes,Yes,No,Don't know,Don't know,Don't know,Don't know,Yes,Don't know,No,Don't know,No,Yes,No
+29,M,MN,No,Yes,No,Large,Yes,Yes,No,No,Yes,Yes,No,Yes,Don't know,Don't know,Don't know,Yes,Yes,No
+32,M ,MN,Yes,Yes,No,Large,Yes,Yes,No,Yes,Don't know,Don't know,Don't know,Don't know,No,No,No,Yes,Don't know,No
+41,F,MN,Yes,Yes,No,Medium,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes
+50,M,MN,Yes,Yes,No,Medium,Yes,Don't know,No,Don't know,Don't know,Don't know,No,Don't know,Don't know,No,Don't know,Don't know,Yes,No
+29,F,MN,Yes,No,No,Medium,Yes,Yes,Yes,Yes,Don't know,Don't know,Yes,Yes,No,Don't know,Don't know,Don't know,Don't know,Yes
+35,F,MN,No,Yes,No,Medium,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,Don't know,Yes,No
+58,M,MN,No,No,No,Medium,Yes,No,Don't know,Don't know,Don't know,Don't know,Don't know,Don't know,Don't know,No,Don't know,Don't know,Don't know,Yes
+33,M,MN,No,No,Yes,Medium,Don't know,Don't know,Don't know,Don't know,Don't know,Don't know,Don't know,Yes,No,No,No,No,Yes,No
+30,F ,MN,No,Yes,No,Medium,Yes,Yes,No,No,Don't know,Don't know,Don't know,Don't know,Don't know,No,No,Yes,No,Yes
+25,F,MN,Yes,Yes,No,Medium,Yes,No,No,Don't know,Don't know,Don't know,No,No,Don't know,Don't know,No,Don't know,Yes,No
+29,M,MN,No,Yes,No,Medium,Don't know,No,No,Don't know,Don't know,Don't know,No,Don't know,No,No,No,Don't know,Yes,No
+38,M,MN,Yes,Yes,No,Large,Yes,Yes,Don't know,Yes,Don't know,Don't know,Yes,Yes,Don't know,No,Don't know,Don't know,Yes,Yes
+30,F,MN,Yes,Yes,No,Large,Don't know,No,No,Don't know,Don't know,Don't know,Don't know,Yes,Don't know,No,No,Yes,Yes,Yes
+31,M,MN,No,No,No,Large,Don't know,Don't know,No,No,Don't know,Don't know,Yes,Don't know,Don't know,No,,No,,
+32,M,MN,Yes,Yes,No,Large,Yes,Yes,Yes,Yes,Yes,Yes,Don't know,Yes,No,No,No,No,Yes,No
+48,M,MN,No,No,No,Large,Don't know,Don't know,Yes,Yes,Yes,Yes,Yes,Yes,No,No,Don't know,No,Don't know,No
+32,M,MN,Yes,No,No,Large,Yes,No,Yes,Yes,Yes,Yes,Yes,Don't know,Don't know,No,,No,,
+35,M,MN,No,No,No,Large,Yes,Don't know,No,Yes,Yes,Yes,Yes,Don't know,No,No,No,No,Yes,No
+35,M,MN,No,No,Yes,Large,Yes,Yes,Don't know,Don't know,Yes,Yes,Don't know,Yes,Don't know,Don't know,Don't know,Don't know,No,No
+49,M,MN,Yes,Yes,No,Large,Yes,No,Yes,Yes,Don't know,Don't know,Yes,Yes,No,Don't know,,Don't know,,
+35,M,MO ,No,Yes,No,Small,Yes,Yes,No,No,Don't know,Don't know,Don't know,No,Don't know,No,,Don't know,,
+38,M,MO ,Yes,Yes,Yes,Large,Yes,No,No,No,Don't know,Don't know,Don't know,No,Don't know,No,No,No,No,Yes
+29,M,MO ,Yes,No,Yes,Large,Don't know,No,No,Don't know,Don't know,Don't know,Yes,No,No,No,Don't know,No,Yes,No
+56,M,MO ,No,Yes,No,Large,Yes,Yes,Yes,Yes,Don't know,Don't know,Yes,Yes,Don't know,No,Don't know,No,No,Yes
+49,M,MO ,Yes,Yes,No,Large,Yes,Yes,Yes,Yes,No,No,No,No,Yes,No,No,No,No,No
+27,M,MO ,No,No,No,Large,Yes,Don't know,No,Don't know,Don't know,Don't know,No,Yes,Don't know,Don't know,No,Don't know,Yes,No
+39,M,MO ,Yes,Yes,No,Large,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Don't know,No,No,Yes,No,Yes
+46,M,MO ,No,No,No,Large,Yes,No,No,Yes,Don't know,Don't know,Don't know,No,Don't know,No,,Don't know,,
+52,M,MO ,No,No,Yes,Large,Yes,Yes,Yes,Yes,Don't know,Don't know,Yes,Yes,No,Don't know,No,Don't know,Don't know,No
+46,M,MO ,No,No,No,Large,Yes,Don't know,Yes,Yes,Yes,Yes,Yes,No,Don't know,Don't know,,Yes,,
+30,M,MT,No,No,Yes,Large,Yes,No,Don't know,Don't know,Don't know,Don't know,Don't know,Don't know,Don't know,No,No,Don't know,Yes,No
+23,M,NE,Yes,No,No,Small,No,No,No,Don't know,Don't know,Don't know,Don't know,Yes,No,Don't know,Don't know,Don't know,No,No
+42,M,NE,Yes,Yes,No,Small,Don't know,Don't know,No,No,Don't know,Don't know,Yes,No,Don't know,No,Don't know,No,No,Yes
+28,M,NE,No,No,No,Small,Don't know,No,No,No,Don't know,Don't know,Don't know,No,Yes,No,No,Yes,No,No
+32,M,NE,Yes,Yes,No,Large,Yes,No,No,Yes,Yes,Yes,Don't know,No,Don't know,No,Don't know,Don't know,Yes,No
+30,F,NE,Yes,Yes,No,Large,Yes,Don't know,Yes,Yes,Don't know,Don't know,Yes,Yes,Don't know,Don't know,No,Don't know,No,No
+30,F,NE,Yes,No,No,Large,Don't know,Don't know,No,Yes,Don't know,Don't know,No,Yes,Don't know,No,No,Don't know,No,No
+28,M,NE,No,No,No,Medium,Yes,No,No,No,Don't know,Don't know,Don't know,Yes,No,No,Don't know,Don't know,Yes,No
+34,M,NE,Yes,Yes,No,Medium,Yes,Yes,No,No,Yes,Yes,Yes,Yes,No,Yes,No,Yes,No,No
+27,M,NE,Yes,Yes,No,Large,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Don't know,Yes,No,Yes
+27,F,NE,No,No,No,Large,Yes,Don't know,No,Yes,Don't know,Don't know,No,No,Don't know,No,Don't know,No,Yes,No
+27,F,NV,Yes,No,Yes,Small,Don't know,Don't know,No,No,Don't know,Don't know,Yes,Don't know,No,Don't know,No,Don't know,Yes,No
+29,M,NV,No,No,Yes,Small,Don't know,No,No,No,Don't know,Don't know,Don't know,No,Don't know,Don't know,No,Don't know,Don't know,No
+32,M,NH,No,No,Yes,Small,Don't know,Don't know,No,Don't know,Don't know,Don't know,Don't know,No,Don't know,No,No,Don't know,Don't know,No
+33,M,NH,Yes,Yes,No,Large,Yes,No,No,Don't know,Don't know,Don't know,Yes,Don't know,Don't know,No,Don't know,Don't know,No,Yes
+33,M,NH,Yes,Yes,No,Large,Yes,Yes,No,No,Yes,Yes,No,Yes,No,No,No,Don't know,Yes,Yes
+42,M,NH,No,No,No,Large,Yes,Don't know,No,Yes,Don't know,Don't know,No,Don't know,Don't know,No,No,No,Yes,No
+52,M,NH,Yes,Yes,No,Large,Not eligible for coverage / N/A,Don't know,Yes,Yes,Yes,Yes,Don't know,Don't know,Yes,No,Don't know,No,Yes,Yes
+25,M,NJ,Yes,Yes,No,Small,Don't know,Don't know,No,No,Don't know,Don't know,No,No,Don't know,No,,No,,
+21,F,NJ,Yes,Yes,Yes,Small,No,Yes,No,No,No,No,Yes,Don't know,Don't know,Don't know,No,Yes,Yes,No
+22,F,NJ,Yes,Yes,Yes,Small,Not eligible for coverage / N/A,Don't know,Don't know,Don't know,Don't know,Don't know,Yes,Yes,No,No,Don't know,Don't know,Don't know,No
+30,F,NJ,Yes,Yes,Yes,Large,Yes,Don't know,No,No,Yes,Yes,Yes,Yes,No,No,No,No,Yes,No
+31,M,NJ,Yes,Yes,No,Large,Don't know,No,No,No,Don't know,Don't know,Don't know,No,Yes,No,No,Yes,No,No
+37,M,NM,Yes,Yes,Yes,Large,Yes,Yes,Don't know,Yes,Yes,Yes,No,Yes,Don't know,Don't know,Don't know,Yes,No,Yes
+31,M,NY,Yes,Yes,No,Small,No,Yes,No,No,Don't know,Don't know,Yes,Don't know,Don't know,No,No,No,Yes,No
+23,M ,NY,Yes,Yes,No,Small,Yes,No,No,No,Don't know,Don't know,No,No,Yes,No,,Don't know,,
+26,M,NY,Yes,No,No,Small,No,Don't know,No,No,Don't know,Don't know,Yes,Yes,No,No,No,Don't know,Yes,No
+37,F,NY,No,Yes,No,Small,Don't know,Don't know,No,Don't know,Don't know,Don't know,Don't know,Don't know,Don't know,Don't know,Don't know,Don't know,Yes,Yes
+34,M,NY,No,Yes,No,Small,Yes,Don't know,No,No,Yes,Yes,Yes,Don't know,Don't know,No,Don't know,No,Yes,No
+22,F,NY,No,No,No,Small,Don't know,Don't know,Yes,Yes,Yes,Yes,Yes,Yes,No,Don't know,No,Yes,Don't know,No
+29,F,NY,Yes,Yes,No,Small,Yes,Don't know,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,No,Don't know,No
+20,M,NY,Yes,Yes,Yes,Small,Yes,No,No,No,Don't know,Don't know,Don't know,Yes,No,No,,No,,
+30,F,NY,Yes,No,No,Small,Don't know,No,No,No,Don't know,Don't know,No,Yes,Yes,No,Don't know,No,Yes,Yes
+22,F,NY,No,Yes,No,Small,Yes,Don't know,No,No,Yes,Yes,Yes,No,Yes,No,,No,,
+30,M,NY,No,Yes,No,Large,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,No,No,No,No,Yes,No
+28,M,NY,Yes,No,No,Large,Yes,Don't know,No,Don't know,Yes,Yes,Don't know,Don't know,Don't know,No,Don't know,Don't know,No,Yes
+29,F,NY,No,Yes,No,Large,Yes,Yes,No,Don't know,Don't know,Don't know,No,No,Yes,No,No,Don't know,No,No
+38,F,NY,Yes,Yes,No,Large,Don't know,No,No,No,Don't know,Don't know,Don't know,No,Yes,No,Yes,No,Don't know,No
+28,F,NY,No,No,Yes,Large,Yes,Don't know,Yes,Yes,Yes,Yes,Yes,Yes,No,No,Don't know,No,No,Yes
+26,M,NY,No,Yes,Yes,Large,Yes,No,No,Don't know,Don't know,Don't know,No,No,Don't know,No,Don't know,No,Yes,No
+29,M,NY,Yes,Yes,No,Large,Yes,Yes,Yes,No,Don't know,Don't know,Yes,Yes,No,Don't know,Yes,Don't know,Don't know,No
+31,F,NY,Yes,Yes,No,Large,Don't know,Don't know,No,No,Don't know,Don't know,Don't know,Yes,Don't know,No,Don't know,No,No,No
+32,F,NY,Yes,No,No,Large,No,Don't know,No,No,Don't know,Don't know,Don't know,Don't know,Don't know,No,Don't know,No,Yes,Yes
+30,M,NY,No,No,No,Medium,Yes,Yes,No,No,Don't know,Don't know,Yes,Yes,No,Don't know,No,Don't know,No,No
+34,M,NY,No,Yes,No,Medium,No,Don't know,Yes,Don't know,Yes,Yes,No,No,Yes,Don't know,Don't know,Don't know,Don't know,Yes
+27,F,NY,Yes,Yes,No,Medium,Don't know,Don't know,No,Don't know,Don't know,Don't know,No,Don't know,Don't know,No,No,Yes,Yes,No
+37,M,NY,No,Yes,Yes,Large,Don't know,No,Don't know,Yes,Don't know,Don't know,Yes,Yes,No,Yes,Don't know,No,Yes,No
+24,F,NY,Yes,Yes,No,Large,Yes,Don't know,Yes,No,Don't know,Don't know,Yes,Yes,No,No,,Don't know,,
+28,M,NY,No,Yes,No,Large,Yes,Yes,No,Don't know,Yes,Yes,Don't know,No,Don't know,No,Yes,No,No,No
+36,F,NY,Yes,Yes,No,Large,Yes,Yes,No,Don't know,Yes,Yes,No,Don't know,No,No,No,Don't know,Yes,No
+34,F,NY,Yes,Yes,Yes,Large,Yes,Yes,No,Yes,Yes,Yes,Don't know,Don't know,Don't know,Don't know,Yes,Don't know,No,No
+40,M,NY,Yes,No,Yes,Large,Yes,Don't know,No,No,Don't know,Don't know,Yes,Yes,No,Yes,Don't know,Yes,No,No
+24,F,NY,Yes,Yes,No,Large,Don't know,Don't know,No,Don't know,Don't know,Don't know,No,No,Yes,No,Yes,No,Don't know,Yes
+26,M,NY,No,Yes,No,Large,Yes,Yes,No,Yes,Yes,Yes,Don't know,Yes,Don't know,No,No,Don't know,Don't know,Yes
+29,M,NY,No,No,No,Large,Yes,No,Yes,Don't know,Yes,Yes,Yes,Yes,No,Don't know,No,Don't know,Don't know,No
+27,F,NY,Yes,Yes,No,Large,Don't know,Don't know,Yes,Yes,Don't know,Don't know,No,No,Yes,No,No,Don't know,Yes,No
+39,M,NY,No,No,No,Large,Don't know,No,Yes,Yes,Don't know,Don't know,Yes,No,Don't know,No,No,No,Don't know,No
+29,F,NY,Yes,Yes,No,Large,Yes,Yes,No,Don't know,Yes,Yes,No,No,Yes,No,,Don't know,,
+30,M,NY,Yes,Yes,No,Large,Yes,Yes,No,No,Don't know,Don't know,Yes,Yes,No,No,Don't know,Yes,No,No
+30,M,NC,Yes,No,No,Small,Don't know,Don't know,No,No,Don't know,Don't know,Don't know,Yes,No,Yes,No,Yes,Don't know,No
+30,M,NC,No,Yes,No,Small,Yes,Yes,No,No,Yes,Yes,Yes,Yes,No,No,,No,,
+37,M,NC,No,Yes,Yes,Small,No,Don't know,No,No,Don't know,Don't know,Don't know,Don't know,Don't know,No,Don't know,Don't know,Yes,No
+45,M,NC,Yes,Yes,Yes,Small,Yes,No,No,Don't know,Don't know,Don't know,Don't know,No,Yes,No,No,Don't know,Yes,Yes
+22,F,NC,Yes,Yes,No,Small,Yes,Don't know,No,Don't know,Don't know,Don't know,Yes,Yes,No,Don't know,,Don't know,,
+57,M,NC,No,No,Yes,Small,Yes,No,No,No,Yes,Yes,No,No,Yes,No,No,No,Yes,No
+26,F,NC,No,Yes,Yes,Large,Yes,Yes,No,Don't know,Yes,Yes,Yes,Yes,Yes,No,Don't know,No,Yes,No
+32,M,NC,Yes,Yes,No,Large,Don't know,Don't know,No,Don't know,Don't know,Don't know,Don't know,Don't know,Don't know,No,Don't know,Don't know,Yes,No
+39,F,NC,Yes,Yes,No,Medium,Yes,Yes,No,No,Don't know,Don't know,No,No,Don't know,Don't know,No,Don't know,Don't know,No
+44,M,NC,Yes,Yes,Yes,Medium,Yes,No,No,Don't know,Yes,Yes,Don't know,Don't know,Don't know,Don't know,Don't know,Don't know,Yes,Yes
+51,M,NC,No,Yes,No,Medium,Don't know,Don't know,Yes,No,Don't know,Don't know,Yes,Yes,No,Yes,Yes,Yes,No,Yes
+32,F ,NC,Yes,Yes,No,Medium,Yes,Yes,No,No,Don't know,Don't know,Don't know,No,Yes,No,Don't know,No,Don't know,No
+25,F,NC,No,Yes,No,Medium,Yes,Yes,Yes,Yes,Yes,Yes,No,No,Yes,No,Don't know,No,No,No
+30,M,NC,Yes,Yes,No,Medium,Don't know,Don't know,No,No,Don't know,Don't know,Don't know,Don't know,Don't know,No,No,No,No,No
+29,M,NC,No,Yes,No,Medium,Don't know,Don't know,No,Yes,Yes,Yes,No,Don't know,Don't know,No,Don't know,No,Don't know,No
+28,M,NC,Yes,No,No,Large,Don't know,No,No,Don't know,Don't know,Don't know,Yes,Don't know,No,No,No,Yes,Don't know,No
+62,F,NC,No,Yes,No,Large,Yes,Yes,No,Yes,Yes,Yes,Don't know,Don't know,No,No,,No,,
+39,M,NC,Yes,Yes,No,Large,Yes,Yes,No,Don't know,Don't know,Don't know,Yes,Yes,No,No,Don't know,No,No,No
+34,M,NC,No,Yes,No,Large,Don't know,No,No,Don't know,Yes,Yes,Don't know,Don't know,Don't know,No,Don't know,Don't know,No,No
+63,F,NC,No,Yes,No,Large,Yes,Yes,Don't know,Yes,Yes,Yes,Don't know,Yes,No,No,Don't know,No,Don't know,No
+40,F,ND,No,No,No,Small,Yes,Don't know,No,No,Don't know,Don't know,No,Don't know,No,No,No,Don't know,Don't know,No
+29,F,ND,No,Yes,No,Small,Don't know,Don't know,No,No,Don't know,Don't know,Don't know,Yes,No,Don't know,No,Don't know,Yes,No
+30,M,ND,No,No,No,Small,Don't know,Don't know,No,No,Don't know,Don't know,No,Don't know,Yes,Don't know,No,Yes,Yes,No
+24,M,OH ,No,No,Yes,Small,No,Don't know,No,No,Don't know,Don't know,Yes,Don't know,No,Don't know,No,Yes,Don't know,No
+23,F,OH ,Yes,No,No,Small,Not eligible for coverage / N/A,Yes,No,No,Yes,Yes,No,No,Yes,No,Don't know,No,No,Yes
+25,M,OH ,No,No,No,Small,Don't know,Don't know,No,Don't know,Don't know,Don't know,Yes,Yes,No,No,No,No,Don't know,No
+30,M,OH ,Yes,No,No,Small,Yes,Yes,No,No,Yes,Yes,Don't know,Don't know,Don't know,No,No,Yes,Don't know,No
+29,M,OH ,No,No,No,Large,Yes,No,No,No,Don't know,Don't know,No,Don't know,Don't know,No,Don't know,Don't know,No,No
+28,M,OH ,Yes,Yes,Yes,Large,Yes,Don't know,Don't know,Yes,Don't know,Don't know,Don't know,Don't know,Don't know,Don't know,No,Yes,Yes,No
+40,M,OH ,Yes,Yes,No,Medium,Yes,Yes,No,No,Yes,Yes,No,Don't know,Don't know,Don't know,Don't know,Don't know,No,No
+24,M,OH ,Yes,No,No,Medium,Yes,Yes,No,No,Don't know,Don't know,Don't know,No,Yes,Don't know,,Don't know,,
+33,F,OH ,Yes,Yes,No,Medium,Yes,No,No,Yes,Don't know,Don't know,No,Yes,Don't know,No,Don't know,Don't know,No,Yes
+34,M,OH ,Yes,Yes,No,Medium,Yes,No,Yes,No,Yes,Yes,Yes,Yes,No,No,No,Don't know,No,Yes
+26,F,OH ,No,Yes,Yes,Medium,Don't know,Yes,No,No,Don't know,Don't know,Don't know,No,Don't know,No,Don't know,Don't know,No,No
+59,F,OH ,No,No,No,Large,Yes,Don't know,Yes,Yes,No,No,No,No,Yes,No,No,No,No,Yes
+29,M,OH ,No,No,No,Large,No,Don't know,No,Don't know,Don't know,Don't know,Yes,Yes,No,Yes,Don't know,Yes,Yes,Yes
+41,F,OH ,No,Yes,No,Large,Yes,Yes,No,Don't know,Don't know,Don't know,No,Don't know,Don't know,No,Don't know,No,Yes,No
+45,M,OH ,No,No,No,Large,Yes,No,No,Yes,Don't know,Don't know,Don't know,Don't know,Don't know,No,Don't know,No,Don't know,No
+42,M,OH ,Yes,Yes,No,Large,Yes,Yes,No,Yes,Don't know,Don't know,No,No,Yes,No,Don't know,Don't know,No,Yes
+31,F,OH ,Yes,Yes,No,Large,Not eligible for coverage / N/A,Don't know,No,Don't know,Don't know,Don't know,No,No,Yes,No,No,No,No,Yes
+34,F,OH ,Yes,Yes,No,Large,Yes,Yes,No,Don't know,Don't know,Don't know,No,Don't know,Don't know,No,Don't know,No,Don't know,Yes
+34,F,OH ,Yes,Yes,No,Large,Don't know,Don't know,No,No,Don't know,Don't know,No,No,Yes,No,No,Don't know,Don't know,No
+39,F,OH ,Yes,Yes,No,Large,Yes,Yes,No,No,Yes,Yes,No,No,Yes,No,Don't know,No,No,Yes
+44,M,OH ,No,No,No,Large,Yes,Don't know,Don't know,Yes,Yes,Yes,Don't know,No,Yes,No,Don't know,Don't know,Don't know,No
+23,M,OK ,No,Yes,No,Small,Don't know,Don't know,Yes,Don't know,Yes,Yes,Yes,Yes,No,Don't know,No,Yes,Yes,No
+28,M,OK ,No,Yes,No,Small,Don't know,No,No,Don't know,Don't know,Don't know,Yes,Don't know,Don't know,Don't know,Don't know,Don't know,No,No
+36,F,OK ,Yes,No,Yes,Small,No,Don't know,No,No,Don't know,Don't know,Yes,No,Don't know,No,Don't know,No,Don't know,No
+34,F,OK ,Yes,Yes,No,Small,Don't know,Don't know,Yes,Yes,Yes,Yes,Yes,Yes,No,Don't know,Don't know,Don't know,No,No
+25,M,OK ,No,Yes,No,Small,Yes,Yes,Yes,Yes,Yes,Yes,Don't know,No,No,No,Don't know,Don't know,No,Yes
+35,F,OK ,No,No,No,Small,Don't know,Don't know,No,No,Don't know,Don't know,No,No,Yes,No,Don't know,No,Don't know,No
+40,M,OK ,Yes,Yes,Yes,Large,Yes,No,No,No,Don't know,Don't know,No,No,Don't know,No,Don't know,No,No,No
+33,M,OK ,No,No,Yes,Large,Don't know,No,No,No,Yes,Yes,Yes,Yes,No,Don't know,Don't know,Don't know,Yes,No
+34,M,OK ,Yes,Yes,No,Medium,Yes,Yes,No,No,Yes,Yes,No,Don't know,Yes,No,No,No,No,Yes
+29,M,OK ,Yes,No,No,Large,No,No,No,No,No,No,Don't know,No,Yes,No,Don't know,No,No,Yes
+33,M,OK ,No,Yes,No,Large,Yes,No,Don't know,Don't know,Don't know,Don't know,Don't know,Don't know,Don't know,No,No,Don't know,No,No
+39,F,OK ,No,Yes,No,Large,Don't know,No,Don't know,Yes,Don't know,Don't know,Don't know,No,Yes,No,Don't know,No,Don't know,No
+45,M,OR ,No,Yes,No,Small,Yes,No,No,Don't know,Don't know,Don't know,No,No,Yes,No,Don't know,Don't know,No,Yes
+44,M,OR ,No,Yes,No,Small,Yes,Yes,No,Don't know,No,No,Yes,Yes,No,No,Don't know,Don't know,No,Yes
+26,M,OR ,Yes,Yes,No,Small,No,Don't know,No,No,No,No,Don't know,Yes,Don't know,No,No,No,Yes,No
+31,F,OR ,Yes,Yes,Yes,Small,No,Don't know,No,No,Don't know,Don't know,Yes,Yes,No,No,Don't know,No,No,Yes
+36,F,OR ,Yes,Yes,No,Small,Yes,Yes,No,No,Don't know,Don't know,Don't know,Don't know,No,No,Don't know,Yes,Yes,Yes
+40,F,OR ,Yes,No,Yes,Small,Don't know,No,No,Yes,Yes,Yes,Don't know,Yes,No,No,Don't know,No,Don't know,Yes
+39,M,OR ,Yes,No,No,Small,Don't know,No,No,Don't know,Don't know,Don't know,No,Don't know,Don't know,Don't know,No,Don't know,Don't know,No
+31,F,OR ,Yes,Yes,Yes,Small,Yes,No,No,No,Don't know,Don't know,Yes,Don't know,No,Don't know,Don't know,No,Don't know,Yes
+35,F,OR ,No,Yes,Yes,Small,Don't know,No,No,Don't know,Don't know,Don't know,No,Don't know,Don't know,Don't know,Don't know,Don't know,Yes,Yes
+52,M,OR ,Yes,Yes,No,Large,Don't know,No,No,Don't know,Don't know,Don't know,Don't know,Don't know,Don't know,Don't know,Don't know,Don't know,Yes,No
+37,M,OR ,No,Yes,No,Large,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Don't know,No,Don't know,Yes,No
+44,F,OR ,Yes,Yes,Yes,Large,Yes,No,No,No,Don't know,Don't know,Yes,Don't know,Don't know,No,No,Yes,Yes,Yes
+34,M,OR ,No,No,No,Large,Yes,Don't know,Don't know,Yes,Don't know,Don't know,Yes,Don't know,Don't know,No,Don't know,No,Don't know,No
+323,M,OR ,Yes,No,No,Large,Yes,No,Don't know,Don't know,Don't know,Don't know,Don't know,Don't know,No,Don't know,Don't know,Yes,No,Yes
+44,M,OR ,Yes,Yes,No,Large,Don't know,No,Don't know,Don't know,Don't know,Don't know,No,Yes,No,No,No,Don't know,Don't know,No
+32,M,OR ,No,No,Yes,Large,Don't know,Don't know,No,No,Don't know,Don't know,No,No,Yes,No,No,No,Yes,No
+28,M,OR ,No,Yes,No,Medium,Yes,Don't know,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Don't know,Yes,No,Yes
+30,M,OR ,Yes,Yes,No,Medium,Yes,Yes,No,Yes,Don't know,Don't know,Yes,Yes,No,Don't know,,Don't know,,
+29,M,OR ,No,No,Yes,Medium,Don't know,No,Yes,No,Don't know,Don't know,Yes,Yes,No,Don't know,No,Don't know,Yes,No
+22,F,OR ,Yes,Yes,No,Medium,Yes,Yes,No,No,Yes,Yes,No,No,Don't know,Don't know,No,Don't know,No,Yes
+25,F,OR ,Yes,Yes,No,Medium,Don't know,No,No,No,Don't know,Don't know,Yes,Yes,Don't know,No,Yes,No,No,Yes
+28,M,OR ,Yes,No,No,Medium,Don't know,Don't know,No,Don't know,Don't know,Don't know,No,Don't know,Don't know,No,Don't know,Don't know,Don't know,No
+31,F,OR ,Yes,Yes,Yes,Large,Yes,No,No,Don't know,Don't know,Don't know,Yes,Yes,Don't know,No,Don't know,No,Yes,No
+31,F,OR ,Yes,Yes,No,Large,Yes,Yes,Don't know,Don't know,Don't know,Don't know,No,Don't know,Don't know,No,Don't know,Don't know,No,Yes
+23,F,OR ,Yes,Yes,No,Large,Yes,Don't know,No,Don't know,No,No,No,No,Yes,No,Don't know,Don't know,Yes,Yes
+28,F,OR ,No,No,No,Large,Don't know,Don't know,No,Don't know,Don't know,Don't know,Yes,No,No,No,,No,,
+28,M,OR ,No,No,No,Large,Don't know,Don't know,No,Don't know,Don't know,Don't know,Don't know,No,Don't know,No,,Don't know,,
+39,M,OR ,No,No,No,Large,Yes,Don't know,Don't know,Yes,Yes,Yes,No,Don't know,Don't know,No,Don't know,No,No,No
+32,M,PA,No,No,Yes,Small,No,Don't know,No,No,Don't know,Don't know,Yes,Yes,No,Don't know,No,Don't know,Don't know,No
+39,F,PA,Yes,Yes,No,Small,Don't know,No,No,Don't know,Don't know,Don't know,No,Yes,No,No,Don't know,Don't know,Don't know,No
+34,M,PA,Yes,No,No,Small,Yes,Don't know,No,No,Don't know,Don't know,No,Don't know,Yes,Don't know,No,Don't know,Yes,Yes
+28,F,PA,Yes,Yes,Yes,Small,Yes,Yes,Yes,Yes,Don't know,Don't know,Yes,Yes,No,No,Don't know,Don't know,Yes,Yes
+34,M,PA,Yes,Yes,No,Large,Yes,Yes,No,Don't know,Don't know,Don't know,No,No,Yes,No,Don't know,No,No,No
+23,M,PA,No,Yes,No,Large,Don't know,No,No,No,Don't know,Don't know,Don't know,Yes,Yes,No,,Don't know,,
+22,M,PA,Yes,Yes,No,Large,Yes,Yes,No,Yes,Yes,Yes,Don't know,No,Yes,No,Don't know,Yes,Don't know,No
+30,M,PA,No,Yes,Yes,Large,Yes,Yes,No,No,Yes,Yes,No,No,Yes,No,Don't know,Don't know,No,No
+31,M,PA,No,No,Yes,Large,Yes,No,No,Yes,Yes,Yes,Yes,Yes,No,No,Don't know,No,Don't know,Yes
+29,F,PA,Yes,Yes,Yes,Large,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,No,No,Yes,No,No,Yes
+29,F,PA,Yes,Yes,Yes,Large,Yes,Yes,No,No,Don't know,Don't know,No,Don't know,Don't know,No,No,Yes,Yes,Yes
+38,M,PA,No,No,Yes,Large,Don't know,No,No,Don't know,Don't know,Don't know,Yes,Don't know,No,Yes,No,Yes,Yes,No
+26,F,PA,Yes,Yes,No,Large,Yes,No,No,No,Yes,Yes,Don't know,No,Yes,No,Yes,No,No,Yes
+28,F,PA,Yes,Yes,Yes,Medium,Don't know,No,No,Yes,Don't know,Don't know,Yes,Yes,No,Don't know,Don't know,Don't know,No,Yes
+31,F,PA,No,Yes,No,Medium,Yes,Don't know,No,No,Don't know,Don't know,Yes,Yes,No,No,,Don't know,,
+37,M,PA,Yes,Yes,No,Medium,Yes,Yes,No,No,Don't know,Don't know,No,Don't know,Don't know,Don't know,,Don't know,,
+33,F,PA,Yes,Yes,No,Medium,Yes,Yes,No,Don't know,Don't know,Don't know,Yes,Don't know,Yes,No,No,Don't know,Yes,No
+25,F,PA,No,No,No,Medium,Yes,Don't know,No,No,Yes,Yes,No,Don't know,Don't know,No,Don't know,Don't know,Don't know,No
+30,M,PA,No,No,No,Medium,Yes,Don't know,No,No,Yes,Yes,Yes,Yes,No,No,No,No,Yes,No
+27,M,PA,Yes,Yes,Yes,Medium,Yes,No,No,No,Don't know,Don't know,Yes,No,Don't know,No,Don't know,No,Don't know,No
+29,M,PA,No,No,No,Medium,Yes,No,No,No,Don't know,Don't know,Don't know,Don't know,No,No,No,Don't know,Don't know,No
+40,M,PA,No,Yes,Yes,Medium,Don't know,Don't know,No,Don't know,Don't know,Don't know,Yes,Yes,No,No,Don't know,No,Yes,No
+27,F,PA,Yes,Yes,No,Medium,No,Yes,No,No,Don't know,Don't know,No,Don't know,Yes,No,,Don't know,,
+28,M,PA,Yes,Yes,Yes,Medium,Yes,Yes,No,Don't know,Don't know,Don't know,No,No,Yes,Yes,Don't know,Don't know,No,No
+36,M,PA,No,No,Yes,Large,Don't know,No,No,Don't know,Don't know,Don't know,Don't know,Don't know,Don't know,No,No,No,Yes,Yes
+34,M,PA,Yes,Yes,Yes,Large,Don't know,Don't know,Don't know,Don't know,Don't know,Don't know,Yes,Yes,No,Don't know,Don't know,Yes,Don't know,No
+47,M,PA,Yes,Yes,No,Large,Yes,No,Don't know,Yes,Don't know,Don't know,No,No,Don't know,No,Don't know,No,Don't know,Yes
+47,M,PA,Yes,Yes,No,Large,Yes,Yes,Don't know,Don't know,No,No,No,Yes,Yes,No,Don't know,Don't know,No,Yes
+25,M,PA,No,Yes,No,Large,Yes,Yes,No,Yes,Yes,Yes,Don't know,No,Don't know,No,No,No,Don't know,No
+30,M,PA,Yes,Yes,No,Large,Yes,Don't know,Yes,Yes,Don't know,Don't know,No,No,Don't know,No,Don't know,No,Don't know,No
+39,M,RI,No,No,No,Small,Don't know,No,No,Don't know,Don't know,Don't know,Don't know,Don't know,Don't know,Don't know,No,Don't know,Yes,No
+32,M,RI,Yes,Yes,Yes,Large,Yes,Yes,No,Don't know,Don't know,Don't know,Yes,Don't know,Don't know,No,No,Don't know,No,Yes
+51,M,RI,Yes,Yes,No,Large,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,Don't know,No,No,Yes
+21,M,SC,No,Yes,No,Large,Not eligible for coverage / N/A,Don't know,No,No,Don't know,Don't know,Yes,No,Don't know,No,No,Don't know,Yes,No
+42,M,SD,Yes,Yes,Yes,Large,Yes,Yes,Don't know,Don't know,Yes,Yes,Yes,Yes,No,Don't know,No,Don't know,Yes,No
+32,M,SD,No,No,Yes,Medium,Don't know,Don't know,No,No,Don't know,Don't know,Yes,Yes,No,Yes,No,Yes,Don't know,No
+34,M,SD,Yes,Yes,No,Large,Yes,Yes,Yes,Yes,Don't know,Don't know,Don't know,Don't know,Don't know,No,No,Yes,Yes,No
+38,M,TN,No,Yes,No,Small,Not eligible for coverage / N/A,Don't know,Yes,No,Yes,Yes,Don't know,Yes,No,No,No,Don't know,Yes,No
+43,M,TN,Yes,Yes,No,Small,Yes,No,No,No,No,No,Don't know,No,Don't know,No,No,No,Yes,No
+35,M,TN,No,No,No,Small,Yes,Don't know,No,No,Don't know,Don't know,Yes,Yes,No,Don't know,Don't know,Don't know,Yes,No
+24,M,TN,Yes,Yes,No,Small,No,Don't know,No,No,Don't know,Don't know,Yes,Yes,Don't know,Don't know,Don't know,Don't know,Don't know,No
+36,F,TN,Yes,Yes,No,Small,Yes,Yes,No,No,Yes,Yes,No,Don't know,Yes,No,Don't know,No,Yes,No
+44,M,TN,No,Yes,No,Small,Don't know,No,No,Don't know,Don't know,Don't know,No,Don't know,Yes,Don't know,Don't know,Don't know,No,Yes
+33,M,TN,No,No,No,Small,Don't know,No,No,Don't know,Don't know,Don't know,Don't know,Yes,No,Don't know,No,Don't know,Don't know,No
+40,M,TN,No,No,No,Large,Don't know,No,No,No,Don't know,Don't know,Don't know,No,Don't know,Don't know,No,Yes,No,No
+41,M,TN,Yes,Yes,Yes,Large,Don't know,Don't know,No,Don't know,Don't know,Don't know,Yes,Don't know,No,Don't know,Don't know,Don't know,No,Yes
+38,M,TN,Yes,Yes,Yes,Large,Yes,Don't know,No,Don't know,Yes,Yes,Yes,Yes,No,Yes,No,Yes,Don't know,Yes
+30,M,TN,No,No,No,Medium,Don't know,No,No,No,Don't know,Don't know,Yes,Yes,No,Yes,No,Yes,Yes,No
+37,M,TN,Yes,No,Yes,Medium,Yes,Yes,No,No,Yes,Yes,Yes,Yes,No,No,No,Don't know,Don't know,No
+26,M,TN,Yes,Yes,No,Medium,Don't know,No,No,No,Don't know,Don't know,Don't know,Yes,No,Don't know,Don't know,Don't know,No,No
+27,M,TN,No,No,No,Medium,Yes,Yes,No,No,Yes,Yes,Don't know,Don't know,No,Don't know,Don't know,Yes,Don't know,No
+31,F,TN,Yes,Yes,No,Medium,Yes,Yes,Yes,Don't know,Don't know,Don't know,Yes,Don't know,Don't know,No,No,Don't know,No,Yes
+43,M,TN,Yes,Yes,No,Medium,Yes,Yes,No,No,Don't know,Don't know,No,No,Yes,No,No,No,Don't know,Yes
+29,M,TN,Yes,No,Yes,Medium,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Don't know,Don't know,Don't know,Don't know,No,Yes
+34,M,TN,No,Yes,No,Large,Yes,No,No,Yes,Yes,Yes,Don't know,Yes,Don't know,No,No,No,No,Yes
+38,M,TN,No,No,No,Large,Yes,Don't know,No,Don't know,Yes,Yes,Don't know,Don't know,Don't know,Don't know,No,Don't know,Don't know,No
+30,M,TN,No,Yes,No,Large,Don't know,No,No,No,Don't know,Don't know,No,No,Yes,No,Yes,Don't know,No,No
+35,M,TN,Yes,Yes,No,Large,Yes,Yes,Yes,Yes,Don't know,Don't know,Yes,Yes,No,No,No,Yes,Yes,Yes
+37,M,TN,Yes,No,No,Large,Yes,Don't know,Don't know,Yes,Yes,Yes,Yes,Yes,No,Don't know,No,Don't know,Yes,No
+33,F,TN,Yes,Yes,No,Large,Yes,Don't know,Yes,Yes,Yes,Yes,No,Yes,No,No,Yes,Don't know,No,Yes
+42,M,TN,No,No,No,Large,Yes,No,Yes,Yes,Yes,Yes,Yes,Don't know,Don't know,No,No,Don't know,Yes,Yes
+28,M,TN,No,No,No,Large,Don't know,No,No,Don't know,Don't know,Don't know,Yes,Yes,No,Yes,No,Yes,No,No
+43,M,TN,Yes,Yes,No,Large,Yes,Don't know,Don't know,Yes,Don't know,Don't know,Yes,Yes,No,Don't know,No,Don't know,No,Yes
+21,M,TN,Yes,Yes,No,Large,No,No,No,Don't know,Don't know,Don't know,No,No,Yes,No,No,Yes,Don't know,No
+23,F,TX,No,Yes,No,Small,Don't know,Don't know,No,No,Don't know,Don't know,Yes,No,Don't know,No,Don't know,Don't know,Yes,No
+46,M,TX,Yes,No,No,Small,Don't know,No,No,No,Don't know,Don't know,No,No,Yes,No,Yes,No,No,No
+33,F,TX,Yes,Yes,Yes,Large,Yes,Yes,No,Yes,Yes,Yes,No,Yes,Don't know,No,Yes,Don't know,No,Yes
+32,M,TX,No,No,Yes,Large,Yes,Yes,Yes,Yes,Don't know,Don't know,No,No,Yes,No,Don't know,No,No,No
+26,M,TX,Yes,No,No,Large,Don't know,Don't know,No,Don't know,Don't know,Don't know,Yes,Don't know,No,No,No,No,No,No
+31,F,TX,No,Yes,No,Large,Don't know,No,No,Don't know,Don't know,Don't know,No,Yes,No,No,Don't know,No,Yes,No
+40,F,TX,Yes,Yes,No,Large,Yes,Don't know,No,No,Don't know,Don't know,Don't know,Don't know,Yes,No,Don't know,No,Don't know,Yes
+35,M,TX,Yes,Yes,No,Large,Don't know,Don't know,No,No,Don't know,Don't know,No,No,Yes,No,Don't know,No,Don't know,No
+22,F,TX,Yes,Yes,No,Large,No,No,No,No,Don't know,Don't know,No,No,Yes,No,Yes,Don't know,Don't know,Yes
+27,F,TX,Yes,Yes,Yes,Large,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Don't know,No,Don't know,Don't know,No,Yes
+42,M,TX,No,No,Yes,Large,Don't know,Don't know,No,Don't know,Don't know,Don't know,Don't know,Don't know,No,Don't know,No,Yes,No,No
+32,M,TX,Yes,Yes,No,Large,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Don't know,No,No,Don't know,Don't know,Yes,Yes
+24,F,TX,Yes,Yes,No,Large,Yes,Yes,No,Don't know,Yes,Yes,Yes,Yes,No,No,No,Don't know,Yes,No
+50,M,TX,No,No,Yes,Medium,Yes,Yes,No,Don't know,Don't know,Don't know,Yes,Yes,No,Don't know,Don't know,Yes,Yes,No
+40,F,TX,Yes,Yes,No,Medium,No,Don't know,No,No,Don't know,Don't know,Yes,Yes,Yes,No,No,No,Don't know,No
+35,M,TX,No,No,No,Medium,Don't know,No,No,Don't know,Don't know,Don't know,Don't know,Don't know,Don't know,Don't know,Don't know,Don't know,Yes,No
+42,F,TX,No,Yes,No,Medium,Yes,Don't know,No,No,Don't know,Don't know,No,No,Don't know,No,Don't know,Don't know,No,Yes
+33,M,TX,No,No,No,Medium,Don't know,No,No,No,Don't know,Don't know,Yes,No,Don't know,No,Don't know,No,No,Yes
+24,M,TX,No,Yes,No,Medium,Don't know,No,No,No,Don't know,Don't know,Don't know,No,No,No,No,No,No,No
+28,M,TX,Yes,Yes,No,Medium,Don't know,Don't know,No,No,Don't know,Don't know,No,Don't know,Don't know,No,No,No,Don't know,No
+39,F,TX,No,Yes,Yes,Medium,Yes,Don't know,No,Don't know,Don't know,Don't know,Yes,Yes,Don't know,Don't know,Don't know,Don't know,No,No
+32,M,TX,No,Yes,No,Medium,Yes,Don't know,No,No,Don't know,Don't know,No,Don't know,Don't know,Don't know,No,Don't know,Yes,No
+35,M,TX,No,Yes,No,Large,Yes,Yes,No,Don't know,Yes,Yes,Don't know,Yes,No,Don't know,Don't know,Don't know,Yes,No
+29,M,TX,Yes,Yes,Yes,Large,Yes,Don't know,Yes,Yes,Don't know,Don't know,Don't know,No,Don't know,No,Don't know,Yes,No,Yes
+45,F,TX,No,Yes,Yes,Large,Don't know,No,No,No,Don't know,Don't know,No,Yes,Don't know,No,No,Don't know,No,No
+26,M,TX,No,No,No,Large,Yes,Yes,No,Don't know,Don't know,Don't know,Don't know,Don't know,Don't know,Don't know,,Yes,,
+54,F,TX,Yes,Yes,No,Large,Yes,Yes,Yes,Yes,Yes,Yes,Don't know,No,No,No,Don't know,Don't know,No,Yes
+37,M,TX,Yes,Yes,No,Large,Don't know,No,No,No,Don't know,Don't know,No,No,Don't know,No,Don't know,Don't know,No,No
+36,M,TX,Yes,Yes,No,Large,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Don't know,No,No,No,Yes,Yes
+44,F,TX,Yes,Yes,No,Large,Yes,Don't know,No,Don't know,Yes,Yes,Don't know,No,Don't know,No,No,No,No,Yes
+42,M,TX,Yes,No,No,Large,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Don't know,No,Yes,Yes,No
+36,M,TX,Yes,Yes,No,Large,No,Don't know,Yes,Yes,Don't know,Don't know,Yes,Yes,No,Don't know,Don't know,Yes,Yes,No
+39,M,TX,No,No,Yes,Large,No,No,No,No,Don't know,Don't know,Don't know,Don't know,No,No,No,Don't know,Yes,No
+34,F,TX,No,No,No,Large,Yes,Yes,Don't know,Yes,Yes,Yes,Yes,Yes,Don't know,No,Don't know,No,Don't know,No
+27,M,TX,No,Yes,No,Large,Yes,No,No,Yes,Yes,Yes,Don't know,No,Yes,No,,No,,
+29,F,TX,No,Yes,No,Large,Yes,Yes,Yes,Yes,Don't know,Don't know,Don't know,Yes,No,No,No,Don't know,Yes,Yes
+31,F,TX,Yes,Yes,Yes,Large,Yes,Yes,No,Yes,Don't know,Don't know,No,No,Don't know,No,No,Don't know,Don't know,No
+34,M,UT ,No,No,No,Large,Don't know,No,No,Don't know,Yes,Yes,Yes,Don't know,No,No,Don't know,Yes,No,No
+47,M,UT ,Yes,Yes,No,Medium,Yes,No,No,No,Don't know,Don't know,No,Don't know,Don't know,Don't know,Don't know,No,No,Yes
+30,M,UT ,Yes,Yes,No,Large,No,Don't know,No,No,Don't know,Don't know,No,Yes,Yes,No,No,Yes,No,Yes
+32,M,UT ,Yes,Yes,No,Large,Yes,Yes,Yes,Yes,Don't know,Don't know,Yes,Yes,No,No,Don't know,No,No,No
+41,M,UT ,Yes,No,No,Large,Yes,Yes,Yes,No,Yes,Yes,No,Yes,Don't know,Don't know,No,Yes,No,No
+50,F,UT ,Yes,Yes,No,Large,Don't know,No,No,No,Don't know,Don't know,No,No,Don't know,No,Don't know,Don't know,Don't know,Yes
+47,M,VT,Yes,Yes,No,Large,Yes,Yes,No,No,Don't know,Don't know,Don't know,Don't know,Don't know,No,Don't know,No,Yes,No
+45,M,VT,No,No,No,Large,No,No,No,No,Don't know,Don't know,No,Don't know,Yes,No,No,No,Yes,Yes
+36,F,VT,No,No,Yes,Medium,Don't know,Don't know,No,Don't know,Don't know,Don't know,Yes,Don't know,No,No,No,No,Yes,Yes
+27,M,VA,Yes,No,No,Small,Yes,Yes,No,No,Don't know,Don't know,Don't know,Don't know,Don't know,No,Don't know,No,No,Yes
+45,M,VA,No,No,No,Small,Don't know,No,No,Don't know,Don't know,Don't know,Don't know,Don't know,Don't know,Don't know,Don't know,Don't know,Yes,No
+27,M,VA,Yes,Yes,Yes,Large,Yes,Don't know,Don't know,Don't know,Don't know,Don't know,Yes,Yes,No,Don't know,No,Yes,Don't know,No
+25,M,VA,No,Yes,No,Large,Yes,Don't know,No,Yes,Don't know,Don't know,No,Don't know,Don't know,No,Don't know,Don't know,No,Yes
+22,M,VA,Yes,No,No,Large,Don't know,No,No,No,Don't know,Don't know,Yes,No,Don't know,No,,Don't know,,
+31,M,VA,No,Yes,No,Medium,Yes,No,No,Don't know,Don't know,Don't know,Don't know,Don't know,No,No,No,Don't know,No,No
+43,M,VA,No,Yes,No,Medium,No,Yes,No,No,Don't know,Don't know,No,Don't know,No,Yes,Don't know,Yes,Don't know,No
+46,M,VA,Yes,Yes,No,Medium,Don't know,No,No,Don't know,Don't know,Don't know,No,No,Don't know,Don't know,Don't know,Don't know,Yes,Yes
+27,M,VA,No,No,Yes,Medium,Don't know,Don't know,No,Yes,Don't know,Don't know,Yes,Yes,Don't know,Don't know,No,Don't know,Yes,No
+21,F,VA,No,Yes,No,Medium,Don't know,No,Don't know,Don't know,Don't know,Don't know,Don't know,Don't know,Don't know,No,No,Don't know,Yes,No
+37,F,VA,Yes,Yes,Yes,Large,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,No,No,Don't know,No,Yes,Yes
+46,M,VA,No,Yes,Yes,Large,Don't know,Don't know,No,Don't know,Don't know,Don't know,Don't know,No,Don't know,No,Don't know,No,No,No
+22,F,VA,No,Yes,No,Large,Don't know,No,No,Don't know,Don't know,Don't know,Yes,Don't know,Don't know,Don't know,,Yes,,
+30,M,VA,Yes,Yes,No,Large,Yes,Yes,No,Yes,Don't know,Don't know,Yes,Don't know,Don't know,No,Don't know,No,Yes,Yes
+22,F,VA,Yes,Yes,No,Large,Not eligible for coverage / N/A,Don't know,Yes,Yes,Yes,Yes,Don't know,Don't know,Don't know,Don't know,Don't know,No,Don't know,No
+38,F,WA ,Yes,Yes,Yes,Small,No,Don't know,No,Yes,Don't know,Don't know,Yes,Yes,No,Don't know,,Yes,,
+29,M,WA ,No,No,Yes,Small,Yes,Don't know,No,Don't know,Don't know,Don't know,Yes,Yes,No,Don't know,No,Don't know,Yes,Yes
+41,M,WA ,No,Yes,No,Small,Don't know,Don't know,No,No,Don't know,Don't know,Don't know,Yes,Don't know,No,Don't know,Don't know,No,No
+32,F,WA ,Yes,Yes,Yes,Small,Don't know,Don't know,No,Don't know,Yes,Yes,Yes,Yes,No,Yes,Don't know,Yes,No,No
+31,M,WA ,No,No,No,Small,No,Don't know,No,No,Don't know,Don't know,No,No,Don't know,No,Don't know,No,No,No
+28,F,WA ,Yes,Yes,No,Small,Don't know,No,No,Don't know,Don't know,Don't know,No,No,Yes,No,Don't know,No,Yes,Yes
+27,M,WA ,No,No,No,Small,Don't know,No,No,Don't know,Don't know,Don't know,No,Yes,Don't know,No,No,Don't know,No,No
+34,M,WA ,Yes,No,No,Large,Not eligible for coverage / N/A,Don't know,No,Don't know,Don't know,Don't know,No,Don't know,Yes,No,,No,,
+30,M,WA ,No,Yes,No,Large,Don't know,Don't know,Yes,No,Yes,Yes,Don't know,No,Don't know,No,Don't know,No,Don't know,No
+30,M,WA ,Yes,No,No,Large,Don't know,No,No,Don't know,Yes,Yes,No,No,Don't know,No,No,Yes,Yes,Yes
+35,M,WA ,No,No,No,Large,Yes,No,No,Don't know,Don't know,Don't know,No,No,Yes,No,Don't know,No,No,No
+23,F,WA ,No,Yes,No,Large,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Don't know,No,,No,,
+44,M,WA ,Yes,Yes,Yes,Medium,Yes,Don't know,No,Yes,Yes,Yes,Yes,Don't know,No,Yes,Don't know,Yes,Yes,Yes
+34,F,WA ,No,Yes,No,Medium,Yes,Don't know,No,No,No,No,Yes,Yes,Don't know,No,No,Yes,Yes,No
+25,F ,WA ,Yes,Yes,No,Medium,Yes,Don't know,No,No,Don't know,Don't know,Don't know,No,Yes,No,No,No,No,Yes
+32,M,WA ,No,No,Yes,Medium,Don't know,No,No,Don't know,Yes,Yes,Don't know,No,Don't know,No,Yes,No,No,No
+33,M,WA ,No,No,Yes,Medium,Yes,Yes,Yes,Yes,Don't know,Don't know,Yes,Yes,No,Yes,No,Yes,Yes,No
+40,M,WA ,No,No,No,Large,Yes,No,Don't know,Don't know,Don't know,Don't know,Don't know,No,Don't know,No,Don't know,No,No,Yes
+28,M,WA ,Yes,Yes,Yes,Large,Yes,Don't know,Don't know,Yes,Don't know,Don't know,Yes,Don't know,Don't know,Don't know,Don't know,Don't know,Yes,No
+35,M,WA ,Yes,Yes,No,Large,Yes,Yes,Don't know,Yes,Don't know,Don't know,Don't know,Don't know,Don't know,No,No,No,Don't know,No
+33,F,WA ,Yes,Yes,No,Large,Yes,Yes,Yes,Yes,Yes,Yes,No,Don't know,Don't know,No,Don't know,Don't know,No,No
+40,F,WA ,Yes,Yes,No,Large,Yes,Yes,No,Yes,Don't know,Don't know,Don't know,Yes,Don't know,No,Don't know,No,Yes,Yes
+42,M,WA ,No,Yes,No,Large,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Don't know,Don't know,Don't know,No,Yes
+31,M,WA ,No,Yes,Yes,Large,Yes,Don't know,Don't know,Don't know,Don't know,Don't know,Don't know,No,No,Don't know,No,Don't know,Yes,No
+26,F,WA ,No,No,No,Large,Yes,Don't know,Don't know,Yes,Yes,Yes,Yes,No,Don't know,No,,Yes,,
+32,F,WA ,Yes,Yes,Yes,Large,Yes,Don't know,No,Yes,Don't know,Don't know,Yes,No,Don't know,No,Don't know,No,No,No
+45,M,WA ,Yes,No,No,Large,Don't know,No,Don't know,Don't know,Don't know,Don't know,Don't know,No,Don't know,No,No,No,Don't know,No
+47,F,WA ,Yes,Yes,No,Large,Yes,Don't know,No,Don't know,Don't know,Don't know,No,Don't know,Don't know,No,Don't know,No,Don't know,Yes
+30,M,WA ,No,No,No,Large,Don't know,No,Don't know,Don't know,Don't know,Don't know,Yes,No,Yes,No,,Don't know,,
+32,M,WA ,Yes,No,No,Large,Yes,Don't know,Yes,Yes,Don't know,Don't know,No,Don't know,No,Don't know,No,Yes,No,Yes
+45,M,WA ,No,Yes,No,Large,Yes,Don't know,No,Yes,Don't know,Don't know,No,No,Don't know,No,,Yes,,
+30,M,WA ,Yes,Yes,No,Large,Yes,Yes,Yes,Yes,Don't know,Don't know,Yes,Don't know,Don't know,Don't know,No,Yes,No,No
+27,M,WA ,No,No,No,Large,Don't know,Don't know,Don't know,Yes,Don't know,Don't know,Don't know,Don't know,Don't know,No,No,Don't know,Yes,No
+32,M,WA ,No,Yes,Yes,Large,Yes,No,No,Don't know,Don't know,Don't know,Don't know,Don't know,No,Don't know,No,Don't know,Yes,No
+32,M,WA ,No,No,No,Large,Yes,No,No,No,Don't know,Don't know,Yes,Don't know,Don't know,No,No,Yes,No,No
+39,M,WV,No,No,No,Medium,Yes,Yes,No,No,No,No,Yes,Don't know,No,No,Don't know,Don't know,No,No
+30,M,WI ,No,Yes,No,Small,Yes,Yes,No,No,Yes,Yes,Yes,No,Don't know,No,No,Yes,Yes,No
+32,M,WI ,No,No,Yes,Large,Don't know,Don't know,No,Don't know,Don't know,Don't know,Yes,Yes,No,Don't know,Don't know,Yes,Yes,Yes
+41,F,WI ,Yes,Yes,Yes,Large,Yes,Yes,No,No,Don't know,Don't know,Don't know,Don't know,Yes,No,Yes,Don't know,No,Yes
+33,M,WI ,Yes,Yes,Yes,Medium,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,No,Don't know,Don't know,Yes,Yes,No
+23,M,WI ,Yes,Yes,No,Medium,Yes,Yes,Yes,Yes,Don't know,Don't know,Don't know,No,Yes,No,No,No,Yes,Yes
+40,F,WI ,Yes,Yes,No,Large,Yes,Yes,No,Yes,Yes,Yes,Don't know,Don't know,Don't know,No,No,Don't know,Don't know,No
+37,M,WI ,Yes,Yes,No,Large,Yes,No,No,Don't know,Don't know,Don't know,No,Don't know,Don't know,No,No,Don't know,Don't know,No
+24,F,WI ,Yes,Yes,No,Large,Not eligible for coverage / N/A,Don't know,No,Don't know,Don't know,Don't know,No,No,Don't know,No,,Don't know,,
