@@ -91,6 +91,22 @@ function handleChange () {
 var button = d3.select("#filter-btn");
 button.on("click", handleChange);
 
+
+
+function addPieChart (value) {
+    var trace1 = {
+        values: [value,(data.length - value)],
+        labels: ["Yes","No"],
+        type:"pie"
+    }
+
+    var layout = {}
+
+    var plotData = [trace1];
+    Plotly.newPlot("plot",plotData)
+};
+
+
 function addChart () {
     var coworkersCount = 0
     var supervisorCount = 0
@@ -101,10 +117,40 @@ function addChart () {
             if (data[i].supervisor === "Yes") {supervisorCount++}
             if (data[i].anonymity === "Yes") {anonymityCount++}
         }
-        console.log(data.length)
-        console.log(coworkersCount);
-        console.log(supervisorCount);
-        console.log(anonymityCount);
+
+        function addPieChart (value,div,title,row,col) {
+            var trace1 = {
+                values: [value,(data.length - value)],
+                labels: ["Yes","No"],
+                type:"pie",
+                domain: {
+                    row:row,
+                    column:col
+                }
+            }
+            var layout = {
+                title: title,
+                grid: {rows:1, columns:1}
+            };
+            var plotData = [trace1];
+            Plotly.newPlot(div,plotData,layout)
+        };        
+
+        addPieChart(coworkersCount,"plot","Coworkers 2014",0,0);
+        addPieChart(supervisorCount,"plot2", "Supervisors 2014",0,1);
+        addPieChart(anonymityCount,"plot3", "Anonymity 2014",1,0);
+
+        // var trace1 = {
+        //     values: [coworkersCount,(data.length - coworkersCount)],
+        //     labels: ["Yes","No"],
+        //     type:"pie"
+        // }
+
+        // var layout = {}
+
+        // var plotData = [trace1];
+        // Plotly.newPlot("plot",plotData)
+
     });
 };
 

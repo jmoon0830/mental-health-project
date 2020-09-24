@@ -2,14 +2,19 @@
     text-align: center;
   }
 
-  td {
+td {
     font-size: smaller;
   }
 
-  th {
+th {
     font-size: ;
   }
 
-  .table td {
+.table td {
     padding: 0%;
   }
+
+img {
+  width: 20%;
+  padding: 1%;
+}

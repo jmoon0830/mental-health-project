@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="static/data/MentalHealth2016.csv">
     <!-- style css -->
     <link rel="stylesheet" href="static/css/style.css">
+    <!-- plotly -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 </head>
 <body>
     <!-- jumbotron -->
@@ -28,6 +30,8 @@
                     from ages 15-54 experience symptoms of mental health disorders. In addition, these employees may not even seek help because they feel 
                     it could jeaopardize their jobs. As their is a connection between mental health and productivity in the workplace, this website pulls datasets 
                     from 2014 and 2016 to find signficances in employees' responses to questions regarding mental health in the workplace.</p>
+                
+                <img src="https://www.health.harvard.edu/images/logo-harvard_health-full-v2-@2x.png" alt="harvard publishing logo">
                 <p> For more information on the Harvard study <a href="https://www.health.harvard.edu/newsletter_article/mental-health-problems-in-the-workplace">click here</a>.</p>
                 <p> For links to the datasets <a href=" https://www.kaggle.com/osmi/mental-health-in-tech-survey">click here for 2014</a> and 
                 <a href="https://www.kaggle.com/osmi/mental-health-in-tech-2016">click here for 2016</a>. </p>
@@ -127,8 +131,16 @@
     </div>
     <!-- insert new data here -->
     <div class="row">
-        <div class="col-md-12">
-            
+        <div class="col-md-4">
+            <div id="plot">
+
+            </div>
+            <div id="plot2">
+
+            </div>
+            <div id="plot3">
+
+            </div>
         </div>
     </div>
     <!-- d3 js -->
