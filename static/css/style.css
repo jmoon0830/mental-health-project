@@ -1,0 +1,20 @@
+.jumbotron {
+    text-align: center;
+  }
+
+td {
+    font-size: smaller;
+  }
+
+th {
+    font-size: ;
+  }
+
+.table td {
+    padding: 0%;
+  }
+
+img {
+  width: 20%;
+  padding: 1%;
+}
