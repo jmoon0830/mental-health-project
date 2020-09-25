@@ -1,0 +1,563 @@
+Age,Gender,state,family_history,treatment,remote_work,Company Size,benefits,care_options,wellness_program,seek_help,anonymity,leave,coworkers,supervisor,mental_health_consequence,mental_health_interview,phys_health_consequence,phys_health_interview,mental_vs_physical,obs_consequence
+32,F,AL,No,No,No,Large ,Don't know,Not sure,No,No,Don't know,Don't know,No,Some of them,Maybe,No,No,Maybe,Don't know,No
+38,M,AL,Yes,Yes,Yes,Medium ,Yes,No,No,No,Don't know,Don't know,Some of them,Some of them,Maybe,No,No,No,Don't know,No
+40,M,AL,Yes,Yes,No,Small,Yes,Yes,No,No,Yes,Don't know,Some of them,No,Maybe,No,No,No,Yes,No
+41,M,AL,No,Yes,Yes,Medium ,Yes,Yes,Don't know,No,Don't know,Very easy,Yes,Yes,No,Yes,No,Yes,Yes,No
+24,M,AZ,No,Yes,No,Medium ,Yes,Yes,Yes,No,Don't know,Don't know,Some of them,Yes,No,No,No,No,Don't know,No
+31,F,AZ,Yes,Yes,No,Large,Yes,Yes,No,Don't know,Yes,Somewhat easy,Some of them,Yes,Maybe,No,No,No,Yes,No
+33,M,AZ,No,Yes,No,Small,No,Yes,No,No,Don't know,Somewhat easy,Some of them,No,Maybe,No,No,Maybe,No,No
+38,F,AZ,No,Yes,No,Medium ,Yes,Yes,No,No,Yes,Don't know,No,No,Maybe,No,Maybe,No,No,No
+39,M,AZ,Yes,Yes,No,Medium ,Yes,Yes,No,No,Yes,Don't know,Some of them,No,Yes,No,No,No,No,No
+21,F,CA,Yes,Yes,No,Medium ,Don't know,Not sure,Don't know,No,Don't know,Somewhat easy,Some of them,No,Yes,No,No,Yes,Don't know,No
+21,M,CA,Yes,No,No,Large,Yes,Yes,Yes,Yes,Yes,Don't know,Some of them,Yes,No,No,No,Maybe,Yes,No
+22,M,CA,No,No,No,Large,Don't know,No,Don't know,Don't know,Don't know,Don't know,Some of them,No,Maybe,No,No,Maybe,Don't know,No
+22,M,CA,No,No,No,Large,Yes,Not sure,Yes,Don't know,Yes,Don't know,Some of them,Yes,No,No,No,Maybe,Yes,No
+22,F,CA,Yes,Yes,No,Large,Yes,Yes,No,Don't know,Don't know,Don't know,Some of them,Some of them,No,No,No,No,No,Yes
+22,F,CA,Yes,Yes,No,Large,Don't know,Not sure,No,Don't know,Don't know,Don't know,No,No,Yes,No,Yes,No,Don't know,No
+23,M,CA,No,No,No,Large,Don't know,No,No,Don't know,Don't know,Don't know,Some of them,Yes,No,No,No,Maybe,No,No
+23,M,CA,Yes,Yes,No,Small,No,Yes,No,No,Don't know,Don't know,Some of them,Yes,Maybe,No,No,No,Yes,No
+23,F,CA,Yes,Yes,No,Large,Yes,Yes,Yes,Yes,Yes,Somewhat easy,No,No,Yes,No,Maybe,No,Don't know,No
+23,M,CA,Yes,Yes,No,Small,No,Yes,No,No,Don't know,Very easy,Some of them,Yes,No,Maybe,No,Maybe,Yes,No
+24,F,CA,No,No,No,Large,Don't know,Not sure,No,Don't know,Don't know,Don't know,Some of them,No,Maybe,No,Maybe,Maybe,No,No
+24,M,CA,No,No,No,Large,Don't know,Not sure,Don't know,Don't know,Don't know,Don't know,Some of them,Some of them,Maybe,No,Maybe,No,Yes,No
+24,F,CA,Yes,Yes,No,Large,Yes,Yes,No,Yes,Yes,Don't know,Some of them,No,Maybe,No,No,Maybe,Don't know,No
+25,M,CA,No,Yes,No,Small,Yes,No,Don't know,No,Don't know,Don't know,No,No,Maybe,No,No,No,Don't know,No
+25,M,CA,No,No,No,Large,Don't know,Not sure,Don't know,Don't know,Don't know,Don't know,No,No,Maybe,No,No,Maybe,Don't know,No
+25,F,CA,No,Yes,No,Small,Don't know,Not sure,No,No,Don't know,Somewhat difficult,Some of them,No,Yes,No,No,Maybe,Don't know,No
+25,M,CA,No,No,No,Small,Don't know,No,No,No,Don't know,Don't know,Some of them,Yes,No,No,No,No,Don't know,No
+25,M,CA,Yes,Yes,No,Large,Don't know,Not sure,Don't know,Yes,Don't know,Don't know,Yes,Yes,No,No,No,No,Yes,No
+25,F,CA,Yes,Yes,No,Large,Yes,Yes,Don't know,Don't know,Don't know,Don't know,Some of them,Some of them,Maybe,No,No,No,Yes,No
+25,M,CA,Yes,No,No,Large,Yes,Yes,Yes,Yes,Yes,Very easy,Some of them,Yes,No,Maybe,No,Yes,Yes,No
+26,M,CA,No,No,No,Large,Yes,No,No,No,Yes,Somewhat easy,Some of them,Yes,No,No,No,Maybe,No,No
+26,F,CA,No,Yes,No,Large ,Yes,Yes,No,No,Don't know,Somewhat difficult,Some of them,Some of them,Yes,No,Maybe,No,No,Yes
+26,M,CA,No,Yes,No,Large,Yes,Not sure,Don't know,Don't know,Don't know,Don't know,Some of them,Some of them,No,No,No,Maybe,No,No
+26,M,CA,Yes,Yes,No,Large,Yes,Not sure,No,Don't know,Don't know,Don't know,No,No,Yes,No,No,No,No,No
+26,M,CA,Yes,Yes,No,Large,Yes,Not sure,Don't know,Yes,Don't know,Don't know,Some of them,No,Maybe,No,No,No,Don't know,No
+26,F,CA,Yes,Yes,No,Large,Yes,Yes,No,Yes,Yes,Don't know,No,No,Maybe,No,No,No,Don't know,No
+26,M,CA,Yes,No,No,Small,Yes,Yes,No,Yes,Yes,Very easy,Some of them,Yes,No,Maybe,No,Maybe,No,No
+26,F,CA,Yes,No,No,Medium ,Don't know,Not sure,No,No,Don't know,Somewhat difficult,Some of them,No,Maybe,No,Maybe,Maybe,No,No
+26,M,CA,Yes,Yes,No,Large,Don't know,No,No,Don't know,Don't know,Don't know,No,No,Maybe,No,No,No,No,No
+26,M,CA,Yes,Yes,No,Large,Yes,No,Yes,Don't know,Don't know,Somewhat difficult,No,No,Yes,No,Maybe,Maybe,No,No
+27,M,CA,No,No,No,Large,Don't know,Not sure,Don't know,Don't know,Don't know,Very easy,No,No,Yes,No,No,Maybe,No,No
+27,M,CA,No,Yes,No,Large,Yes,No,Yes,Yes,Yes,Don't know,Some of them,Yes,No,No,No,Maybe,Yes,No
+27,F,CA,No,Yes,No,Medium ,Don't know,Not sure,No,No,Don't know,Somewhat difficult,Some of them,Some of them,Maybe,No,Maybe,No,Don't know,No
+27,F,CA,No,Yes,No,Large ,Don't know,Not sure,Yes,Don't know,Don't know,Somewhat easy,Some of them,No,Yes,No,No,Maybe,No,No
+27,M,CA,No,No,No,Small,Don't know,No,No,Don't know,Don't know,Don't know,Some of them,Yes,Maybe,Maybe,No,Maybe,Don't know,No
+27,M,CA,No,Yes,No,Large ,Don't know,Not sure,No,No,Yes,Very difficult,Some of them,No,Maybe,No,No,Maybe,No,No
+27,M,CA,Yes,Yes,No,Large,Don't know,No,No,Don't know,Don't know,Don't know,No,Some of them,No,No,No,Maybe,Don't know,No
+27,M,CA,Yes,No,No,Large,Don't know,No,Don't know,Don't know,Don't know,Very easy,Yes,Yes,No,Maybe,No,Maybe,Yes,No
+28,M,CA,No,Yes,No,Medium ,Yes,Yes,Yes,Yes,Yes,Somewhat easy,Some of them,Some of them,No,No,No,Maybe,Yes,No
+28,F,CA,No,Yes,No,Medium ,No,Yes,No,No,Don't know,Somewhat difficult,Some of them,Some of them,Yes,No,Maybe,No,No,Yes
+28,F,CA,Yes,Yes,Yes,Large ,Yes,No,No,Don't know,Don't know,Don't know,Some of them,Some of them,Yes,No,Yes,No,No,Yes
+28,F,CA,Yes,Yes,No,Large,Yes,Yes,Yes,Yes,Don't know,Somewhat difficult,No,Some of them,Maybe,No,No,No,No,No
+28,F,CA,Yes,Yes,No,Large ,Yes,Yes,Don't know,Don't know,Don't know,Don't know,Some of them,Some of them,Maybe,No,No,No,Yes,No
+29,M,CA,No,Yes,No,Large,Yes,No,No,Don't know,Don't know,Don't know,Some of them,Some of them,Yes,No,No,Maybe,No,No
+29,M,CA,No,No,No,Large,Don't know,Not sure,No,Don't know,Don't know,Don't know,No,No,Maybe,No,No,Maybe,Don't know,No
+29,M,CA,No,No,No,Large,Yes,No,Yes,No,Don't know,Don't know,No,No,Yes,No,Maybe,No,Don't know,No
+29,M,CA,Yes,No,No,Large ,Yes,Yes,Yes,Yes,Don't know,Don't know,Some of them,Yes,No,No,No,No,Don't know,No
+29,F,CA,Yes,Yes,No,Large ,Yes,Not sure,Don't know,No,Don't know,Don't know,Yes,Yes,No,No,No,Maybe,Don't know,No
+30,F,CA,No,No,No,Large,Yes,Yes,Yes,Yes,Yes,Very easy,Some of them,No,No,No,No,No,Yes,No
+30,M,CA,Yes,No,No,Small,Don't know,No,No,Don't know,Don't know,Somewhat easy,Some of them,Yes,Maybe,No,No,No,Don't know,No
+30,M,CA,Yes,Yes,Yes,Medium ,Yes,No,No,No,Don't know,Don't know,Some of them,No,Maybe,No,No,Maybe,Don't know,No
+30,M,CA,Yes,Yes,No,Medium ,Yes,Yes,Don't know,No,Yes,Very easy,Yes,Yes,No,Maybe,No,Maybe,Yes,No
+31,M,CA,No,No,No,Large,Yes,No,No,Yes,Don't know,Don't know,Some of them,Some of them,No,No,No,No,Don't know,No
+31,F,CA,No,Yes,No,Large,Yes,Not sure,Don't know,Don't know,Yes,Somewhat easy,Yes,Yes,No,No,No,No,Yes,No
+31,M,CA,No,No,No,Large,Yes,Not sure,Don't know,Don't know,Yes,Don't know,No,Some of them,No,No,No,No,Yes,No
+31,M,CA,No,Yes,No,Large ,Yes,Yes,No,No,Don't know,Somewhat easy,Some of them,No,Maybe,No,No,Maybe,No,No
+31,M,CA,Yes,Yes,Yes,Large ,Yes,Yes,Yes,Don't know,Yes,Very easy,Some of them,Yes,No,No,No,Maybe,Yes,No
+31,M,CA,Yes,No,No,Large,Yes,Not sure,Don't know,Don't know,Don't know,Somewhat easy,No,Some of them,Maybe,No,No,Yes,No,No
+32,M,CA,No,No,Yes,Small,No,Yes,No,No,Don't know,Very difficult,Yes,Some of them,Maybe,No,No,Yes,Don't know,No
+32,M,CA,No,No,No,Large,Yes,No,No,Don't know,Don't know,Don't know,Some of them,Some of them,Maybe,No,No,No,Don't know,No
+32,M,CA,No,Yes,No,Large,Yes,No,No,Yes,Don't know,Somewhat easy,Yes,Some of them,No,Maybe,No,Yes,Don't know,No
+32,M,CA,No,No,No,Large,Don't know,Not sure,Don't know,Don't know,Don't know,Don't know,Some of them,Some of them,Maybe,No,Maybe,No,Don't know,No
+32,M,CA,No,Yes,No,Large,Yes,Yes,Yes,Yes,Yes,Somewhat difficult,Some of them,Some of them,Maybe,No,Maybe,No,Don't know,Yes
+32,M,CA,Yes,No,No,Medium ,Don't know,Not sure,No,No,Don't know,Very easy,Some of them,Some of them,No,No,No,Maybe,No,No
+32,F,CA,Yes,Yes,No,Large ,Yes,No,No,Don't know,Don't know,Don't know,Some of them,Yes,Yes,No,No,No,Don't know,No
+32,M,CA,Yes,No,No,Large,Yes,No,Yes,Don't know,Don't know,Don't know,Yes,Yes,Maybe,No,No,No,Don't know,No
+33,M,CA,No,No,No,Large,Don't know,Not sure,Yes,Don't know,Don't know,Don't know,Some of them,Some of them,Maybe,No,No,Maybe,Yes,No
+33,M,CA,No,No,Yes,Large,Don't know,No,Don't know,Don't know,Don't know,Don't know,Some of them,No,Yes,No,No,Maybe,Yes,No
+33,F ,CA,No,No,No,Large,Yes,Not sure,Yes,Yes,Don't know,Very easy,Some of them,Yes,Maybe,No,No,No,Yes,No
+33,F,CA,No,Yes,No,Large,Yes,Yes,Don't know,Don't know,Don't know,Don't know,No,No,Yes,No,No,Maybe,Don't know,No
+33,M,CA,Yes,Yes,No,Medium ,Yes,Not sure,Don't know,Yes,Yes,Don't know,Yes,Yes,No,No,No,Yes,Don't know,No
+33,M,CA,Yes,No,No,Large,No,No,No,No,Don't know,Don't know,No,No,Yes,No,No,Maybe,No,No
+33,M,CA,Yes,Yes,No,Medium ,Yes,Yes,Yes,Yes,Yes,Somewhat easy,Some of them,Yes,No,No,No,No,Don't know,No
+33,M,CA,Yes,Yes,No,Large,Yes,No,Yes,Yes,Don't know,Don't know,No,No,Yes,No,No,Maybe,Don't know,No
+34,M,CA,No,Yes,No,Small,Don't know,Not sure,No,No,Don't know,Don't know,Some of them,No,Yes,No,Yes,No,Don't know,No
+34,F,CA,No,Yes,Yes,Large ,Yes,Yes,No,Don't know,Don't know,Somewhat easy,Some of them,Yes,Maybe,No,No,No,Yes,No
+34,F,CA,No,No,No,Small,No,Not sure,No,No,Don't know,Very easy,Some of them,Yes,No,No,No,Maybe,Yes,No
+34,M,CA,Yes,Yes,No,Large,Yes,Yes,No,No,Don't know,Somewhat difficult,No,No,Yes,No,Yes,No,No,No
+35,M,CA,No,Yes,No,Small,No,No,No,No,Yes,Don't know,Some of them,Yes,No,No,No,No,Don't know,No
+35,M,CA,No,No,No,Large,Don't know,No,No,Don't know,Don't know,Don't know,Some of them,Some of them,Yes,No,Maybe,No,Don't know,No
+35,F,CA,No,Yes,Yes,Large ,Don't know,No,Don't know,Don't know,Don't know,Very easy,Some of them,No,Maybe,No,No,Maybe,Yes,No
+35,M,CA,No,No,No,Large,Don't know,Not sure,Yes,Don't know,Don't know,Don't know,Some of them,No,Maybe,No,No,No,Don't know,No
+35,M,CA,No,Yes,No,Large,Yes,Yes,Don't know,Yes,Don't know,Very difficult,Some of them,Some of them,Maybe,No,Maybe,No,Don't know,No
+35,F,CA,Yes,Yes,Yes,Small,Yes,Yes,Don't know,Don't know,Don't know,Don't know,Yes,Yes,No,Maybe,No,Maybe,Yes,No
+35,F,CA,Yes,Yes,No,Large,Yes,Not sure,Don't know,No,Yes,Somewhat easy,No,No,Maybe,No,No,No,Don't know,No
+35,M,CA,Yes,No,No,Large,Yes,No,Yes,Yes,Yes,Very easy,Some of them,Yes,No,No,No,No,Don't know,No
+35,M,CA,Yes,Yes,No,Large ,Yes,Yes,No,No,Don't know,Very difficult,Some of them,Some of them,Maybe,No,Maybe,Maybe,No,Yes
+35,M,CA,Yes,Yes,No,Small,Yes,Yes,Yes,Yes,Yes,Very easy,Some of them,Yes,No,No,No,No,Yes,No
+36,M,CA,No,No,No,Large,Yes,Yes,Yes,Yes,Yes,Very easy,Some of them,Yes,No,No,No,No,Yes,No
+36,F,CA,No,Yes,Yes,Small,Yes,No,No,No,Don't know,Don't know,Some of them,Some of them,Maybe,No,Maybe,No,No,No
+36,M,CA,Yes,Yes,No,Large,Yes,No,No,Yes,Don't know,Somewhat difficult,Some of them,Yes,Yes,No,No,Yes,No,No
+36,F,CA,Yes,No,No,Small,Don't know,No,No,Don't know,Don't know,Don't know,No,Some of them,No,No,No,Maybe,Yes,No
+37,F,CA,No,Yes,No,Large,Yes,Yes,Don't know,Yes,Don't know,Somewhat easy,Some of them,Yes,No,No,No,No,Yes,No
+37,F,CA,Yes,Yes,No,Medium ,Yes,Yes,No,No,Yes,Don't know,Some of them,Some of them,Maybe,No,No,Yes,Don't know,No
+37,M,CA,Yes,Yes,No,Large ,Yes,Yes,Don't know,Don't know,Yes,Don't know,Yes,Yes,Maybe,No,No,No,Don't know,No
+39,M,CA,Yes,No,No,Large,Yes,No,No,Don't know,Don't know,Don't know,Some of them,Some of them,Yes,No,No,Maybe,No,Yes
+40,M,CA,No,No,No,Large ,Yes,Not sure,No,Don't know,Don't know,Don't know,Some of them,Some of them,Maybe,No,No,Maybe,Don't know,No
+40,M,CA,Yes,No,Yes,Large,Yes,Yes,Yes,Yes,Don't know,Don't know,Some of them,No,Yes,No,Maybe,No,No,Yes
+41,M,CA,Yes,Yes,No,Large,Yes,No,No,No,Don't know,Don't know,Some of them,Some of them,Maybe,No,Maybe,No,Don't know,Yes
+42,M,CA,No,No,No,Small,No,Yes,No,No,Don't know,Very difficult,Yes,Yes,Maybe,No,No,Maybe,No,No
+42,M,CA,No,Yes,No,Large,Yes,Yes,Yes,Yes,Yes,Somewhat easy,Yes,Yes,Maybe,Maybe,Maybe,Maybe,Don't know,No
+42,M,CA,Yes,Yes,Yes,Small,Don't know,No,No,Don't know,Don't know,Don't know,Some of them,Some of them,Maybe,No,Maybe,No,Don't know,No
+43,M,CA,No,Yes,No,Large,Yes,Yes,Yes,Yes,Yes,Somewhat easy,No,No,Yes,No,Maybe,Yes,Don't know,No
+44,F,CA,No,No,No,Large ,Don't know,Not sure,No,No,Don't know,Don't know,No,No,Yes,No,No,No,Don't know,No
+45,F,CA,No,Yes,No,Small,Yes,No,No,No,Yes,Somewhat difficult,Yes,Yes,No,No,No,No,Yes,No
+45,M,CA,No,Yes,No,Large,Don't know,Not sure,Don't know,Don't know,Don't know,Don't know,Some of them,Some of them,Yes,No,Yes,No,Don't know,No
+45,M,CA,No,No,Yes,Small,Yes,No,No,No,Don't know,Don't know,Some of them,No,Yes,No,Maybe,Maybe,Don't know,No
+46,M,CA,No,Yes,No,Large,Yes,Yes,Yes,Yes,Don't know,Don't know,Some of them,No,Maybe,No,No,No,Yes,No
+46,M,CA,Yes,Yes,No,Medium ,Don't know,No,No,No,Don't know,Don't know,Some of them,No,Maybe,No,No,No,No,No
+47,M,CA,Yes,Yes,No,Large,Yes,Yes,Yes,Yes,Don't know,Very easy,Some of them,Yes,No,No,No,Yes,Yes,No
+48,F,CA,Yes,No,No,Medium ,Don't know,No,No,No,No,Very difficult,No,Some of them,Yes,No,Yes,No,No,Yes
+54,M,CA,Yes,Yes,No,Large,Don't know,No,Yes,Yes,Don't know,Don't know,No,Yes,No,No,No,No,Don't know,No
+56,M,CA,No,Yes,Yes,Large,Yes,Yes,Don't know,Yes,Yes,Somewhat easy,Yes,Yes,No,Yes,No,Yes,Yes,No
+57,M,CA,No,Yes,No,Large,Yes,Not sure,Yes,Yes,Don't know,Don't know,No,No,Maybe,No,Maybe,Maybe,Don't know,No
+57,M,CA,No,No,No,Medium ,Yes,Yes,No,Yes,Yes,Somewhat difficult,No,No,Yes,No,Maybe,Maybe,Don't know,Yes
+57,M,CA,Yes,Yes,No,Large,Yes,Yes,No,No,Don't know,Don't know,Some of them,Yes,Maybe,No,No,Maybe,No,No
+58,M,CA,No,Yes,No,Large,Yes,Yes,Yes,Yes,Yes,Somewhat easy,Some of them,Yes,Maybe,No,No,Yes,Yes,No
+60,M,CA,No,No,No,Large,Yes,No,Don't know,Yes,Don't know,Don't know,Some of them,Yes,No,Maybe,No,Maybe,Yes,No
+60,M,CA,No,Yes,Yes,Large,Don't know,No,Yes,Don't know,Don't know,Somewhat easy,Some of them,No,Maybe,No,Maybe,Maybe,Don't know,No
+62,M,CA,No,No,No,Large,Yes,Yes,Don't know,Yes,Don't know,Don't know,Some of them,Yes,Maybe,Maybe,No,Maybe,Yes,No
+25,M,CO,Yes,Yes,No,Medium ,Yes,Yes,Don't know,Don't know,Yes,Don't know,Some of them,Some of them,Maybe,No,No,Maybe,Don't know,No
+27,F,CO,Yes,Yes,Yes,Large,Yes,Yes,No,Don't know,Don't know,Don't know,No,Yes,Maybe,No,Maybe,No,Don't know,No
+29,M,CO,No,No,No,Small,Yes,Yes,No,Yes,Yes,Don't know,Some of them,Some of them,Maybe,No,No,No,No,No
+30,F,CO,No,No,No,Large,Yes,Yes,Yes,Yes,Yes,Somewhat easy,No,Some of them,Maybe,No,Maybe,No,Don't know,No
+31,M,CO,No,Yes,No,Medium ,Yes,Yes,No,Don't know,Yes,Very easy,No,No,Maybe,No,No,No,Don't know,No
+32,M,CO,No,No,Yes,Small,No,No,No,No,Don't know,Very easy,Yes,Yes,No,No,No,No,Don't know,No
+35,M,CO,No,No,Yes,Medium ,Don't know,Not sure,No,Don't know,Don't know,Don't know,Some of them,Yes,No,Maybe,No,Maybe,Don't know,No
+36,M,CO,No,Yes,No,Medium ,Don't know,Not sure,No,Don't know,Don't know,Don't know,Some of them,Some of them,No,No,No,No,Don't know,No
+18,M,CT,No,Yes,Yes,Small,No,No,No,No,Yes,Very easy,Some of them,No,No,No,No,No,Don't know,No
+36,M,CT,Yes,No,No,Large,Don't know,Not sure,No,Don't know,Don't know,Don't know,Yes,Yes,No,No,No,No,Don't know,No
+39,M,CT,No,No,Yes,Medium ,Yes,No,No,No,Don't know,Don't know,No,No,Yes,No,Maybe,No,Don't know,No
+25,M,DC,No,No,Yes,Medium ,Don't know,No,No,No,Don't know,Very easy,Some of them,Yes,No,No,No,No,Don't know,No
+35,M,DC,Yes,Yes,No,Small,Yes,Yes,No,No,Don't know,Somewhat easy,Some of them,Some of them,Maybe,No,Maybe,No,Don't know,No
+40,F,DC,No,No,No,Medium ,Yes,Yes,Yes,Yes,Yes,Somewhat easy,Some of them,Yes,No,No,No,No,Yes,No
+29,F,FL,No,Yes,No,Medium ,Yes,Yes,No,No,Don't know,Don't know,Some of them,Some of them,Maybe,No,No,Maybe,No,Yes
+30,M,FL,No,Yes,Yes,Large ,Yes,Yes,No,Yes,Yes,Don't know,Yes,Yes,No,Maybe,No,No,Yes,No
+31,F,FL,Yes,Yes,No,Medium ,No,No,No,No,No,Very difficult,No,No,Yes,No,No,Yes,No,Yes
+33,M,FL,No,Yes,Yes,Medium ,Yes,Yes,No,No,Yes,Don't know,Some of them,No,Maybe,No,No,Maybe,Don't know,No
+34,M,FL,No,No,Yes,Large,Don't know,Not sure,Don't know,Don't know,Don't know,Don't know,Some of them,Yes,No,No,No,Maybe,Yes,No
+34,M,FL,Yes,Yes,No,Small,No,No,No,No,Don't know,Somewhat difficult,Some of them,Some of them,Maybe,No,No,Maybe,No,Yes
+36,M,FL,No,No,Yes,Small,Don't know,Not sure,Don't know,Don't know,Don't know,Very easy,Some of them,Some of them,No,No,No,No,Don't know,No
+39,M,FL,Yes,Yes,No,Large,Yes,Yes,Yes,Yes,Yes,Very difficult,Some of them,Yes,Maybe,No,No,No,Don't know,No
+41,M,FL,No,Yes,Yes,Small,No,Not sure,No,No,Don't know,Very difficult,Some of them,Some of them,Maybe,Maybe,Maybe,Maybe,Don't know,No
+43,F,FL,Yes,Yes,Yes,Large,Yes,Yes,No,Yes,Don't know,Don't know,Some of them,Yes,No,No,No,No,Don't know,No
+27,M,GA,No,No,Yes,Large,Yes,Yes,Don't know,Don't know,Yes,Somewhat easy,Some of them,Yes,No,Maybe,No,Maybe,Yes,No
+28,M,GA,No,Yes,No,Large,Yes,Yes,No,No,Yes,Somewhat difficult,Some of them,No,Maybe,No,No,Maybe,No,No
+28,M,GA,Yes,No,No,Large ,Yes,No,No,Don't know,Yes,Somewhat easy,Some of them,Yes,No,No,No,Maybe,Yes,Yes
+28,M,GA,Yes,Yes,No,Large,Don't know,Not sure,No,Don't know,Don't know,Somewhat difficult,No,No,Maybe,No,Maybe,No,No,No
+29,M,GA,No,No,No,Large,Yes,Yes,No,Yes,Don't know,Don't know,No,No,Yes,No,Yes,No,Don't know,No
+30,M,GA,No,No,Yes,Medium ,Yes,Yes,Don't know,Don't know,Yes,Very easy,Some of them,Yes,No,Maybe,No,Maybe,Yes,No
+40,F,GA,Yes,No,Yes,Large ,Yes,Yes,Yes,No,Don't know,Don't know,No,No,Yes,No,Yes,No,Don't know,No
+49,M,GA,Yes,No,No,Large,Yes,Yes,Yes,Yes,Yes,Don't know,Yes,Yes,No,No,No,No,Yes,No
+36,M,IA,No,No,No,Large,Don't know,Not sure,Don't know,Don't know,Don't know,Don't know,Some of them,Some of them,Maybe,No,No,No,Don't know,No
+39,M,IA,No,Yes,No,Large,Yes,Not sure,No,No,Don't know,Somewhat easy,Yes,Yes,No,No,No,No,Don't know,No
+55,M,ID,Yes,Yes,Yes,Small,No,Yes,No,Don't know,Don't know,Don't know,No,No,Yes,No,Maybe,No,No,Yes
+25,M,IL,Yes,Yes,No,Medium ,Don't know,Not sure,No,No,Don't know,Very easy,Some of them,No,Maybe,No,No,No,Don't know,Yes
+29,M,IL,No,Yes,No,Small,Yes,Yes,No,No,Don't know,Don't know,Some of them,No,Maybe,No,No,Maybe,Don't know,No
+29,M,IL,No,No,No,Large,Don't know,Not sure,No,No,Don't know,Don't know,Some of them,Yes,Maybe,Maybe,No,Yes,No,No
+29,F,IL,Yes,Yes,No,Medium ,Yes,Not sure,No,No,Don't know,Somewhat easy,Yes,Some of them,No,Maybe,No,Maybe,Don't know,No
+30,M,IL,Yes,Yes,No,Medium ,Yes,No,No,Don't know,Don't know,Don't know,Some of them,Yes,Maybe,No,No,No,Don't know,No
+30,F,IL,Yes,Yes,No,Medium ,Yes,Not sure,No,No,Don't know,Somewhat easy,Some of them,Yes,Maybe,No,No,No,Don't know,No
+30,F,IL,Yes,Yes,No,Medium ,Yes,Yes,Yes,Don't know,Yes,Very easy,Some of them,No,No,No,No,No,Yes,No
+32,M,IL,No,No,No,Large,Don't know,No,No,Don't know,Don't know,Don't know,Some of them,Some of them,No,No,No,No,Don't know,No
+32,M,IL,Yes,Yes,Yes,Medium ,Yes,Yes,No,No,Yes,Somewhat difficult,Some of them,Yes,No,No,No,No,Yes,No
+33,M,IL,Yes,Yes,No,Large,Yes,Yes,No,No,Don't know,Very easy,Yes,Some of them,Maybe,No,No,Yes,No,No
+36,M,IL,No,No,No,Small,Don't know,Not sure,Don't know,Don't know,Don't know,Don't know,Some of them,Some of them,No,Maybe,No,Maybe,Don't know,No
+37,F,IL,No,Yes,No,Small,Yes,Not sure,No,Yes,Yes,Somewhat easy,Some of them,Yes,No,No,No,Maybe,Yes,No
+38,M,IL,No,No,Yes,Large,No,Yes,No,No,No,Very difficult,No,No,Yes,No,Yes,No,Don't know,No
+40,M,IL,No,No,No,Large,Yes,Yes,Yes,Yes,Yes,Don't know,Some of them,Some of them,No,No,No,Maybe,Don't know,No
+41,M,IL,No,No,No,Large,Yes,Yes,Yes,Yes,Don't know,Don't know,Some of them,No,Maybe,No,Maybe,No,Yes,Yes
+42,F,IL,Yes,Yes,No,Large ,Yes,Yes,No,No,No,Very difficult,Yes,Yes,Maybe,No,No,Maybe,No,No
+19,M,IN,No,No,No,Small,Don't know,Not sure,No,No,Don't know,Don't know,Some of them,Yes,No,Maybe,No,Maybe,Don't know,No
+21,M,IN,Yes,Yes,No,Large ,Yes,No,No,Don't know,Yes,Don't know,Yes,Yes,No,Maybe,No,Maybe,Don't know,No
+26,M,IN,No,No,No,Medium ,No,No,No,No,Don't know,Don't know,Some of them,Some of them,No,No,No,No,Don't know,Yes
+27,M,IN,No,No,Yes,Medium ,Don't know,Not sure,No,Don't know,Don't know,Very easy,Yes,Yes,No,Maybe,No,Maybe,Yes,No
+30,M,IN,No,Yes,No,Medium ,Don't know,No,No,No,Don't know,Don't know,No,No,No,No,No,Maybe,Don't know,No
+30,M,IN,No,Yes,No,Small,No,Yes,No,No,Yes,Somewhat easy,Yes,Yes,No,Maybe,No,Maybe,Yes,No
+31,M,IN,Yes,Yes,Yes,Medium ,Yes,No,No,No,Don't know,Don't know,Yes,Yes,No,No,No,No,Don't know,No
+32,M,IN,No,Yes,No,Medium ,Yes,Yes,Yes,Don't know,Yes,Don't know,Some of them,Yes,No,No,No,Maybe,Don't know,No
+33,M,IN,No,No,No,Large,Yes,Yes,Yes,Yes,Yes,Somewhat easy,Some of them,Yes,No,No,No,No,Yes,No
+33,M,IN,Yes,Yes,No,Medium ,Don't know,Not sure,No,No,Don't know,Don't know,Some of them,Some of them,Maybe,No,No,No,Don't know,No
+35,M,IN,No,No,No,Small,No,Yes,No,No,Yes,Very easy,Some of them,Yes,No,Maybe,No,Maybe,Yes,No
+35,F,IN,Yes,Yes,Yes,Small,No,No,No,No,Yes,Don't know,Some of them,Some of them,Maybe,No,Maybe,No,Yes,No
+37,M,IN,Yes,No,Yes,Medium ,Don't know,No,No,No,Don't know,Somewhat easy,Some of them,Some of them,Maybe,No,No,Maybe,No,No
+39,M,IN,Yes,Yes,Yes,Small,No,Yes,No,No,Yes,Somewhat easy,Some of them,Yes,No,Maybe,No,Yes,Yes,No
+40,M,IN,Yes,Yes,No,Small,Don't know,Not sure,No,Don't know,Don't know,Don't know,Yes,Yes,No,No,No,Maybe,Don't know,No
+42,M,IN,Yes,Yes,Yes,Small,Don't know,No,No,Don't know,Don't know,Don't know,Some of them,Yes,Maybe,No,No,Maybe,Don't know,No
+50,M,IN,No,No,No,Large ,Yes,Yes,No,Don't know,Don't know,Don't know,Some of them,Yes,No,No,No,Maybe,Don't know,No
+24,M,KS,No,No,No,Medium ,Don't know,Not sure,No,Don't know,Don't know,Don't know,Some of them,Yes,No,No,No,No,Don't know,No
+39,M,KS,No,No,Yes,Small,No,Yes,No,No,Don't know,Very difficult,Some of them,Yes,Maybe,Maybe,Maybe,Maybe,No,No
+23,M,KY,Yes,No,Yes,Medium ,Yes,Yes,No,Don't know,Yes,Don't know,No,Some of them,Maybe,No,No,No,Don't know,No
+36,M,KY,No,No,Yes,Large,Yes,No,Yes,Don't know,Don't know,Somewhat easy,No,No,Maybe,No,No,No,Don't know,No
+21,M,MA,Yes,No,No,Large,Don't know,Not sure,Don't know,Don't know,Don't know,Don't know,Some of them,Some of them,No,No,No,Maybe,Don't know,Yes
+23,F,MA,No,No,No,Large,Yes,Yes,No,No,Yes,Somewhat difficult,Yes,Yes,Maybe,No,No,No,No,No
+23,F,MA,No,Yes,No,Medium ,Yes,Yes,No,Don't know,Don't know,Don't know,Some of them,No,Maybe,No,No,Maybe,Don't know,No
+24,M,MA,No,No,No,Large,Yes,Yes,Don't know,Don't know,Yes,Don't know,No,No,Yes,No,No,Maybe,Don't know,No
+26,M,MA,No,No,No,Large ,Yes,Not sure,No,Don't know,Don't know,Don't know,Some of them,Yes,No,No,No,Maybe,Don't know,No
+26,M,MA,Yes,No,No,Small,Don't know,No,No,No,Don't know,Don't know,Some of them,Yes,Maybe,No,No,No,Don't know,No
+26,F,MA,Yes,Yes,No,Medium ,Yes,Yes,No,No,Yes,Somewhat difficult,Yes,Yes,No,No,No,No,No,Yes
+27,M,MA,No,Yes,No,Large,Yes,Yes,Yes,Yes,Yes,Don't know,No,No,No,No,No,Yes,Yes,No
+30,M,MA,No,Yes,No,Medium ,No,Yes,No,No,Yes,Somewhat easy,Yes,Yes,Maybe,No,No,Maybe,Don't know,No
+32,F,MA,No,Yes,Yes,Small,Yes,Not sure,Don't know,Don't know,Yes,Very easy,Yes,Yes,No,No,No,No,Yes,Yes
+33,F,MA,No,No,Yes,Large ,Yes,No,Don't know,No,Don't know,Don't know,Some of them,Yes,No,No,No,No,Yes,No
+37,M,MA,No,No,Yes,Large,Yes,No,No,No,Don't know,Don't know,Some of them,No,Yes,Maybe,No,Yes,No,No
+43,M,MA,No,No,No,Large,Yes,No,Yes,Yes,Don't know,Don't know,Some of them,Yes,No,No,No,Maybe,Don't know,No
+44,F,MA,No,No,No,Large ,Yes,Not sure,Don't know,Don't know,Don't know,Don't know,No,Some of them,Maybe,No,Maybe,No,Don't know,No
+45,M,MA,No,Yes,Yes,Medium ,Yes,Yes,Don't know,Don't know,Don't know,Don't know,No,Some of them,Maybe,No,No,Maybe,Don't know,No
+46,M,MA,No,Yes,Yes,Medium ,Yes,Yes,No,No,Don't know,Don't know,Some of them,Yes,Maybe,No,No,Maybe,No,No
+56,M ,MA,Yes,Yes,No,Small,Yes,Yes,No,No,Don't know,Don't know,Some of them,Some of them,Yes,No,Maybe,No,Don't know,No
+29,F,MD,No,No,No,Small,Don't know,No,No,Don't know,Don't know,Somewhat easy,Some of them,No,Maybe,No,No,No,Don't know,No
+29,M,MD,No,No,Yes,Small,Don't know,Not sure,No,No,Don't know,Very easy,Yes,Yes,No,No,No,No,Don't know,No
+46,M,MD,Yes,Yes,Yes,Large ,Don't know,Not sure,Don't know,Don't know,Don't know,Don't know,Some of them,Yes,No,Yes,No,Yes,Don't know,No
+40,M,ME,Yes,Yes,Yes,Small,No,No,No,No,Don't know,Don't know,Some of them,Yes,Maybe,No,Maybe,Maybe,No,No
+26,F,MI,Yes,Yes,No,Large ,Yes,No,No,No,Don't know,Don't know,No,No,Maybe,No,Maybe,Maybe,No,No
+28,M,MI,No,Yes,No,Large,No,Yes,No,No,Yes,Very difficult,No,Some of them,Yes,No,No,No,No,No
+28,M,MI,Yes,Yes,No,Medium ,Yes,No,No,No,Don't know,Somewhat easy,Some of them,No,Maybe,No,Maybe,Maybe,No,No
+28,M,MI,Yes,Yes,Yes,Medium ,Yes,Not sure,No,Don't know,Don't know,Don't know,Some of them,Some of them,Yes,No,No,No,Don't know,Yes
+29,F,MI,No,No,Yes,Large ,Don't know,Not sure,No,Don't know,Don't know,Don't know,No,Some of them,Maybe,No,No,Maybe,Don't know,No
+29,F,MI,No,No,No,Medium ,Yes,Yes,Yes,No,Yes,Don't know,Some of them,Some of them,Maybe,No,No,Maybe,Don't know,Yes
+32,M,MI,No,No,No,Large ,No,Yes,No,No,Don't know,Don't know,Some of them,Some of them,Maybe,No,Maybe,No,No,No
+33,M,MI,Yes,No,Yes,Small,Don't know,Not sure,No,No,Yes,Very easy,Some of them,Yes,No,No,No,No,Yes,No
+35,M,MI,No,No,Yes,Large,Yes,Not sure,Don't know,Yes,Don't know,Somewhat difficult,Some of them,No,Yes,No,Yes,Maybe,Don't know,No
+35,M,MI,No,No,No,Medium ,Yes,No,Yes,Don't know,Don't know,Don't know,Some of them,Some of them,No,Maybe,No,Maybe,Yes,No
+35,F,MI,Yes,Yes,Yes,Small,No,No,No,No,No,Somewhat difficult,Some of them,No,Maybe,No,Maybe,No,Don't know,No
+36,M,MI,No,No,No,Large,Don't know,No,No,No,Yes,Somewhat easy,Yes,Yes,No,Maybe,No,Yes,Don't know,No
+37,M,MI,Yes,Yes,No,Large ,Don't know,Not sure,Don't know,Don't know,Don't know,Don't know,Some of them,Some of them,Maybe,No,No,No,Don't know,No
+38,M,MI,No,No,No,Medium ,Yes,Yes,No,No,Don't know,Somewhat easy,Some of them,Yes,Maybe,No,No,Maybe,No,Yes
+43,M,MI,No,No,Yes,Large,No,Not sure,No,No,Don't know,Very difficult,No,No,Yes,No,Maybe,Maybe,No,Yes
+25,M,MN,Yes,Yes,Yes,Small,Don't know,No,Don't know,Don't know,Don't know,Very easy,Yes,Yes,No,Maybe,No,Yes,Don't know,No
+25,M,MN,Yes,Yes,No,Medium ,Don't know,Yes,No,No,Don't know,Somewhat easy,Some of them,Some of them,Yes,No,No,Maybe,Don't know,No
+26,M,MN,Yes,No,No,Small,Don't know,Not sure,No,No,Don't know,Don't know,Some of them,Yes,No,No,No,No,Yes,No
+27,M,MN,No,No,No,Medium ,Yes,Not sure,No,Don't know,Don't know,Don't know,Yes,Yes,No,No,No,No,Don't know,No
+29,M,MN,No,No,No,Medium ,Don't know,No,No,Don't know,Don't know,Don't know,Yes,Yes,No,Maybe,No,Maybe,No,No
+30,M,MN,Yes,Yes,No,Small,No,Yes,No,No,Don't know,Don't know,No,No,No,No,No,No,Don't know,No
+31,M,MN,Yes,Yes,No,Small,Don't know,Not sure,Don't know,Don't know,Yes,Don't know,Yes,Yes,No,Maybe,No,Maybe,Yes,No
+33,M,MN,No,No,No,Large ,No,No,No,No,Don't know,Don't know,Some of them,Yes,Maybe,No,No,No,No,No
+33,M,MN,Yes,Yes,Yes,Small,Don't know,No,Don't know,Don't know,Yes,Very easy,Yes,Yes,No,No,No,Maybe,Yes,No
+34,M,MN,No,No,No,Medium ,No,No,No,No,Don't know,Very easy,Some of them,Some of them,Maybe,No,No,Maybe,Don't know,No
+39,M,MN,No,Yes,Yes,Large ,Yes,Yes,No,No,Yes,Very easy,Some of them,Yes,Maybe,No,No,No,Don't know,No
+40,F,MN,Yes,Yes,No,Medium ,Yes,Yes,No,Yes,Yes,Somewhat easy,Yes,Yes,No,No,No,Maybe,Yes,Yes
+51,M,MN,No,No,Yes,Large,Yes,Yes,Yes,Yes,Yes,Very easy,Yes,Yes,No,No,No,No,Yes,No
+24,M,MO,Yes,No,No,Medium ,Don't know,Not sure,No,Don't know,Don't know,Somewhat easy,Some of them,No,Maybe,No,Maybe,Maybe,Don't know,No
+25,M,MO,Yes,Yes,Yes,Small,Don't know,No,Yes,Don't know,Don't know,Don't know,Some of them,Yes,Yes,No,No,No,No,No
+31,M,MO,No,No,No,Medium ,Don't know,Not sure,No,Don't know,Don't know,Don't know,No,Some of them,Maybe,No,No,Maybe,Don't know,No
+31,M,MO,Yes,No,No,Large ,Don't know,No,Don't know,Don't know,Don't know,Very easy,Some of them,Yes,No,No,No,No,Don't know,No
+33,M,MO,Yes,No,No,Large,Yes,No,Don't know,Don't know,Don't know,Very easy,Yes,Yes,No,Yes,No,Yes,Yes,No
+35,M,MO,Yes,No,No,Small,Yes,Not sure,No,No,Yes,Somewhat easy,Some of them,Yes,No,No,No,No,Don't know,No
+37,F,MO,No,No,Yes,Medium ,Don't know,Not sure,No,Don't know,Don't know,Don't know,Some of them,No,Yes,No,No,No,Don't know,No
+45,M,MO,Yes,Yes,Yes,Small,Yes,Yes,No,Yes,Yes,Very easy,Yes,Yes,No,Yes,No,Yes,Yes,No
+24,F,NA,Yes,Yes,No,Large ,Yes,Not sure,No,No,Don't know,Somewhat difficult,No,No,Yes,No,Maybe,No,No,Yes
+25,M,NA,No,No,Yes,Medium ,Don't know,No,No,No,Don't know,Somewhat easy,Some of them,Some of them,Yes,No,No,Yes,Don't know,Yes
+31,M,NA,No,No,Yes,Large ,Don't know,No,Don't know,Don't know,Don't know,Don't know,Some of them,Some of them,Maybe,Maybe,Maybe,Maybe,Don't know,No
+31,M,NA,Yes,No,No,Small,Don't know,Not sure,No,No,Don't know,Don't know,Some of them,Some of them,Maybe,No,No,No,Don't know,No
+36,M,NA,Yes,Yes,No,Large ,No,Yes,No,No,Yes,Very easy,Some of them,Some of them,No,No,No,No,Don't know,No
+41,F,NA,Yes,Yes,Yes,Large,Yes,Yes,Yes,Yes,Yes,Very easy,Some of them,Some of them,Maybe,No,Maybe,No,Yes,No
+50,M,NA,No,No,Yes,Medium ,No,Yes,No,No,Don't know,Don't know,No,No,No,No,No,Maybe,No,No
+56,M,NA,No,Yes,No,Large,Yes,Not sure,Don't know,Don't know,Don't know,Don't know,Yes,Some of them,No,No,Maybe,Maybe,Don't know,No
+23,F,NC,No,No,No,Small,Don't know,No,No,Don't know,Don't know,Don't know,Some of them,Yes,Maybe,No,Maybe,Maybe,Yes,No
+23,M,NC,Yes,No,No,Small,Don't know,Not sure,No,Don't know,Don't know,Don't know,No,No,Maybe,No,No,Maybe,Don't know,No
+29,M,NC,No,Yes,No,Small,Yes,Yes,No,Yes,Yes,Very easy,No,Some of them,No,No,No,No,Yes,No
+29,M,NC,No,Yes,No,Medium ,Yes,Yes,No,No,Don't know,Don't know,Some of them,Some of them,Yes,No,No,Maybe,Don't know,No
+29,M,NC,Yes,Yes,Yes,Large ,Yes,Yes,Yes,No,Yes,Don't know,Some of them,No,Yes,No,No,Maybe,No,No
+32,M,NC,No,No,No,Small,Yes,Not sure,No,Don't know,Don't know,Don't know,No,Some of them,Maybe,No,No,Maybe,Don't know,No
+32,M,NC,Yes,Yes,Yes,Small,No,No,No,No,Don't know,Don't know,Yes,Yes,Maybe,No,No,Yes,Don't know,No
+33,F,NC,Yes,Yes,No,Large,Yes,Yes,Yes,Yes,Yes,Somewhat easy,Some of them,Yes,No,No,No,No,Yes,No
+43,M,NC,No,No,Yes,Small,Don't know,No,No,Don't know,Don't know,Don't know,Some of them,No,Maybe,No,No,No,Don't know,No
+46,F,NC,No,No,Yes,Large ,No,Yes,No,No,Don't know,Don't know,No,No,Yes,No,No,No,No,No
+27,M,NE,No,No,No,Medium ,Don't know,Not sure,Don't know,Don't know,Don't know,Don't know,Yes,Yes,No,Maybe,No,Maybe,Don't know,No
+33,M,NH,Yes,Yes,Yes,Medium ,Yes,Yes,Yes,Yes,Don't know,Don't know,Yes,Some of them,Yes,No,Maybe,No,Yes,No
+34,M,NH,Yes,Yes,Yes,Medium ,Yes,Yes,No,No,Don't know,Don't know,Some of them,Some of them,Maybe,No,No,Yes,Don't know,Yes
+38,M,NH,No,No,Yes,Medium ,Don't know,Not sure,No,Don't know,Don't know,Don't know,Some of them,Yes,Maybe,No,Maybe,Maybe,No,No
+28,M,NJ,Yes,Yes,No,Medium ,Yes,Yes,No,No,Don't know,Don't know,Some of them,No,Maybe,No,No,Maybe,No,No
+30,M,NJ,No,No,No,Large,Yes,Yes,Yes,Yes,Yes,Very easy,Some of them,Yes,No,No,No,No,Yes,No
+34,M,NJ,No,No,No,Medium ,Don't know,No,No,No,Don't know,Don't know,Yes,Yes,Maybe,No,No,Maybe,Don't know,No
+34,M,NJ,No,No,Yes,Small,Yes,Not sure,Don't know,Don't know,Don't know,Somewhat easy,No,Some of them,Maybe,No,Maybe,Maybe,Don't know,No
+37,F,NJ,Yes,Yes,Yes,Medium ,Yes,Yes,No,Don't know,Don't know,Don't know,No,No,Yes,No,Maybe,Maybe,Don't know,No
+28,M,NM,No,No,Yes,Medium ,Don't know,No,No,No,Don't know,Don't know,Some of them,No,Maybe,No,No,No,Don't know,No
+26,M,NV,No,Yes,No,Small,Don't know,No,No,No,Don't know,Don't know,Some of them,No,Yes,No,Yes,No,No,No
+28,M,NV,No,Yes,Yes,Small,No,Yes,No,No,Don't know,Don't know,Some of them,Some of them,Maybe,No,Maybe,No,Don't know,No
+32,M,NV,No,No,No,Small,No,Yes,No,Don't know,Don't know,Very easy,Some of them,Yes,No,No,No,Maybe,Don't know,No
+20,F,NY,No,Yes,Yes,Medium ,Don't know,Not sure,Don't know,Don't know,Don't know,Don't know,Some of them,Some of them,No,Maybe,No,Maybe,Don't know,No
+22,M,NY,No,Yes,No,Large,Yes,Yes,No,Don't know,Yes,Don't know,No,No,Yes,No,No,Yes,No,No
+22,F,NY,Yes,Yes,No,Large,Yes,Yes,Yes,Yes,Yes,Somewhat easy,No,Some of them,Maybe,No,No,No,Yes,Yes
+23,F,NY,No,Yes,No,Large,Yes,Yes,Yes,Yes,Don't know,Don't know,Some of them,Some of them,No,No,No,No,Yes,No
+23,F,NY,Yes,Yes,No,Large,Yes,Not sure,Don't know,No,Don't know,Don't know,Some of them,Some of them,Maybe,No,No,No,Yes,Yes
+24,M,NY,Yes,Yes,Yes,Medium ,Don't know,No,No,No,Don't know,Don't know,Some of them,Yes,No,Yes,Maybe,Yes,No,No
+24,F,NY,Yes,Yes,No,Small,No,No,No,No,Don't know,Very easy,No,Some of them,Yes,No,No,Yes,Yes,No
+24,F,NY,Yes,Yes,No,Small,Yes,Yes,No,No,Yes,Very easy,Some of them,Yes,No,No,No,Yes,No,Yes
+25,M,NY,Yes,No,No,Medium ,Don't know,No,Don't know,Don't know,Don't know,Very easy,Some of them,Yes,No,No,No,No,Don't know,No
+25,F,NY,Yes,Yes,No,Large,Yes,No,No,No,Don't know,Don't know,Some of them,Some of them,Yes,No,Yes,No,Don't know,No
+26,M,NY,No,No,No,Medium ,Don't know,Not sure,No,No,Don't know,Don't know,Some of them,No,Yes,No,Yes,No,No,No
+26,F,NY,No,No,No,Small,Don't know,Not sure,No,No,Don't know,Somewhat easy,Yes,Yes,No,No,No,Maybe,Yes,No
+26,F,NY,Yes,No,Yes,Medium ,Don't know,No,No,No,Don't know,Don't know,No,No,Maybe,No,No,No,Don't know,No
+27,M,NY,No,Yes,No,Small,No,Yes,No,No,Don't know,Very easy,Yes,Yes,No,Maybe,No,Maybe,Don't know,No
+27,F,NY,No,No,No,Large,Don't know,Not sure,Don't know,Yes,Don't know,Don't know,Some of them,Yes,No,No,No,No,Yes,No
+27,M,NY,No,No,No,Medium ,Don't know,No,No,No,Don't know,Don't know,Yes,Yes,No,No,No,Maybe,Yes,No
+27,F,NY,Yes,Yes,No,Medium ,Yes,Yes,No,No,Yes,Don't know,No,No,Maybe,No,No,No,Don't know,No
+28,F,NY,Yes,Yes,No,Medium ,Don't know,Not sure,No,No,Don't know,Don't know,Some of them,No,Yes,No,Maybe,Maybe,Don't know,No
+28,M,NY,Yes,Yes,No,Large ,Don't know,Not sure,No,Don't know,Don't know,Don't know,Some of them,Some of them,Maybe,No,No,Yes,Don't know,No
+29,M,NY,No,No,No,Large,Yes,Not sure,Yes,Don't know,Don't know,Somewhat easy,Some of them,Yes,No,No,No,No,Don't know,No
+29,M,NY,No,Yes,No,Medium ,Yes,Yes,No,No,Yes,Very easy,Yes,Yes,No,Maybe,No,Maybe,Yes,No
+29,M,NY,No,No,No,Medium ,Yes,Yes,Yes,Yes,Don't know,Somewhat easy,Some of them,Some of them,No,Maybe,No,Maybe,Yes,No
+29,M,NY,No,No,Yes,Small,Yes,Not sure,No,Yes,Don't know,Don't know,Some of them,Yes,Maybe,Maybe,No,Yes,Don't know,No
+29,M,NY,Yes,Yes,No,Large ,Yes,Yes,No,No,No,Somewhat difficult,Some of them,Some of them,Maybe,No,No,No,No,No
+30,F,NY,No,No,No,Large ,Don't know,Not sure,No,No,Don't know,Don't know,Some of them,Yes,Maybe,No,No,Maybe,Don't know,No
+31,M,NY,No,No,No,Large,Yes,Yes,Yes,Yes,Yes,Somewhat easy,Some of them,Yes,No,No,No,No,Yes,No
+31,M,NY,No,No,Yes,Medium ,Don't know,No,No,Don't know,Don't know,Don't know,No,No,Yes,No,No,Maybe,Don't know,No
+31,M,NY,Yes,Yes,No,Large ,No,No,No,Don't know,Don't know,Somewhat difficult,Some of them,No,Yes,No,Yes,No,No,Yes
+31,F,NY,Yes,Yes,No,Large ,Yes,Yes,No,No,Don't know,Somewhat difficult,Yes,Yes,No,Maybe,No,Maybe,Don't know,No
+32,M,NY,No,No,No,Large ,Yes,Yes,No,Don't know,Don't know,Don't know,Some of them,Some of them,Maybe,No,No,No,Don't know,No
+32,F,NY,No,Yes,No,Medium ,Yes,Yes,No,No,Yes,Don't know,Some of them,No,Maybe,No,Maybe,No,No,No
+33,F,NY,No,Yes,Yes,Large,Yes,Yes,Yes,Yes,Don't know,Very easy,Some of them,Some of them,No,No,No,No,Don't know,No
+33,M,NY,No,No,No,Medium ,Don't know,No,Don't know,Don't know,Don't know,Don't know,Some of them,No,Yes,No,No,Maybe,Don't know,No
+33,M,NY,No,Yes,No,Large,Yes,Yes,Don't know,Don't know,Don't know,Don't know,Some of them,Some of them,Maybe,No,Maybe,No,Don't know,No
+33,M,NY,No,No,Yes,Small,Yes,No,Don't know,Yes,Yes,Don't know,Some of them,Yes,No,No,No,No,Yes,No
+35,F,NY,No,No,Yes,Large,Don't know,Not sure,No,No,Don't know,Don't know,Some of them,No,Maybe,No,Maybe,No,Don't know,No
+35,M,NY,No,No,No,Small,Don't know,Not sure,Don't know,Don't know,Yes,Don't know,No,No,No,No,No,No,Yes,No
+35,M,NY,Yes,Yes,No,Medium ,Yes,Yes,No,No,Yes,Somewhat difficult,No,Some of them,Yes,No,No,Maybe,Don't know,No
+37,M,NY,No,No,No,Large,Yes,Yes,Yes,Yes,Don't know,Don't know,Some of them,Yes,No,Maybe,No,Maybe,Don't know,No
+38,M,NY,Yes,No,Yes,Large ,Yes,Yes,No,Yes,Don't know,Don't know,Yes,Some of them,No,Maybe,No,Maybe,Yes,No
+38,M,NY,Yes,No,No,Small,Don't know,No,No,No,Don't know,Somewhat difficult,Some of them,Yes,No,No,No,No,Don't know,Yes
+43,M,NY,No,No,No,Large,Don't know,No,No,Don't know,Don't know,Don't know,Yes,Some of them,No,No,No,No,Yes,No
+45,M,NY,Yes,Yes,No,Large,Yes,Yes,Don't know,Don't know,Yes,Don't know,Some of them,Some of them,Maybe,No,No,Maybe,Don't know,No
+49,M,NY,Yes,Yes,No,Large ,Yes,Not sure,Yes,Yes,Yes,Somewhat easy,Some of them,Yes,Maybe,No,Maybe,No,Yes,No
+5,M,OH,No,No,No,Large ,Don't know,Not sure,No,No,Don't know,Somewhat easy,Yes,Yes,No,No,No,No,Yes,No
+25,F,OH,Yes,Yes,No,Large,Yes,Yes,Yes,No,Don't know,Don't know,No,No,Yes,No,Yes,No,No,No
+26,F,OH,No,Yes,Yes,Medium ,Don't know,No,No,Don't know,Don't know,Don't know,Some of them,No,Maybe,Maybe,No,Maybe,Don't know,Yes
+26,M,OH,Yes,No,No,Large ,Don't know,Not sure,No,No,Don't know,Don't know,Some of them,No,Maybe,No,No,Maybe,Don't know,No
+28,F,OH,Yes,Yes,Yes,Medium ,Don't know,No,No,No,Don't know,Somewhat easy,Some of them,Some of them,Yes,No,No,Maybe,No,No
+29,M,OH,No,No,No,Small,Don't know,No,No,No,Don't know,Very difficult,No,No,Yes,No,No,Maybe,No,No
+29,M,OH,No,No,No,Medium ,No,No,No,Don't know,Don't know,Don't know,Some of them,Yes,No,No,No,Yes,No,Yes
+29,M,OH,Yes,Yes,No,Medium ,Don't know,No,No,No,No,Somewhat difficult,Some of them,Some of them,Yes,No,No,Maybe,Don't know,No
+29,F,OH,Yes,Yes,No,Small,Don't know,No,No,No,Don't know,Don't know,No,No,Yes,No,No,No,Don't know,No
+31,M,OH,No,Yes,Yes,Small,Don't know,No,No,No,Don't know,Don't know,Some of them,Yes,No,No,No,No,Don't know,No
+31,M,OH,Yes,Yes,No,Small,No,No,No,No,Don't know,Somewhat easy,Yes,Yes,Maybe,No,No,Maybe,Don't know,No
+33,M,OH,Yes,Yes,Yes,Large,Yes,Yes,No,No,Don't know,Somewhat easy,No,No,Yes,No,No,No,No,No
+34,M,OH,No,Yes,Yes,Medium ,Don't know,Not sure,No,Don't know,Don't know,Somewhat difficult,Some of them,No,No,No,No,No,No,No
+34,M,OH,No,No,No,Medium ,Don't know,No,No,No,Don't know,Somewhat easy,Some of them,No,Maybe,No,No,Maybe,Don't know,No
+34,M,OH,No,No,Yes,Small,Don't know,No,No,No,Don't know,Very difficult,Some of them,Yes,Maybe,No,No,Maybe,Don't know,No
+35,F,OH,No,Yes,No,Large ,No,Yes,No,No,Don't know,Don't know,No,No,Yes,No,Maybe,Maybe,No,No
+36,M,OH,No,Yes,No,Medium ,Yes,No,No,Yes,Don't know,Don't know,Some of them,Some of them,Maybe,No,No,Maybe,Don't know,Yes
+36,M,OH,No,Yes,Yes,Large ,Yes,Yes,No,No,Don't know,Very difficult,Some of them,Some of them,Maybe,Maybe,Maybe,Maybe,Don't know,No
+39,F,OH,No,Yes,Yes,Small,No,No,No,No,Don't know,Don't know,Some of them,Some of them,Maybe,No,Maybe,Maybe,No,No
+40,M,OH,No,Yes,Yes,Large,Yes,Yes,Yes,Yes,Yes,Don't know,No,No,Yes,No,Maybe,Maybe,No,Yes
+43,M,OH,No,Yes,No,Small,No,Yes,No,No,Don't know,Somewhat easy,Yes,Yes,No,No,No,Maybe,Don't know,No
+43,M,OH,No,No,Yes,Large,Yes,Not sure,No,Yes,Don't know,Don't know,No,No,Maybe,No,No,No,Don't know,No
+44,M,OH,Yes,Yes,No,Large ,Yes,Yes,No,Yes,Yes,Don't know,Some of them,Some of them,Maybe,No,No,No,Don't know,No
+46,M,OH,No,Yes,Yes,Large,Yes,Not sure,Yes,Yes,Yes,Don't know,Some of them,Yes,No,No,No,Maybe,Yes,No
+329,M,OH,No,Yes,Yes,Small,Yes,Yes,No,No,Don't know,Don't know,Some of them,No,Maybe,No,No,No,No,No
+26,F,OK,No,Yes,Yes,Large ,Don't know,Not sure,Don't know,Don't know,Don't know,Somewhat difficult,Some of them,Some of them,No,No,No,No,Yes,No
+30,M,OK,No,No,Yes,Large,Yes,No,Yes,Yes,Don't know,Don't know,No,No,Yes,No,Maybe,No,Don't know,No
+24,M,OR,No,No,No,Small,Don't know,No,Don't know,No,Yes,Very easy,Yes,Yes,No,Maybe,No,Yes,Yes,No
+24,F,OR,No,No,No,Large,Yes,Yes,Yes,Yes,Yes,Somewhat easy,Some of them,Some of them,No,Yes,No,Yes,Yes,No
+25,M,OR,No,No,Yes,Medium ,Don't know,Not sure,No,Don't know,Don't know,Don't know,Some of them,Yes,No,No,No,No,Don't know,No
+25,F,OR,No,No,No,Large,Yes,Yes,Yes,Yes,Don't know,Don't know,Some of them,Yes,Maybe,Maybe,No,No,Yes,No
+26,M,OR,Yes,Yes,No,Small,Yes,Yes,No,No,Don't know,Somewhat difficult,Some of them,Yes,Maybe,No,No,No,No,No
+27,F,OR,Yes,Yes,No,Medium ,Yes,No,No,No,Don't know,Very easy,Some of them,Some of them,No,No,No,No,Yes,No
+27,M,OR,Yes,Yes,No,Large ,Don't know,Not sure,No,Don't know,Don't know,Don't know,No,No,Yes,No,No,Yes,Don't know,No
+27,M,OR,Yes,Yes,Yes,Large ,Don't know,No,No,Don't know,Don't know,Don't know,Some of them,No,No,No,No,No,Yes,No
+28,F,OR,No,Yes,No,Small,Yes,Yes,Don't know,Yes,Yes,Very easy,Some of them,Some of them,No,No,No,Yes,Don't know,No
+29,M,OR,Yes,No,No,Large ,Yes,Yes,Yes,Yes,Don't know,Don't know,Some of them,Yes,No,No,No,Maybe,Yes,No
+31,M,OR,No,Yes,Yes,Large ,Yes,Yes,Yes,Yes,Yes,Very easy,Some of them,Yes,No,No,No,No,Yes,No
+31,F,OR,Yes,Yes,No,Large ,Don't know,No,No,No,Don't know,Don't know,Some of them,Some of them,No,No,No,No,Don't know,No
+32,M,OR,No,Yes,No,Large ,Yes,Yes,No,Yes,Yes,Don't know,No,Yes,Yes,No,No,No,Don't know,No
+32,M,OR,No,No,No,Large,Yes,Not sure,Don't know,Yes,Yes,Somewhat easy,Some of them,Yes,No,Maybe,No,Maybe,Yes,No
+32,M,OR,No,No,No,Large ,Yes,Not sure,Don't know,Yes,Don't know,Somewhat easy,No,Some of them,No,Maybe,No,Yes,Don't know,No
+33,M,OR,Yes,Yes,No,Medium ,Don't know,Yes,No,Yes,Don't know,Somewhat easy,Yes,Yes,No,No,No,No,Don't know,No
+34,F,OR,Yes,Yes,Yes,Large,Yes,Not sure,No,Don't know,Don't know,Don't know,Some of them,Some of them,Yes,No,Maybe,No,Don't know,No
+35,M,OR,No,Yes,No,Large ,Yes,Not sure,Don't know,Yes,Don't know,Don't know,Some of them,Yes,No,No,No,No,Don't know,No
+35,M,OR,No,No,Yes,Small,No,No,No,No,Don't know,Don't know,No,No,No,No,No,No,Don't know,No
+35,M,OR,Yes,Yes,Yes,Medium ,Don't know,Not sure,No,No,Don't know,Somewhat easy,Some of them,Yes,No,No,No,Maybe,No,No
+37,M,OR,No,No,No,Large,Yes,No,No,No,Don't know,Don't know,Some of them,Some of them,Maybe,No,Maybe,No,Don't know,No
+38,M,OR,Yes,Yes,No,Large ,Don't know,No,Don't know,Don't know,Don't know,Don't know,Some of them,Yes,Maybe,No,No,No,Don't know,No
+38,F,OR,Yes,No,Yes,Medium ,Don't know,Not sure,Don't know,Don't know,Don't know,Don't know,Some of them,Yes,No,No,No,No,Don't know,No
+39,M,OR,No,Yes,No,Large,Yes,Not sure,Yes,Don't know,Yes,Don't know,Yes,Yes,Yes,No,Maybe,Maybe,Don't know,No
+49,M,OR,Yes,Yes,No,Large,Yes,Yes,No,Yes,Yes,Somewhat difficult,No,No,Yes,No,Maybe,Maybe,No,Yes
+50,M,OR,Yes,No,Yes,Large ,Don't know,No,No,Don't know,Don't know,Don't know,Some of them,Yes,No,Maybe,No,Maybe,Don't know,No
+53,M,OR,No,Yes,Yes,Small,Yes,Yes,No,Yes,Don't know,Don't know,Some of them,No,Maybe,No,Maybe,No,Don't know,No
+23,M,PA,No,No,No,Medium ,Don't know,Not sure,Don't know,Don't know,Don't know,Don't know,No,Yes,No,No,No,Yes,Yes,No
+23,M,PA,No,No,No,Large ,Yes,Not sure,Don't know,Don't know,Don't know,Don't know,Some of them,Some of them,No,No,No,No,Yes,No
+23,M,PA,Yes,No,No,Large ,Don't know,No,No,Don't know,Don't know,Don't know,Some of them,No,Maybe,No,No,Maybe,No,No
+23,M,PA,Yes,No,No,Medium ,Yes,Not sure,Yes,Yes,Yes,Somewhat easy,No,No,No,No,No,Maybe,Don't know,No
+24,M,PA,No,No,No,Small,Yes,Not sure,No,Don't know,Don't know,Very easy,Some of them,No,Maybe,Maybe,No,Maybe,Yes,No
+25,M,PA,Yes,Yes,Yes,Small,Yes,Yes,No,Don't know,Yes,Somewhat easy,Yes,Yes,No,Maybe,No,Maybe,Don't know,No
+27,M,PA,No,No,No,Large,Yes,Not sure,Don't know,Don't know,Yes,Don't know,No,No,Maybe,No,Maybe,Maybe,No,No
+28,M,PA,No,No,No,Small,Don't know,No,No,No,Don't know,Don't know,Some of them,Some of them,No,No,No,Maybe,Don't know,No
+29,M,PA,Yes,Yes,Yes,Small,Yes,Yes,Yes,Yes,Yes,Somewhat easy,Yes,Yes,No,Maybe,No,Maybe,Yes,No
+30,F,PA,Yes,No,Yes,Large,Don't know,Not sure,No,Don't know,Don't know,Don't know,Some of them,Some of them,Maybe,No,Maybe,Maybe,Don't know,No
+31,F,PA,Yes,Yes,No,Large ,Yes,Yes,No,No,Yes,Somewhat easy,Yes,Yes,No,No,No,No,Yes,No
+32,F,PA,No,Yes,No,Large,Yes,Yes,No,Don't know,Don't know,Don't know,Some of them,No,Maybe,No,No,No,No,No
+34,M,PA,Yes,Yes,No,Large ,Yes,Yes,No,No,Yes,Very easy,Yes,Yes,No,Maybe,No,Maybe,Don't know,No
+36,M,PA,No,No,No,Large,Yes,Yes,Yes,Yes,Yes,Somewhat difficult,Some of them,Yes,No,No,No,No,No,No
+37,M,PA,Yes,No,No,Medium ,Don't know,No,No,Don't know,Don't know,Somewhat easy,Yes,Yes,No,No,No,No,Yes,No
+38,M,PA,No,Yes,Yes,Medium ,Yes,No,No,No,Don't know,Don't know,No,No,Yes,No,No,Maybe,No,No
+38,M,PA,Yes,Yes,No,Large ,Don't know,No,No,No,Don't know,Don't know,Some of them,No,Maybe,No,Maybe,No,Don't know,No
+41,M,PA,No,Yes,No,Large,Yes,Yes,Yes,Yes,Yes,Don't know,Some of them,Yes,Maybe,Maybe,No,Yes,Yes,Yes
+46,M,PA,Yes,Yes,No,Small,Don't know,Yes,No,Don't know,Don't know,Don't know,No,Some of them,Yes,No,Maybe,Maybe,Don't know,No
+47,F,PA,No,No,Yes,Large ,Don't know,No,No,Don't know,Don't know,Very difficult,No,No,Yes,No,Yes,No,No,No
+55,M,PA,Yes,Yes,No,Large,Yes,Yes,Yes,Yes,Yes,Very easy,Yes,Yes,No,No,No,No,Yes,No
+23,M,RI,No,No,No,Medium ,Don't know,No,Don't know,No,Don't know,Don't know,Yes,Yes,No,No,No,Maybe,Don't know,No
+25,M,SC,No,Yes,Yes,Small,No,Yes,No,Don't know,Don't know,Somewhat easy,No,Some of them,Maybe,No,No,Maybe,Don't know,No
+29,M,SC,No,No,No,Small,No,No,No,Don't know,Don't know,Somewhat difficult,Some of them,No,Maybe,No,Maybe,No,Don't know,No
+30,F,SC,Yes,Yes,No,Medium ,Yes,Yes,Yes,Don't know,Don't know,Very easy,Yes,Yes,No,No,No,Yes,Yes,No
+31,M,SC,No,No,No,Large,Don't know,No,No,Don't know,Don't know,Somewhat easy,Some of them,No,Yes,No,No,No,Don't know,No
+31,M,SC,No,No,Yes,Large,Yes,Yes,Yes,Yes,Yes,Very easy,Some of them,Yes,No,Maybe,No,Yes,Yes,No
+31,M,SD,No,No,No,Large,Yes,Not sure,Yes,Yes,Yes,Don't know,Some of them,Some of them,Yes,No,Maybe,Maybe,Yes,No
+34,M,SD,No,No,No,Large ,Don't know,No,No,No,Don't know,Don't know,Some of them,No,Yes,No,No,Maybe,Don't know,No
+41,M,SD,Yes,Yes,Yes,Large ,Yes,Yes,Don't know,Yes,Yes,Somewhat easy,Some of them,Yes,No,Maybe,No,Maybe,Yes,No
+24,M,TN,No,No,No,Small,Don't know,Not sure,Don't know,No,Yes,Somewhat easy,Some of them,Yes,No,No,No,Maybe,Don't know,No
+27,M,TN,No,No,No,Large ,Yes,Not sure,Yes,Yes,Don't know,Don't know,Some of them,Yes,Maybe,No,No,Maybe,Don't know,No
+27,M,TN,Yes,No,Yes,Small,Yes,Yes,No,No,Don't know,Somewhat easy,Some of them,Some of them,Maybe,No,Maybe,Maybe,Yes,No
+28,M,TN,No,No,No,Small,Don't know,No,No,Don't know,Don't know,Don't know,Some of them,Yes,No,No,No,No,Don't know,No
+28,M,TN,Yes,No,No,Small,Don't know,Not sure,No,Don't know,Don't know,Somewhat easy,Some of them,Yes,No,No,No,Yes,Don't know,No
+29,M,TN,Yes,Yes,No,Medium ,Don't know,Not sure,Don't know,Don't know,Don't know,Don't know,Some of them,Some of them,Maybe,No,No,No,Yes,No
+29,M,TN,Yes,No,No,Large ,Don't know,Not sure,Don't know,Don't know,Don't know,Don't know,Some of them,Yes,No,No,No,No,Don't know,No
+30,M,TN,Yes,No,No,Large ,Don't know,No,No,Don't know,Don't know,Very easy,Some of them,Yes,No,No,No,Maybe,Don't know,No
+30,M,TN,Yes,No,No,Large ,Yes,No,Don't know,Yes,Don't know,Very difficult,Some of them,No,Yes,Maybe,Yes,Maybe,No,No
+31,M,TN,No,No,No,Medium ,Yes,No,Yes,No,Yes,Somewhat easy,Some of them,Some of them,Maybe,No,No,Maybe,No,No
+32,M,TN,No,Yes,No,Small,Yes,Yes,No,Don't know,Don't know,Don't know,Some of them,Yes,Maybe,No,No,No,No,No
+32,M,TN,No,No,Yes,Small,Don't know,Not sure,No,No,Don't know,Don't know,Some of them,Yes,Maybe,No,No,No,Don't know,No
+32,M,TN,No,No,No,Small,Yes,Yes,Yes,Yes,Don't know,Somewhat easy,Yes,Yes,No,No,No,Maybe,Yes,No
+32,M,TN,Yes,No,Yes,Small,Don't know,No,No,No,Don't know,Somewhat easy,Yes,Yes,No,No,No,No,Yes,No
+32,M,TN,Yes,Yes,No,Large ,No,Yes,No,No,Don't know,Very difficult,Yes,Yes,Yes,No,No,Yes,No,No
+33,M,TN,No,No,No,Small,Don't know,Not sure,No,Don't know,Don't know,Don't know,Some of them,No,Maybe,No,Maybe,No,Don't know,No
+33,M,TN,Yes,No,No,Small,Yes,Not sure,No,Don't know,Don't know,Don't know,Yes,Yes,No,No,No,Maybe,Don't know,No
+33,M,TN,Yes,Yes,Yes,Small,No,Yes,No,No,Don't know,Very difficult,Some of them,Yes,Yes,No,No,Maybe,No,No
+34,M,TN,No,No,No,Small,No,No,No,No,Don't know,Don't know,Yes,Yes,No,Maybe,No,Yes,Don't know,No
+34,M,TN,No,Yes,No,Large ,Don't know,No,Yes,Don't know,Yes,Don't know,Some of them,No,Maybe,No,No,No,Don't know,No
+34,M,TN,Yes,No,Yes,Small,Yes,No,No,No,Don't know,Don't know,No,No,Maybe,No,No,No,Don't know,No
+35,M,TN,Yes,Yes,Yes,Medium ,Yes,Yes,No,Don't know,Don't know,Don't know,Some of them,No,Maybe,No,Maybe,Maybe,No,No
+36,M,TN,No,Yes,Yes,Large,Yes,Yes,Don't know,Don't know,Don't know,Don't know,No,No,Maybe,No,No,Maybe,Don't know,No
+36,F,TN,Yes,Yes,Yes,Large,Yes,Yes,No,No,Yes,Somewhat easy,Some of them,No,Maybe,No,Maybe,No,Don't know,No
+37,M,TN,No,No,Yes,Large,Yes,No,Yes,Don't know,Don't know,Don't know,Some of them,Yes,Maybe,No,No,No,Yes,Yes
+38,M,TN,No,No,No,Small,No,No,No,No,Yes,Don't know,Some of them,Yes,Maybe,Maybe,No,Maybe,Don't know,No
+39,M,TN,No,No,Yes,Large,Don't know,Not sure,Don't know,Don't know,Don't know,Don't know,Some of them,Yes,No,No,No,No,Don't know,No
+39,M,TN,Yes,No,No,Large,Yes,No,Yes,Yes,Don't know,Don't know,Some of them,Yes,Maybe,Maybe,Maybe,Maybe,Don't know,Yes
+40,M,TN,Yes,Yes,Yes,Large,Don't know,Not sure,No,Don't know,Don't know,Don't know,Some of them,Some of them,Maybe,No,Maybe,Yes,Don't know,No
+41,M,TN,Yes,Yes,No,Large,Yes,Not sure,Yes,Yes,Don't know,Don't know,Some of them,Some of them,Maybe,No,No,No,No,No
+18,M,TX,No,Yes,No,Small,Don't know,No,No,Don't know,Don't know,Don't know,No,No,Yes,No,No,Maybe,Don't know,No
+22,M,TX,Yes,Yes,No,Small,No,Yes,No,No,Yes,Very difficult,No,No,Maybe,No,No,Maybe,Don't know,No
+23,M,TX,No,Yes,No,Small,No,Yes,No,No,No,Very easy,Some of them,Yes,Maybe,No,Maybe,No,No,No
+24,M,TX,No,No,Yes,Medium ,Don't know,No,No,Don't know,Don't know,Somewhat easy,Some of them,Yes,No,No,No,Maybe,No,No
+24,M,TX,Yes,Yes,No,Large ,No,Yes,No,No,Don't know,Somewhat difficult,Some of them,Some of them,Yes,No,No,Maybe,No,Yes
+25,M,TX,No,No,Yes,Large ,Yes,No,No,No,Yes,Don't know,Yes,Yes,No,Maybe,No,Maybe,Don't know,No
+26,F,TX,Yes,Yes,Yes,Large,Yes,Yes,Yes,Don't know,Don't know,Somewhat easy,Some of them,No,Maybe,No,No,No,Don't know,No
+26,M,TX,Yes,Yes,Yes,Small,Don't know,No,No,Don't know,Don't know,Somewhat easy,Some of them,Some of them,Maybe,Maybe,No,Maybe,Don't know,No
+27,F,TX,No,Yes,No,Small,Yes,No,No,No,Yes,Don't know,Yes,No,Maybe,No,Maybe,Maybe,Don't know,No
+27,M,TX,Yes,Yes,Yes,Small,Don't know,No,Yes,Don't know,Don't know,Somewhat easy,Some of them,Yes,Yes,No,No,Maybe,Yes,No
+28,M,TX,No,No,No,Large,Don't know,No,No,Don't know,Don't know,Don't know,Some of them,No,Maybe,No,No,Maybe,Don't know,No
+28,F,TX,No,Yes,No,Small,Yes,No,No,No,Don't know,Somewhat easy,Some of them,No,Yes,No,Yes,No,No,Yes
+31,M,TX,No,No,Yes,Large ,Yes,No,Don't know,Don't know,Don't know,Don't know,Some of them,Yes,No,Yes,No,Yes,Don't know,No
+31,M,TX,No,No,No,Medium ,Don't know,Not sure,No,No,Don't know,Don't know,Some of them,Yes,No,Maybe,No,Maybe,No,No
+31,M,TX,Yes,Yes,No,Medium ,Yes,Yes,No,Don't know,Don't know,Somewhat easy,Some of them,Yes,Maybe,Maybe,No,Yes,Don't know,No
+32,M,TX,No,Yes,No,Small,No,Yes,No,No,Yes,Somewhat easy,Some of them,Yes,No,Maybe,No,Maybe,Yes,No
+32,M,TX,No,Yes,Yes,Medium ,Yes,Not sure,No,Don't know,Don't know,Very difficult,Some of them,No,Yes,No,Maybe,No,Don't know,No
+32,F,TX,Yes,Yes,No,Small,Don't know,No,No,No,No,Don't know,Some of them,Some of them,Yes,No,Maybe,Maybe,No,Yes
+33,M,TX,No,No,Yes,Small,Don't know,No,No,No,Don't know,Very easy,Yes,Yes,No,No,No,Maybe,Don't know,No
+34,M,TX,No,Yes,No,Small,No,No,No,No,Don't know,Don't know,No,No,Yes,No,No,Yes,Don't know,No
+34,M,TX,No,No,No,Small,Don't know,No,No,Yes,Don't know,Very easy,Some of them,Yes,No,No,No,Maybe,Yes,No
+35,M,TX,No,Yes,Yes,Large,Yes,Yes,No,Yes,Yes,Very easy,Yes,Yes,No,Maybe,No,Maybe,Yes,No
+36,M,TX,No,No,Yes,Large ,Yes,No,Don't know,Yes,Don't know,Don't know,Some of them,Some of them,Maybe,Maybe,No,Yes,Yes,No
+37,F,TX,No,Yes,Yes,Small,Don't know,Not sure,No,No,Yes,Somewhat difficult,Some of them,Some of them,Yes,No,No,Yes,No,Yes
+38,F,TX,No,Yes,No,Small,No,Yes,No,No,Don't know,Don't know,Some of them,No,No,No,Maybe,No,Don't know,Yes
+38,M,TX,No,Yes,Yes,Large,Yes,No,Yes,Yes,Yes,Very easy,Yes,Yes,No,No,No,No,Don't know,No
+38,F,TX,Yes,Yes,No,Medium ,Yes,Yes,No,Yes,Yes,Somewhat easy,Some of them,Yes,No,No,No,No,Yes,No
+40,M,TX,No,Yes,No,Medium ,No,Yes,No,No,Yes,Very difficult,Yes,Yes,No,Yes,No,Yes,No,No
+41,M,TX,No,Yes,Yes,Large,Yes,Yes,No,Don't know,Don't know,Don't know,Some of them,No,Maybe,Maybe,Maybe,Maybe,No,No
+41,M,TX,Yes,No,No,Large,Yes,Yes,No,Yes,Don't know,Don't know,Some of them,Some of them,Maybe,No,No,Maybe,No,No
+42,M,TX,No,Yes,No,Small,Don't know,No,No,Don't know,Don't know,Don't know,No,No,Yes,No,Maybe,Maybe,Don't know,No
+48,M,TX,No,No,No,Small,Don't know,No,No,Don't know,Don't know,Don't know,No,No,Maybe,No,No,Maybe,Don't know,No
+25,M,UT,No,Yes,Yes,Small,Don't know,No,No,No,Don't know,Somewhat easy,Some of them,No,Maybe,No,No,Maybe,Don't know,No
+25,M,UT,Yes,Yes,No,Small,No,Yes,No,No,Yes,Very easy,Yes,Yes,Maybe,No,No,Maybe,No,No
+27,M,UT,No,Yes,Yes,Medium ,No,Yes,No,No,Don't know,Somewhat difficult,Some of them,Yes,Maybe,No,No,No,Don't know,Yes
+28,M,UT,No,No,Yes,Small,No,Yes,No,No,Don't know,Somewhat easy,Some of them,No,Yes,No,Maybe,No,Don't know,No
+32,M,UT,Yes,Yes,Yes,Medium ,No,No,No,No,Don't know,Somewhat difficult,Some of them,No,Yes,No,No,Yes,No,No
+33,M,UT,No,No,Yes,Large ,Don't know,Not sure,Don't know,Don't know,Don't know,Don't know,Some of them,Yes,No,Maybe,No,Maybe,Don't know,No
+37,M,UT,No,Yes,No,Large ,Yes,No,No,Yes,Yes,Very easy,No,Yes,No,No,No,No,Yes,No
+24,M,VA,No,No,No,Small,Don't know,No,Don't know,Don't know,Don't know,Don't know,Yes,Yes,No,Maybe,No,Maybe,Don't know,No
+28,F,VA,No,Yes,No,Small,No,Yes,No,No,Don't know,Very difficult,Some of them,Some of them,Yes,No,Maybe,No,Don't know,No
+38,M,VA,Yes,Yes,No,Large,Yes,Not sure,Yes,Yes,Yes,Don't know,No,No,Yes,No,No,No,No,No
+40,F,VA,Yes,No,No,Large,Yes,Yes,Yes,Don't know,Yes,Don't know,No,Some of them,Yes,No,Maybe,Maybe,Yes,No
+41,M,VA,No,No,No,Medium ,Yes,Not sure,No,No,Don't know,Very easy,No,Some of them,Yes,No,No,No,Don't know,No
+43,F,VA,No,No,Yes,Small,Don't know,No,No,Don't know,Don't know,Don't know,No,No,Maybe,No,No,Maybe,No,No
+45,M,VA,No,Yes,Yes,Small,Yes,Not sure,No,Yes,Don't know,Very easy,Yes,Yes,No,No,No,Maybe,Yes,No
+48,M,VA,No,Yes,No,Large,Yes,Yes,Yes,Yes,Yes,Don't know,Yes,Yes,Maybe,No,Maybe,Maybe,Yes,Yes
+34,M,VT,No,No,Yes,Small,No,Yes,No,No,Don't know,Don't know,No,No,Yes,No,Yes,No,Don't know,No
+34,M,VT,Yes,No,No,Large,Yes,Not sure,Don't know,Don't know,Don't know,Don't know,Some of them,Some of them,Maybe,No,No,Maybe,Don't know,Yes
+18,M,WA,No,No,No,Medium ,Don't know,Not sure,Don't know,Don't know,Don't know,Very easy,Some of them,Some of them,No,No,No,Maybe,Yes,No
+20,M,WA,No,No,No,Medium ,Don't know,Not sure,Don't know,Don't know,Don't know,Don't know,Some of them,Yes,No,Maybe,No,Maybe,Yes,No
+22,F,WA,No,No,No,Large,Yes,No,Yes,Yes,Yes,Somewhat easy,No,Some of them,No,No,No,No,Yes,No
+22,F,WA,Yes,Yes,No,Large,Don't know,Not sure,Don't know,Don't know,Don't know,Very difficult,Some of them,Some of them,Yes,No,Maybe,Maybe,No,Yes
+24,M,WA,No,No,No,Medium ,Yes,Not sure,Yes,Yes,Yes,Very easy,Some of them,Some of them,No,No,No,Maybe,Yes,No
+25,M,WA,No,No,Yes,Large,Yes,Yes,Yes,Yes,Don't know,Don't know,Yes,Yes,No,Maybe,No,Yes,Yes,No
+25,M,WA,No,No,No,Medium ,Don't know,Not sure,Don't know,Don't know,Don't know,Don't know,Some of them,No,Maybe,No,No,No,Don't know,No
+25,F,WA,No,No,No,Small,No,No,No,No,No,Somewhat easy,Some of them,No,Maybe,No,No,No,Yes,No
+25,M,WA,No,Yes,No,Large,Yes,Yes,Yes,Don't know,Yes,Don't know,No,No,Yes,No,No,No,Yes,No
+25,F,WA,Yes,Yes,No,Medium ,Yes,Yes,No,No,Yes,Don't know,Some of them,Yes,No,No,No,No,Don't know,No
+25,F,WA,Yes,Yes,Yes,Medium ,Don't know,No,No,No,Don't know,Don't know,Some of them,Yes,Maybe,No,No,No,Yes,No
+26,M,WA,No,No,No,Large,Don't know,Not sure,Don't know,Don't know,Don't know,Don't know,Some of them,Yes,No,No,No,No,Don't know,Yes
+26,M,WA,No,Yes,No,Small,Yes,Yes,No,No,Yes,Don't know,Some of them,No,Maybe,No,No,Maybe,Don't know,No
+26,F,WA,Yes,Yes,No,Large,Yes,Not sure,Don't know,Don't know,Don't know,Don't know,Some of them,Some of them,Maybe,No,No,No,Don't know,No
+26,M,WA,Yes,Yes,No,Large,Don't know,Not sure,No,Yes,Yes,Very difficult,Some of them,Some of them,Maybe,Yes,No,Yes,No,Yes
+26,F,WA,Yes,Yes,No,Large,Yes,Yes,No,No,Don't know,Don't know,Some of them,Yes,No,No,No,Maybe,No,Yes
+27,F,WA,No,Yes,No,Large,Yes,Yes,No,No,Yes,Don't know,No,No,Yes,No,Maybe,No,No,No
+27,F,WA,No,No,No,Large,Don't know,Not sure,No,Yes,Don't know,Don't know,Some of them,Yes,Maybe,No,No,No,Don't know,No
+27,M,WA,Yes,No,No,Large,Yes,No,Yes,Yes,Yes,Don't know,Some of them,No,Yes,No,No,Yes,Don't know,No
+27,F,WA,Yes,Yes,No,Large,Yes,Yes,Yes,Yes,Yes,Very difficult,Yes,Some of them,Maybe,No,No,Maybe,No,Yes
+28,M,WA,Yes,Yes,No,Large,Yes,Yes,Don't know,Don't know,Don't know,Don't know,Some of them,No,Maybe,No,No,No,No,No
+28,M,WA,Yes,Yes,No,Large,Don't know,No,Don't know,Don't know,Don't know,Somewhat easy,Some of them,No,Maybe,No,No,Maybe,No,No
+29,M,WA,No,No,No,Medium ,Yes,Yes,Yes,Yes,Yes,Very easy,Some of them,Yes,No,No,No,Maybe,Yes,No
+29,M,WA,No,No,No,Large,Yes,No,No,No,Don't know,Very easy,Some of them,No,Yes,No,Maybe,No,Don't know,No
+30,M,WA,Yes,Yes,No,Large,Yes,Yes,Yes,No,Don't know,Very difficult,Some of them,No,Yes,No,No,No,No,Yes
+31,F,WA,No,Yes,Yes,Medium ,Yes,Yes,No,No,Don't know,Very easy,Some of them,Some of them,Maybe,No,No,Yes,Don't know,No
+32,M,WA,No,Yes,No,Medium ,Yes,No,Yes,Yes,Yes,Somewhat difficult,Some of them,Yes,Maybe,No,No,Maybe,Yes,No
+32,M,WA,No,No,Yes,Small,No,Yes,No,No,Don't know,Very difficult,Some of them,Yes,No,No,No,Maybe,Yes,No
+32,F,WA,No,Yes,No,Medium ,Yes,Yes,Yes,Yes,Yes,Somewhat easy,Some of them,Yes,Maybe,No,No,Maybe,Yes,No
+32,M,WA,No,Yes,No,Large,Yes,Yes,Yes,Yes,Yes,Somewhat easy,Some of them,Some of them,Maybe,No,No,No,Don't know,No
+32,M,WA,Yes,No,No,Large ,Yes,Yes,Yes,Yes,Don't know,Don't know,Some of them,No,Yes,No,No,No,Don't know,No
+33,FeM,WA,No,No,No,Small,No,No,No,No,Don't know,Somewhat difficult,Some of them,Some of them,Maybe,No,No,No,Don't know,No
+33,F,WA,Yes,No,Yes,Medium ,No,Yes,No,No,Don't know,Very difficult,Some of them,Some of them,Yes,No,Maybe,Maybe,No,No
+34,F,WA,No,No,No,Small,Yes,No,No,No,Don't know,Somewhat easy,Yes,Yes,No,Maybe,No,Maybe,Yes,No
+34,M,WA,No,Yes,Yes,Large ,No,No,No,No,Don't know,Somewhat easy,Some of them,Some of them,Yes,No,Yes,Maybe,Don't know,No
+34,M,WA,Yes,Yes,No,Large,Yes,Yes,Don't know,Yes,Yes,Don't know,No,No,Maybe,No,Maybe,No,Don't know,No
+35,F,WA,Yes,No,Yes,Small,Don't know,No,No,No,Don't know,Somewhat easy,Yes,Some of them,No,No,No,No,Yes,No
+36,M,WA,No,No,No,Small,Yes,No,No,No,Yes,Don't know,No,No,Maybe,No,No,No,Don't know,No
+36,F ,WA,Yes,Yes,No,Small,Don't know,No,No,Don't know,Don't know,Don't know,Some of them,No,Yes,No,Maybe,No,Don't know,No
+38,M,WA,No,No,No,Large,Yes,Yes,Yes,Yes,Yes,Somewhat easy,Some of them,Some of them,Maybe,No,Maybe,Maybe,No,Yes
+38,M,WA,Yes,Yes,No,Large ,No,Not sure,No,No,Don't know,Very difficult,No,Some of them,Yes,No,Yes,Maybe,No,No
+39,M,WA,No,No,No,Medium ,Yes,Yes,Yes,Yes,Yes,Very easy,Yes,Yes,No,No,No,No,Yes,No
+39,F,WA,No,No,No,Medium ,Don't know,Not sure,No,Don't know,Don't know,Don't know,No,No,Yes,No,No,Yes,Don't know,No
+39,M,WA,Yes,Yes,No,Large,Yes,Yes,No,Don't know,Yes,Very easy,Some of them,Yes,No,No,No,No,Yes,No
+40,M,WA,Yes,Yes,Yes,Large,Yes,Yes,Yes,Yes,Yes,Very difficult,Some of them,Some of them,Yes,No,No,Maybe,Don't know,Yes
+40,M,WA,Yes,Yes,No,Small,Yes,Yes,Don't know,Don't know,Yes,Very easy,Some of them,Some of them,Maybe,No,No,No,Don't know,No
+40,M,WA,Yes,Yes,No,Large,Yes,Yes,Yes,Yes,Yes,Don't know,No,No,Yes,No,Yes,Maybe,No,Yes
+40,M,WA,Yes,Yes,No,Large,Yes,Not sure,Yes,Don't know,Don't know,Somewhat difficult,Some of them,Some of them,Maybe,No,No,Maybe,Don't know,Yes
+41,M,WA,Yes,Yes,No,Large,Yes,No,Yes,Yes,Don't know,Somewhat difficult,Yes,Some of them,Maybe,No,No,Maybe,No,Yes
+41,F,WA,Yes,Yes,No,Medium ,Yes,No,No,Don't know,Don't know,Don't know,No,No,Yes,No,Maybe,No,Don't know,No
+42,M,WA,No,No,Yes,Small,No,Yes,No,Yes,Don't know,Somewhat easy,Some of them,Yes,No,No,No,No,Yes,No
+42,M,WA,Yes,Yes,Yes,Medium ,Yes,Yes,Yes,Yes,Yes,Very easy,Some of them,Some of them,Maybe,Maybe,No,Yes,Don't know,No
+43,M,WA,No,No,Yes,Large,Don't know,Not sure,Don't know,Don't know,Don't know,Don't know,Yes,Yes,No,No,No,No,Yes,No
+43,M,WA,No,Yes,Yes,Large ,Yes,Yes,No,Yes,Yes,Very difficult,Some of them,No,Yes,No,Maybe,Maybe,No,Yes
+43,M,WA,No,Yes,No,Large,Yes,Yes,Yes,Yes,Don't know,Somewhat easy,Yes,Yes,No,Maybe,No,Yes,Yes,No
+43,M,WA,Yes,Yes,Yes,Large,Yes,Not sure,No,Don't know,Don't know,Very difficult,No,No,Yes,No,Maybe,No,No,No
+44,M,WA,Yes,Yes,Yes,Small,Yes,Yes,Yes,Yes,Yes,Somewhat difficult,Some of them,Yes,Maybe,No,Maybe,Maybe,No,No
+46,M,WA,No,No,No,Medium ,Yes,Not sure,Yes,Don't know,Don't know,Very easy,Some of them,Some of them,No,Maybe,No,Maybe,Don't know,No
+24,M,WI,Yes,Yes,Yes,Small,Don't know,No,No,No,Don't know,Very easy,Yes,Yes,No,Maybe,No,Yes,Yes,No
+33,M,WI,No,Yes,Yes,Small,No,Yes,No,No,Yes,Somewhat difficult,Yes,Yes,No,Yes,No,Yes,Don't know,No
+33,M,WI,Yes,Yes,Yes,Medium ,Yes,Yes,Yes,Yes,Yes,Somewhat easy,Some of them,Yes,No,Maybe,No,Maybe,Yes,No
+39,M,WI,Yes,Yes,Yes,Medium ,Yes,Yes,Yes,Yes,Don't know,Somewhat easy,Some of them,Yes,Yes,No,No,No,No,No
+40,F,WI,No,Yes,No,Small,Yes,Yes,No,No,Don't know,Don't know,Some of them,No,Maybe,No,No,Maybe,Yes,No
+40,M,WI,Yes,Yes,Yes,Large,Yes,Yes,No,Yes,Don't know,Don't know,No,No,Yes,No,No,Maybe,Don't know,No
+42,M,WI,No,Yes,Yes,Small,No,Yes,No,No,Don't know,Somewhat easy,No,No,Maybe,No,No,Maybe,Don't know,No
+50,M,WY,No,No,Yes,Small,Don't know,No,No,Don't know,Don't know,Don't know,Some of them,Some of them,Yes,No,Maybe,Maybe,Don't know,No
