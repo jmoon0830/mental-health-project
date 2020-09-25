@@ -9,6 +9,9 @@ http://www.d3noob.org/2013/01/adding-tooltips-to-d3js-graph.html
 Mike Bostock, Pie Chart Legend
 http://bl.ocks.org/mbostock/3888852  */
 
+
+document.write('<h1 style="text-align:center">Mental Health Data</h1>')
+
 // Default file
 mhData2014 = "static/data/MentalHealth2014.csv";
 
@@ -38,7 +41,7 @@ var path = d3.geo.path()               // path generator that will convert GeoJS
 //	.domain([1, 15, 25, 50, 75, 200])
 //	.range(['violet', 'indigo', 'blue', 'green', 'red', 'orange', 'red']);
 
-var color = d3.scale.quantize().domain([0, 120]).range(['violet', 'indigo', 'blue', 'green', 'yellow', 'orange', 'red']);
+var color = d3.scale.quantize().domain([0, 120]).range(['lightgreen','green','yellow','orange','teal','navy','blue','orange','purple','red']);
 
 var legendText = [];
 // 
@@ -57,7 +60,7 @@ var div = d3.select("body")
 
 // Load in my states data!
 d3.csv(mhData2014, function(data) {
-color.domain([0,1,2,3]); // setting the range of the input data
+color.domain([0,1,3,5,10,50,120]); // setting the range of the input data
 
 // Load GeoJSON data and merge with states data
 d3.json("static/data/us-states.json", function(json) {
