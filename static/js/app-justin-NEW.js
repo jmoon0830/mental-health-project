@@ -115,6 +115,7 @@ function addChart (f,div,title) {
     d3.json(f,function (data) {
         for (var i=0; i<data.length;i++) {
             if (data[i].coworkers === "Yes") {coworkersCount++}
+            console.log("counting")
             if (data[i].supervisor === "Yes") {supervisorCount++}
             if (data[i].anonymity === "Yes") {anonymityCount++}
         }

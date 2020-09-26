@@ -9,16 +9,10 @@ http://www.d3noob.org/2013/01/adding-tooltips-to-d3js-graph.html
 Mike Bostock, Pie Chart Legend
 http://bl.ocks.org/mbostock/3888852  */
 
-// Default file
-mhData2014 = "/test";
-
-// Additional file
-mhData2016 = "/test2";
-
 
 function myFunction(mhData) {
 	console.log("now I am here: ", mhData);
-	d3.selectAll("svg").remove();
+	d3.select("#mapsvg").remove();
 
  //Width and height of map
 var width = 960;
@@ -51,6 +45,7 @@ var legendText = [];
 //Create SVG element and append map to the SVG
 var svg = d3.select("#mapstates")
 			.append("svg")
+			.attr("id","mapsvg")
 			.attr("width", width)
 			.attr("height", height);
         
@@ -61,7 +56,7 @@ var div = d3.select("#mapstates")
     		.style("opacity", 0);
 
 // Load in my states data!
-d3.json(mhData2014, function(data) {
+d3.json(mhData, function(data) {
 color.domain([0,1,3,5,10,50,120]); // setting the range of the input data
 
 // Load GeoJSON data and merge with states data
@@ -104,7 +99,7 @@ for (var i = 0; i < data.length; i++) {
 		
 
 // Bind the data to the SVG and create one path per GeoJSON feature
-console.log("bind data");
+console.log("bind data",json);
 svg.selectAll("path")
 	.data(json.features)
 	.enter()
@@ -114,26 +109,34 @@ svg.selectAll("path")
 	.style("stroke-width", "1")
 
 	.on("mouseover", function(d) {     
-		//console.log("mouseover: ",d) 
+		console.log("mouseover: ",d)
     	div.transition()        
       	   .duration(200)      
            .style("opacity", .9);      
 		   //div.text(d.id, d.properties.value)
 		   if (isNaN(d.properties.value)) 
-		   {value = 0}
+		   {
+			   value = 0;
+			}
 		   else
-		   {value = d.properties.value}
+		   {
+			   value = d.properties.value
+			   // console.log(d.properties.value)
+			}
 		   div.text(d.properties.name + '\n' + value)	  
 		   .style("left", (d3.event.pageX) + "px")     
 		   .style("top", (d3.event.pageY - 28) + "px");   
 		 })  
 	
-	// fade out tooltip on mouse out     
-	.on("mouseout", function(d) { 
-		div.transition()
-		.duration(500)  
-		.style("opacity", 0);   
-	   })
+
+		 
+
+	//fade out tooltip on mouse out     
+	// .on("mouseout", function(d) { 
+	// 	div.transition()
+	// 	.duration(500)  
+	// 	.style("opacity", 0);   
+	//    })
 	
 	.style("fill", function(d) {
 
@@ -180,22 +183,21 @@ console.log("bind date complete ", mhData);
 
 }
 
-mhData = "static/data/MentalHealth2014.csv";
+mhData = "/test";
 console.log("initial load: ",mhData);
 myFunction(mhData);
 
 
-d3.selectAll("input").on("change", function() {
+d3.select("#mapselect").selectAll("input").on("change", function() {
 	attribute = this.id;
 	console.log(attribute);
-	if (attribute === '2014_data') {
+	if (attribute === 'data_2014') {
 		console.log(2014);
-		mhData = "static/data/MentalHealth2014.csv";
+		mhData = "/test";
 	} 
-	else
-	{
+	if (attribute === 'data_2016') {
 		console.log(2016);
-		mhData = "static/data/MentalHealth2016_CLEAN.csv";
+		mhData = "/test2";
 		console.log(mhData);
 	}
 	console.log("I am here: ", mhData);
