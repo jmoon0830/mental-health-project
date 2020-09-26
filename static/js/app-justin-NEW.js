@@ -1,12 +1,12 @@
 // link to csv
-var file = "static/data/MentalHealth2014.csv";
-var file2 = "static/data/MentalHealth2016_CLEAN.csv";
+var file = "/test";
+var file2 = "/test2";
 
 listStates = ["Choose a State ...","AK","AL","AZ","CA","CO","CT","DE","FL","GA","HI","IA","ID","IL","IN","KS","KY","LA","MA","MD","ME","MI","MN","MO","MS","MT","NC","ND","NE","NH","NJ","NM",
                 "NV","NY","OH","OK","OR","PA","RI","SC","SD","TN","TX","UT","VA","VT","WA","WI","WV","WY"];
 
 function init () {
-    d3.csv(file, function (data) {
+    d3.json(file, function (data) {
         // Adding state options using for loop to HTML
         function htmlBuild () {
             d3.select("#filter-state").selectAll("option").data(listStates).enter().append("option").html(function (data) {
@@ -22,7 +22,7 @@ init();
 //adds only 10 rows of data
 function initTable () {
 // 2014
-    d3.csv(file, function (data) {
+    d3.json(file, function (data) {
         var tbody = d3.select("#table1").select("tbody");
         tbody.html("");
         for (var i = 0; i<10; i++) { 
@@ -30,7 +30,7 @@ function initTable () {
         }
     });
 // 2016
-    d3.csv(file2, function (data) {
+    d3.json(file2, function (data) {
         var tbody = d3.select("#table2").select("tbody");
         tbody.html("");
         for (var i = 0; i<10; i++) { 
@@ -65,7 +65,7 @@ function addData2 (survey) {
 // change data based on filter
 function handleChange () {
     function changeTable1 () {
-        d3.csv(file, function(data) {
+        d3.json(file, function(data) {
             var tbody = d3.select("#table1").select("tbody");
             tbody.html("");
             var dropdown1 = d3.select("#filter-state");
@@ -76,7 +76,7 @@ function handleChange () {
     };
     changeTable1();
     function changeTable2 () {
-        d3.csv(file2, function(data) {
+        d3.json(file2, function(data) {
             var tbody = d3.select("#table2").select("tbody");
             tbody.html("");
             var dropdown1 = d3.select("#filter-state");
@@ -112,7 +112,7 @@ function addChart (f,div,title) {
     var supervisorCount = 0
     var anonymityCount = 0
 
-    d3.csv(f,function (data) {
+    d3.json(f,function (data) {
         for (var i=0; i<data.length;i++) {
             if (data[i].coworkers === "Yes") {coworkersCount++}
             if (data[i].supervisor === "Yes") {supervisorCount++}

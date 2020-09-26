@@ -10,10 +10,10 @@ Mike Bostock, Pie Chart Legend
 http://bl.ocks.org/mbostock/3888852  */
 
 // Default file
-mhData2014 = "static/data/MentalHealth2014.csv";
+mhData2014 = "/test";
 
 // Additional file
-mhData2016 = "static/data/MentalHealth2016.csv";
+mhData2016 = "/test2";
 
  //Width and height of map
 var width = 960;
@@ -56,7 +56,7 @@ var div = d3.select("body")
     		.style("opacity", 0);
 
 // Load in my states data!
-d3.csv(mhData2014, function(data) {
+d3.json(mhData2014, function(data) {
 color.domain([0,1,3,5,10,50,120]); // setting the range of the input data
 
 // Load GeoJSON data and merge with states data

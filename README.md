@@ -21,3 +21,7 @@ What we can analyze:
     - Does gender play role
     - Does age play a role
     - Do these vary depending state
+
+How to Run:
+
+Open and run "app.py" in order for flask to render the html

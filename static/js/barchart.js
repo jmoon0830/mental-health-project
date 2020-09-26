@@ -1,4 +1,4 @@
-var file = "static/data/MentalHealth2014.csv";
+var file = "/test";
 // variable counters
 var maleCount = 0;
 var femaleCount = 0;
@@ -20,7 +20,7 @@ var noCount = 0;
 
 
 // function to read in data
-d3.csv(file,function (data) {
+d3.json(file,function (data) {
     console.log(data);
     for (var i=0; i<data.length;i++) {
         // if statements that require condition like "Yes" to count
@@ -32,7 +32,7 @@ d3.csv(file,function (data) {
     // check to see if it worked
     for (var i=0; i<data.length;i++) {
         //console.log("for loop")
-        if (data[i].Gender === "M") {
+        if (data[i].gender === "M") {
             //console.log("male")
             if (data[i].family_history === "Yes") {
                 famMYCount++
