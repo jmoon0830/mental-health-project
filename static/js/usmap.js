@@ -9,9 +9,6 @@ http://www.d3noob.org/2013/01/adding-tooltips-to-d3js-graph.html
 Mike Bostock, Pie Chart Legend
 http://bl.ocks.org/mbostock/3888852  */
 
-
-document.write('<h1 style="text-align:center">Mental Health Data</h1>')
-
 // Default file
 mhData2014 = "static/data/MentalHealth2014.csv";
 
@@ -47,7 +44,7 @@ var legendText = [];
 // 
 
 //Create SVG element and append map to the SVG
-var svg = d3.select("body")
+var svg = d3.select("#mapstates")
 			.append("svg")
 			.attr("width", width)
 			.attr("height", height);

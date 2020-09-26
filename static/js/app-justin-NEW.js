@@ -1,6 +1,6 @@
 // link to csv
 var file = "static/data/MentalHealth2014.csv";
-var file2 = "static/data/MentalHealth2016.csv";
+var file2 = "static/data/MentalHealth2016_CLEAN.csv";
 
 listStates = ["Choose a State ...","AK","AL","AZ","CA","CO","CT","DE","FL","GA","HI","IA","ID","IL","IN","KS","KY","LA","MA","MD","ME","MI","MN","MO","MS","MT","NC","ND","NE","NH","NJ","NM",
                 "NV","NY","OH","OK","OR","PA","RI","SC","SD","TN","TX","UT","VA","VT","WA","WI","WV","WY"];
@@ -107,51 +107,76 @@ function addPieChart (value) {
 };
 
 
-function addChart () {
+function addChart (f,div,title) {
     var coworkersCount = 0
     var supervisorCount = 0
     var anonymityCount = 0
-    d3.csv(file,function (data) {
+
+    d3.csv(f,function (data) {
         for (var i=0; i<data.length;i++) {
             if (data[i].coworkers === "Yes") {coworkersCount++}
             if (data[i].supervisor === "Yes") {supervisorCount++}
             if (data[i].anonymity === "Yes") {anonymityCount++}
         }
 
-        function addPieChart (value,div,title,row,col) {
+        function addPieChart () {
+
+            var allValues = [
+                [coworkersCount,(data.length - coworkersCount)],
+                [supervisorCount,(data.length - supervisorCount)],
+                [anonymityCount,(data.length - anonymityCount)]
+            ];
             var trace1 = {
-                values: [value,(data.length - value)],
+                title:"Coworkers",
+                values: allValues[0],
                 labels: ["Yes","No"],
                 type:"pie",
+                name: "Coworkers",
                 domain: {
-                    row:row,
-                    column:col
-                }
-            }
-            var layout = {
-                title: title,
-                grid: {rows:1, columns:1}
+                    row:0,
+                    column:0
+                },
+                hoverinfo: 'label+percent+name',
+                textinfo: 'none'
             };
-            var plotData = [trace1];
+            var trace2 = {
+                title:"Supervisors",
+                values: allValues[1],
+                labels: ["Yes","No"],
+                type:"pie",
+                name: "Supervisors",
+                domain: {
+                    row:0,
+                    column:1
+                },
+                hoverinfo: 'label+percent+name',
+                textinfo: 'none'
+            };
+            var trace3 = {
+                title:"Anonymity",
+                values: allValues[2],
+                labels: ["Yes","No"],
+                type:"pie",
+                name: "Anonymity",
+                domain: {
+                    row:1,
+                    column:0
+                },
+                hoverinfo: 'label+percent+name',
+                textinfo: 'none'
+            };
+            var layout = {
+                height: 500,
+                width: 500,
+                title: title,
+                grid: {rows:2, columns:2}
+            };
+            var plotData = [trace1,trace2,trace3];
             Plotly.newPlot(div,plotData,layout)
         };        
-
-        addPieChart(coworkersCount,"plot","Coworkers 2014",0,0);
-        addPieChart(supervisorCount,"plot2", "Supervisors 2014",0,1);
-        addPieChart(anonymityCount,"plot3", "Anonymity 2014",1,0);
-
-        // var trace1 = {
-        //     values: [coworkersCount,(data.length - coworkersCount)],
-        //     labels: ["Yes","No"],
-        //     type:"pie"
-        // }
-
-        // var layout = {}
-
-        // var plotData = [trace1];
-        // Plotly.newPlot("plot",plotData)
-
+        addPieChart();
     });
 };
 
-addChart();
+addChart(file,"2014-pies","2014");
+addChart(file2,"2016-pies","2016");

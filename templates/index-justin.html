@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Mental Health</title>
+    <!-- bootstrap link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- data -->
+    <link rel="stylesheet" href="static/data/MentalHealth2014.csv">
+    <link rel="stylesheet" href="static/data/MentalHealth2016.csv">
+    <!-- style css -->
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="static/css/map_style.css">
+    <!-- plotly -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+</head>
+<body>
+    <!-- jumbotron -->
+    <div class="jumbotron">
+        <h1 class="display-4">Mental Health in the Workplace</h1>
+        <p class="lead">United States</p>
+        <hr class="my-4">
+        <p class="lead"> Direct yourself to a section.</p>
+        <a class="btn btn-primary btn-lg" href="/#data" role="button">Data</a>
+        <a class="btn btn-primary btn-lg" href="/#map" role="button">Mapping</a>
+        <a class="btn btn-primary btn-lg" href="/#pie" role="button">Comfortability</a>
+        <a class="btn btn-primary btn-lg" href="/#chartjs" role="button">Family History</a>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h3> Inspiration </h3>
+                <p> Mental health in the workplace is a serious and important topic. According to a Harvard study, almost 20% of American employees
+                    from ages 15-54 experience symptoms of mental health disorders. In addition, these employees may not even seek help because they feel 
+                    it could jeaopardize their jobs. As there is a connection between mental health and productivity in the workplace, this website pulls datasets 
+                    from 2014 and 2016 to find signficances in employees' responses to questions regarding mental health in the workplace.</p>
+                
+                <img src="https://www.health.harvard.edu/images/logo-harvard_health-full-v2-@2x.png" alt="harvard publishing logo">
+                <p> For more information on the Harvard study <a href="https://www.health.harvard.edu/newsletter_article/mental-health-problems-in-the-workplace">click here</a>.</p>
+                <p> For links to the datasets <a href=" https://www.kaggle.com/osmi/mental-health-in-tech-survey">click here for 2014</a> and 
+                <a href="https://www.kaggle.com/osmi/mental-health-in-tech-2016">click here for 2016</a>. </p>
+            </div>
+        </div>
+    </div>
+
+    <section id="data">
+        <div class="container">
+            <hr>
+            <h6>Filter the Data by State</h6>
+            <br>
+            <div class="row">
+                <div class="col-md-12" id="filter-data">
+                    <!-- Insert Filter Options Here -->
+                    <select name="filter1" id="filter-state">
+                        <!-- Json loop  -->
+                    </select>
+                        <!-- Gender Filter -->
+                    <!-- <select name="filter2" id="filter-gender">
+                        <option value="choose-a-gender">Choose a Gender...</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select> -->
+                    <br>
+                    <button id="filter-btn" type="button" class="btn btn-default">Filter Table</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12" id="2014-data">
+                    <hr>
+                    <h3>2014 Data</h3>
+                    <div id="table1">
+                        <table id="2014table" class="table table-responsive">
+                            <thead>
+                            <tr>
+                                <th class="table-head">Age</th>
+                                <th class="table-head">Gender</th>
+                                <th class="table-head">State</th>
+                                <th class="table-head">Family History</th>
+                                <th class="table-head">Treatment</th>
+                                <th class="table-head">Remote Work</th>
+                                <th class="table-head">Company Size</th>
+                                <th class="table-head">Benefits</th>
+                                <th class="table-head">Care Options</th>
+                                <th class="table-head">Wellness</th>
+                                <th class="table-head">Seek Help</th>
+                                <th class="table-head">Anonymity</th>
+                                <th class="table-head">Leave</th>
+                                <th class="table-head">Coworkers</th>
+                                <th class="table-head">Supervisors</th>
+                                <th class="table-head">Mental Health Consequence</th>
+                                <th class="table-head">Mental Health Interview</th>
+                                <th class="table-head">Physical Health Consequence</th>
+                                <th class="table-head">Physical Health Interview</th>
+                                <th class="table-head">Mental vs Physical</th>
+                                <th class="table-head">Obs Consequence</th>
+                            </tr>
+                            </thead>
+                            <tbody id="2014tbody"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12" id="2016-data">
+                    <hr>
+                    <h3>2016 Data</h3>
+                    <div id="table2">
+                        <table id="2016-table" class="table table-responsive">
+                            <thead>
+                            <tr>
+                                <th class="table-head">Age</th>
+                                <th class="table-head">Gender</th>
+                                <th class="table-head">State</th>
+                                <th class="table-head">Family History</th>
+                                <th class="table-head">Treatment</th>
+                                <th class="table-head">Remote Work</th>
+                                <th class="table-head">Company Size</th>
+                                <th class="table-head">Benefits</th>
+                                <th class="table-head">Care Options</th>
+                                <th class="table-head">Wellness</th>
+                                <th class="table-head">Seek Help</th>
+                                <th class="table-head">Anonymity</th>
+                                <th class="table-head">Leave</th>
+                                <th class="table-head">Coworkers</th>
+                                <th class="table-head">Supervisors</th>
+                                <th class="table-head">Mental Health Consequence</th>
+                                <th class="table-head">Mental Health Interview</th>
+                                <th class="table-head">Physical Health Consequence</th>
+                                <th class="table-head">Physical Health Interview</th>
+                                <th class="table-head">Mental vs Physical</th>
+                                <th class="table-head">Obs Consequence</th>
+                            </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+    </section>
+    
+    <!-- insert new data here -->
+    <section id="map">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3>Where Were People Surveyed?</h3>
+                    <div id="mapstates"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section id="pie">
+        <div class="container">
+            <h3>Comfortabilty Factors</h3>
+            <div class="row">
+                <div class="col-md-12">
+                    <p> There were three questions that revolved around how comfortable employees felt.</p>
+                        <ol>
+                            <li> <strong>Coworkers </strong> - Would you be willing to discuss a mental health issue with your coworkers?</li>
+                            <li> <strong>Supervisors</strong> - Would you be willing to discuss a mental health issue with your direct supervisor(s)?</li>
+                            <li> <strong>Anonymity</strong> - Is your anonymity protected if you choose to take advantage of mental health or substance abuse treatment resources?</li>
+                        </ol>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div id="2014-pies">
+    
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div id="2016-pies">
+    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section id="chartjs">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3>Family History Based on Gender</h3>
+                    <canvas id="myChart"></canvas>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    <!-- d3 js -->
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+    <script src="https://d3js.org/topojson.v1.min.js"></script>
+    <script src="https://d3js.org/queue.v1.min.js"></script>
+    <!-- app js -->
+    <script type="text/javascript" src="static/js/app-justin-NEW.js"></script>
+    <script src="static/js/barchart.js"></script>
+    <script src="static/js/usmap.js"></script> 
+    <!-- bootstrap css -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
