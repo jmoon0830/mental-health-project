@@ -9,14 +9,34 @@ http://www.d3noob.org/2013/01/adding-tooltips-to-d3js-graph.html
 Mike Bostock, Pie Chart Legend
 http://bl.ocks.org/mbostock/3888852  */
 
+mhData = "static/data/MentalHealth2014.csv"
+myFunction(mhData)
 
-document.write('<h1 style="text-align:center">Mental Health Data</h1>')
+
+d3.selectAll("input").on("change", function() {
+	attribute = this.id;
+	console.log(attribute);
+	if (attribute === "2014") {
+		mhData = "static/data/MentalHealth2014.csv"
+	} 
+	else
+	{
+		mhData = "static/data/MentalHealth2016_CLEAN.csv"
+		console.log(mhData)
+	}
+	console.log("I am here")
+	myFunction(mhData)
+});
+console.log("After Select: ", mhData)
+function myFunction(mhdata) {
+	console.log("now I am here: ", mhdata)
+
 
 // Default file
-mhData2014 = "static/data/MentalHealth2014.csv";
+//mhData2014 = "static/data/MentalHealth2014.csv";
 
 // Additional file
-mhData2016 = "static/data/MentalHealth2016.csv";
+//mhData2016 = "static/data/MentalHealth2016.csv";
 
  //Width and height of map
 var width = 960;
@@ -59,7 +79,7 @@ var div = d3.select("body")
     		.style("opacity", 0);
 
 // Load in my states data!
-d3.csv(mhData2014, function(data) {
+d3.csv(mhData, function(data) {
 color.domain([0,1,3,5,10,50,120]); // setting the range of the input data
 
 // Load GeoJSON data and merge with states data
@@ -85,13 +105,13 @@ for (var i = 0; i < data.length; i++) {
 	    //console.log(typeof json.features[j].properties.value)		
 		// Copy the data value into the JSON
 		if (isNaN(json.features[j].properties.value)) {
-			console.log('Not a Number!');
+		//	console.log('Not a Number!');
 			json.features[j].properties.value = 1;
 		  } else {
-		  console.log('Is a Number');
+		//  console.log('Is a Number');
 		  json.features[j].properties.value ++;
 		}
-		console.log(jsonState, "Survey Count: ", json.features[j].properties.value)	
+		// console.log(jsonState, "Survey Count: ", json.features[j].properties.value)	
 		// Stop looking through the JSON
 		break;
 		} 
@@ -109,7 +129,7 @@ svg.selectAll("path")
 	.style("stroke-width", "1")
 	
 	.on("mouseover", function(d) {     
-		console.log(d) 
+		// console.log(d) 
     	div.transition()        
       	   .duration(200)      
            .style("opacity", .9);      
@@ -134,7 +154,7 @@ svg.selectAll("path")
 
 	// Get data value
 	var value = d.properties.value;
-    console.log("surveyCount: ", value);		
+    // console.log("surveyCount: ", value);		
 	if (value) {
 	//If value exists…
 	return color(value);
@@ -170,4 +190,18 @@ svg.selectAll("path")
 //      	  .text(function(d) { return d; });
 	});
 
+//	d3.selectAll("input").on("change", function() {
+//		attribute = this.id;
+//		console.log(attribute);
+//		if (attribute === "2014") {
+//			mhData = "static/data/MentalHealth2014.csv"
+//		} 
+//		else
+//		{
+//			mhData = "static/data/MentalHealth2016.csv"
+//		}
+//	});
+
 });
+
+}
