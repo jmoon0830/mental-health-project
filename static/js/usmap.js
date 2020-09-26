@@ -15,6 +15,11 @@ mhData2014 = "/test";
 // Additional file
 mhData2016 = "/test2";
 
+
+function myFunction(mhData) {
+	console.log("now I am here: ", mhData);
+	d3.selectAll("svg").remove();
+
  //Width and height of map
 var width = 960;
 var height = 500;
@@ -50,7 +55,7 @@ var svg = d3.select("#mapstates")
 			.attr("height", height);
         
 // Append Div for tooltip to SVG
-var div = d3.select("body")
+var div = d3.select("#mapstates")
 		    .append("div")   
     		.attr("class", "tooltip")               
     		.style("opacity", 0);
@@ -61,6 +66,7 @@ color.domain([0,1,3,5,10,50,120]); // setting the range of the input data
 
 // Load GeoJSON data and merge with states data
 d3.json("static/data/us-states.json", function(json) {
+	console.log("load GeoJSON data")
 
 // Loop through each state data value in the .csv file
 for (var i = 0; i < data.length; i++) {
@@ -70,7 +76,7 @@ for (var i = 0; i < data.length; i++) {
 
 	// Grab data value 
 	var dataValue = 1;
-	// console.log(dataState, " " , dataValue);
+	//console.log("State: ", dataState, " " , dataValue);
 
 	// Find the corresponding state inside the GeoJSON
 	for (var j = 0; j < json.features.length; j++)  {
@@ -82,21 +88,23 @@ for (var i = 0; i < data.length; i++) {
 	    //console.log(typeof json.features[j].properties.value)		
 		// Copy the data value into the JSON
 		if (isNaN(json.features[j].properties.value)) {
-			console.log('Not a Number!');
+		//	console.log('Not a Number!');
 			json.features[j].properties.value = 1;
 		  } else {
-		  console.log('Is a Number');
+		//  console.log('Is a Number');
 		  json.features[j].properties.value ++;
 		}
-		console.log(jsonState, "Survey Count: ", json.features[j].properties.value)	
+		//console.log(jsonState, "Survey Count: ", json.features[j].properties.value)	
 		// Stop looking through the JSON
 		break;
 		} 
 	}
+	console.log("Loop finished: ")
 }
 		
 
 // Bind the data to the SVG and create one path per GeoJSON feature
+console.log("bind data");
 svg.selectAll("path")
 	.data(json.features)
 	.enter()
@@ -104,9 +112,9 @@ svg.selectAll("path")
 	.attr("d", path)
 	.style("stroke", "#fff")
 	.style("stroke-width", "1")
-	
+
 	.on("mouseover", function(d) {     
-		console.log(d) 
+		//console.log("mouseover: ",d) 
     	div.transition()        
       	   .duration(200)      
            .style("opacity", .9);      
@@ -119,19 +127,19 @@ svg.selectAll("path")
 		   .style("left", (d3.event.pageX) + "px")     
 		   .style("top", (d3.event.pageY - 28) + "px");   
 		 })  
-		 
-	 	// fade out tooltip on mouse out               
-	 	//.on("mouseout", function(d) {       
-        //	div.transition()        
-        //   .duration(500)      
-        //   .style("opacity", 0);   
-    	//});	 
-
+	
+	// fade out tooltip on mouse out     
+	.on("mouseout", function(d) { 
+		div.transition()
+		.duration(500)  
+		.style("opacity", 0);   
+	   })
+	
 	.style("fill", function(d) {
 
 	// Get data value
 	var value = d.properties.value;
-    console.log("surveyCount: ", value);		
+    //console.log("surveyCount: ", value);		
 	if (value) {
 	//If value exists…
 	return color(value);
@@ -141,6 +149,7 @@ svg.selectAll("path")
 	}
 	
 });
+console.log("bind date complete ", mhData);
 
       
 // Modified Legend Code from Mike Bostock: http://bl.ocks.org/mbostock/3888852
@@ -168,3 +177,28 @@ svg.selectAll("path")
 	});
 
 });
+
+}
+
+mhData = "static/data/MentalHealth2014.csv";
+console.log("initial load: ",mhData);
+myFunction(mhData);
+
+
+d3.selectAll("input").on("change", function() {
+	attribute = this.id;
+	console.log(attribute);
+	if (attribute === '2014_data') {
+		console.log(2014);
+		mhData = "static/data/MentalHealth2014.csv";
+	} 
+	else
+	{
+		console.log(2016);
+		mhData = "static/data/MentalHealth2016_CLEAN.csv";
+		console.log(mhData);
+	}
+	console.log("I am here: ", mhData);
+	myFunction(mhData);
+});
+console.log("After Select: ", mhData);

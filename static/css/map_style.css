@@ -4,6 +4,14 @@ body {
   padding: 0;
 }
 
+#svg-container
+{
+  display: flex;
+  align-items: center;
+  background-color: red;
+  height: 100%;
+}
+
 /* On mouse hover, lighten state color */
 path:hover {
   fill-opacity: .7;
