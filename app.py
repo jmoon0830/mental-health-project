@@ -15,7 +15,7 @@ def object_as_dict(obj):
 app = Flask(__name__)
 
 postgres_name = "postgres"
-postgres_password = "Jrazzle0830!"
+postgres_password = "password"
 
 engine = create_engine(f'postgresql://{postgres_name}:{postgres_password}@localhost/mentalhealthdb')
 Base = automap_base()
