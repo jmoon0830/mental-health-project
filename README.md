@@ -1,6 +1,8 @@
 # mental-health-project
 
-Corporate asks you to review its HR department’s handling of mental health of its employees. You find this dataset that asks questions based on survey polls on how employees perceive its company’s mental health handling. Your job is to analyze the data to make inferences on what your company can do to increase overall mental health. You also want to create visualizations for corporate so that they can understand what/why you make these suggestions.
+Summary:
+
+These kaggle datasets contain data on survey polls on how employees perceive its company’s mental health handling. This project seeks to analyze the data to make inferences on what a company can do to increase overall mental health. The team wants to create visualizations based on the findings to compare and understand the data.
 
 This is an article that talks about how important mental health is and how businesses have to look out for its employees mental health.
 
@@ -21,6 +23,12 @@ What we can analyze:
     - Does gender play role
     - Does age play a role
     - Do these vary depending state
+
+Technologies:
+- Python (Pandas, Jupyter Notebook)
+- HTML/CSS/Bootstrap
+- JavaScript
+- D3, GeoJSON, ChartsJS
 
 How to Run:
 
