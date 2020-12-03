@@ -15,14 +15,14 @@ def object_as_dict(obj):
 app = Flask(__name__)
 
 postgres_name = "postgres"
-postgres_password = "password"
+postgres_password = "postgres"
 
 engine = create_engine(f'postgresql://{postgres_name}:{postgres_password}@localhost/mentalhealthdb')
 Base = automap_base()
 Base.prepare(engine, reflect=True)
 print(dir(Base.classes))
-mentalhealth2014 = Base.classes.mental2014
-mentalhealth2016 = Base.classes.mental_2016
+mentalhealth2014 = Base.classes.mentalhealth2014
+mentalhealth2016 = Base.classes.mentalhealth2016
 
 
 @app.route("/")

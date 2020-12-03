@@ -27,16 +27,6 @@ var projection = d3.geo.albersUsa()
 var path = d3.geo.path()               // path generator that will convert GeoJSON to SVG paths
 		  	 .projection(projection);  // tell path generator to use albersUsa projection
 
-		
-// Define linear scale for output
-//var color = d3.scale.linear()
-//			  .range(["rgb(213,222,217)","rgb(69,173,168)","rgb(84,36,55)","rgb(217,91,67)"]);
-
-//var color = d3.scale
-//	.threshold()
-//	.domain([1, 15, 25, 50, 75, 200])
-//	.range(['violet', 'indigo', 'blue', 'green', 'red', 'orange', 'red']);
-
 var color = d3.scale.quantize().domain([0, 120]).range(['lightgreen','green','yellow','orange','teal','navy','blue','orange','purple','red']);
 
 var legendText = [];
@@ -109,7 +99,15 @@ svg.selectAll("path")
 	.style("stroke-width", "1")
 
 	.on("mouseover", function(d) {     
-		console.log("mouseover: ",d)
+		console.log("mouseover: ",d)	
+		svg.append("text").attr({
+			id: "t" + d.x + "-" + d.y + "-" + i,  // Create an id for text so we can select it later for removing on mouseout
+			 x: function() { return xScale(d.x) - 30; },
+			 y: function() { return yScale(d.y) - 15; }
+		 })
+		 .text(function() {
+		   return [d.x, d.y];  // Value of the text
+		 });
     	div.transition()        
       	   .duration(200)      
            .style("opacity", .9);      
